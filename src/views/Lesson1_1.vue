@@ -283,8 +283,8 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Assis.Prof. Panuwat Mekha</span>
-            <small class="h6 text-black">- Author -</small>
+            <span class="d-block mb-1">Author | Assis.Prof. Panuwat Mekha</span>
+            <small class="h6 text-black">Lecturer in the Computer Science Division at Maejo University</small>
           </h5>
         </div>
       </div>
