@@ -5,7 +5,7 @@
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">MJU e-Learning</h3>
-                    <h4 class="mb-0 font-weight-light">Contact Services</h4>
+                    <h4 class="mb-0 font-weight-light">Contact Services :</h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
@@ -36,21 +36,21 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Copyright | </a><a href="https://www.binarcode.com" target="_blank" rel="noopener">Computer Science ,Maejo University</a>
+                        <a href="" target="_blank" rel="noopener">Copyright | </a><a href="http://csmju.jowave.com/" target="_blank" rel="noopener">Computer Science at Maejo University</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank" rel="noopener">About
+                            <a href="https://www.mju.ac.th/th/About-MJU.html" class="nav-link" target="_blank" rel="noopener">About
                                 Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="http://blog.creative-tim.com" class="nav-link" target="_blank" rel="noopener">e-Testing</a>
+                            <a href="https://www.mju.ac.th/etesting/" class="nav-link" target="_blank" rel="noopener">e-Testing</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                               class="nav-link" target="_blank" rel="noopener">MJU</a>
+                            <a href="https://www.mju.ac.th/th/"
+                               class="nav-link" target="_blank" rel="noopener">Maejo University</a>
                         </li>
                     </ul>
                 </div>
