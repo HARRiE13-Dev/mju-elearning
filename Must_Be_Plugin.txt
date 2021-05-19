@@ -1,0 +1,21 @@
+Step to Install CSMJU e-Learning Services
+
+1. Install Node.js 
+    Dowloaded v.14
+
+2. Install yarn 
+    $ npm install --global yarn
+
+3. Install Vue Cli
+    $ yarn global add @vue/cli
+
+4. Install bootstrap
+    $ npm install bootstrap
+
+5. Install Sass    
+    $ npm install node-sass
+
+6. Run Server 
+    & yarn serve
+
+Created by HARR!E ----------------------------
