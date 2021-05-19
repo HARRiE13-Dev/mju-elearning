@@ -17,18 +17,17 @@
             </div>
 
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                <base-dropdown class="nav-link" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
                         <span class="nav-link-inner--text">Home</span>
                     </a>
-                </base-dropdown>
+                
                 <base-dropdown tag="li" class="fontx nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Courses</span>
                     </a>
-                    <router-link to="/home" class="dropdown-item">Documentation </router-link>
+                    <router-link to="/lesson1_1" class="dropdown-item">Documentation </router-link>
                     <router-link to="/home" class="dropdown-item">Microsoft Excel</router-link>
                     <router-link to="/home" class="dropdown-item">Presentation</router-link>
                     <router-link to="/home" class="dropdown-item">Digital Disruption</router-link>
@@ -39,22 +38,16 @@
                     <router-link to="/home" class="dropdown-item">Technology Trending</router-link>
                     
                 </base-dropdown>
-
-                <base-dropdown tag="li" class="nav-link">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">About Us</span>
                     </a>
                     
-                </base-dropdown>
-
-                <base-dropdown tag="li" class="nav-link">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Contact</span>
                     </a>
                     
-                </base-dropdown>
             </ul>
             
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">

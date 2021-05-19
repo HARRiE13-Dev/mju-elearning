@@ -281,11 +281,6 @@
       <!-- Author -->
       <hr />
       <div class="col-lg-center">
-        <img
-          v-lazy="'img/theme/panu.jpg'"
-          class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-          style="width: 180px;"
-        />
         <div class="pt-4 text-center">
           <h5 class="title">
             <span class="d-block mb-1">Assis.Prof. Panuwat Mekha</span>

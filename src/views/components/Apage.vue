@@ -12,7 +12,7 @@
                 <!-- 1 Doc -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson1_1" title="lesson1_2">
                             <img v-lazy="'img/couse/doc.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">Documentation</h3>
