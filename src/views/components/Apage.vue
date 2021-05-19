@@ -25,7 +25,7 @@
                 <!-- 2 MS Excel -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/lesson1_2" title="Lesson Page">
+                        <router-link to="/lesson2_1" title="Lesson2_1">
                             <img v-lazy="'img/couse/excel.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">Microsoft Excel</h3>
