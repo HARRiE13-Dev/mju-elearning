@@ -4,6 +4,7 @@ import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
+import Lesson1_1 from "./views/Lesson1_1.vue";
 import Lesson1_2 from "./views/Lesson1_2.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -29,6 +30,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Landing,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson1_1",
+      name: "lesson1_1",
+      components: {
+        header: AppHeader,
+        default: Lesson1_1,
         footer: AppFooter
       }
     },

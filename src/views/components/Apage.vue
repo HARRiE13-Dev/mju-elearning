@@ -2,25 +2,28 @@
   <div>
       <footer class="footer has-cards">
         
-        <div class="container container-lg">
-            <h2 class="mb-5">
+        <div class="container container-lg">           
+            <h2 class="mb-5 display-2">
             <span>Online Courses </span>
+            <p class="fontx col-lg-10" style="font-size:20px">บทเรียนออนไลน์</p>
             </h2>
-
-            <div class="row">
-                <div class="col-md-6 mb-4 mb-md-0">
+            <hr>
+            <div class="row fontx">
+                <!-- 1 Doc -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/doc.jpg'" class="card-img">
                             <card class="border-0">
-                                    <h3 class="text-primary text-uppercase">Documentation Services</h3>
+                                    <h3 class="text-primary text-uppercase">Documentation</h3>
                                     <p class="description mt-3">โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word) หรือโปรแกรมจัดการด้านเอกสาร 
                                     เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน ...</p>
                                 </card>
                         </router-link>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4 mb-md-0">
+                <!-- 2 MS Excel -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson1_2" title="Lesson Page">
                             <img v-lazy="'img/couse/excel.jpg'" class="card-img">
@@ -32,11 +35,8 @@
                         </router-link>
                     </div>
                 </div>
-            </div>
-            <br><br>
-            
-            <div class="row">
-                <div class="col-md-6 mb-4 mb-md-0">
+                <!-- 3 Presentation -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/pre.jpg'" class="card-img">
@@ -48,24 +48,24 @@
                         </router-link>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4 mb-md-0">
+            </div>
+            <br><br>
+            <div class="row fontx">
+                <!-- 4 Disruption -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/digi.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">Digital Disruption</h3>
                                     <p class="description mt-3">หากพูดถึงสื่อดิจิทัล สิ่งที่หลายคนนึกถึง คือ การสื่อสารระหว่างผู้คน
-                                        บนโลกออนไลน์ ที่สามารถเขื่อมต่อหากันได้ด้วยระบบอินเทอร์เน็ต ผ่านเครื่องมือดิจิทัลที่หลากหลาย ...</p>
+                                        บนโลกออนไลน์ ที่สามารถเขื่อมต่อหากันได้ด้วยระบบอินเทอร์เน็ต ...</p>
                                 </card>
                         </router-link>
                     </div>
                 </div>
-            </div>
-
-            <br><br>
-
-            <div class="row">
-               <div class="col-md-6 mb-4 mb-md-0">
+                 <!--5 serach -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/search.jpg'" class="card-img">
@@ -76,8 +76,9 @@
                                 </card>
                         </router-link>
                     </div>
-                </div>   
-                <div class="col-md-6 mb-4 mb-md-0">
+                </div>
+                <!--6 Social -->   
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/social.jpg'" class="card-img">
@@ -88,23 +89,25 @@
                                 </card>
                         </router-link>
                     </div>
-                </div>    
+                </div>   
             </div>
             <br><br>
-            <div class="row">
-                 <div class="col-md-6 mb-4 mb-md-0">
+            <div class="row fontx">
+                <!-- 7 Storage -->
+                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson1_1" title="Landing Page">
                             <img v-lazy="'img/couse/storage.jpg'" class="card-img">
                             <card class="border-0">
-                                    <h3 class="text-primary text-uppercase">Storage And I/O Interface</h3>
+                                    <h3 class="text-primary text-uppercase">Storage And I/O</h3>
                                     <p class="description mt-3">การทำงานในยุกต์ดิจิทัลนั้นคงหลีกเลี่ยงไม่ได้ที่จะต้องทำงานกับข้อมูล 
                                         ไม่ว่าจะเป็นเอกสารที่เป็นตัวอักษรหรือภาพ ...</p>
                                 </card>
                         </router-link>
                     </div>
                 </div> 
-                <div class="col-md-6 mb-4 mb-md-0">
+                <!-- 8 Security -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
                             <img v-lazy="'img/couse/Security.jpg'" class="card-img">
@@ -115,13 +118,12 @@
                                 </card>
                         </router-link>
                     </div>
-                </div>  
-            </div>
-            <br><br>
-            <div class="col-md-auto">
+                </div> 
+                <!-- 9 Techno --> 
+                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
-                            <img v-lazy="'img/couse/iot.jpg'" class="card-img" height="300px">
+                            <img v-lazy="'img/couse/iot.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">Technology Trending</h3>
                                     <p class="description mt-3">Internet of Things (IOT) คือ การที่อุปกรณ์อิเล็กทรอนิกส์ต่าง ๆ  
@@ -129,9 +131,8 @@
                                 </card>
                         </router-link>
                     </div>
-            </div>  
-            
-
+                </div>  
+            </div>
         </div>
 
         <div class="container">

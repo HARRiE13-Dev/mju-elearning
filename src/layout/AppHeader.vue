@@ -2,13 +2,13 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo" width="150px" >
+                <img src="img/brand/white.png" alt="logo" width="150px">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
-                        <img src="img/brand/blue.png">
+                        <img src="img/brand/white.png" height="100%">
                     </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -16,27 +16,27 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <base-dropdown class="nav-link" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
                         <span class="nav-link-inner--text">Home</span>
                     </a>
                 </base-dropdown>
-                <base-dropdown tag="li" class="nav-item">
+                <base-dropdown tag="li" class="fontx nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Courses</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Documentation </router-link>
-                    <router-link to="/login" class="dropdown-item">Microsoft Excel</router-link>
-                    <router-link to="/register" class="dropdown-item">Presentation</router-link>
-                    <router-link to="/landing" class="dropdown-item">Digital Disruption</router-link>
-                    <router-link to="/profile" class="dropdown-item">Data Searching</router-link>
-                    <router-link to="/profile" class="dropdown-item">Social Media</router-link>
-                    <router-link to="/login" class="dropdown-item">Storage and Interface</router-link>
-                    <router-link to="/register" class="dropdown-item">Security System</router-link>
-                    <router-link to="/register" class="dropdown-item">Technology Trending</router-link>
+                    <router-link to="/home" class="dropdown-item">Documentation </router-link>
+                    <router-link to="/home" class="dropdown-item">Microsoft Excel</router-link>
+                    <router-link to="/home" class="dropdown-item">Presentation</router-link>
+                    <router-link to="/home" class="dropdown-item">Digital Disruption</router-link>
+                    <router-link to="/home" class="dropdown-item">Data Searching</router-link>
+                    <router-link to="/home" class="dropdown-item">Social Media</router-link>
+                    <router-link to="/home" class="dropdown-item">Storage and Interface</router-link>
+                    <router-link to="/home" class="dropdown-item">Security System</router-link>
+                    <router-link to="/home" class="dropdown-item">Technology Trending</router-link>
                     
                 </base-dropdown>
 
@@ -56,6 +56,7 @@
                     
                 </base-dropdown>
             </ul>
+            
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/ETestingMaejo/" target="_blank" rel="noopener"
