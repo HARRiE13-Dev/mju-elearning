@@ -7,6 +7,10 @@ import Landing from "./views/Landing.vue";
 import Lesson1_1 from "./views/Lesson1_1.vue";
 import Lesson1_2 from "./views/Lesson1_2.vue";
 import Lesson2_1 from "./views/Lesson2_1.vue";
+import Lesson2_2 from "./views/Lesson2_2.vue";
+
+
+
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
@@ -58,6 +62,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Lesson2_1,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson2_2",
+      name: "lesson2_2",
+      components: {
+        header: AppHeader,
+        default: Lesson2_2,
         footer: AppFooter
       }
     },

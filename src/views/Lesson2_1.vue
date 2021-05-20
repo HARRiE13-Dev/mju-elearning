@@ -459,7 +459,7 @@
                   <br />รูปที่ 30 กลุ่มคำสั่ง VIEW
                 </p>
               </div>
-              ****
+              
 
               <!-- ---------------------------------->
               <br />
@@ -469,7 +469,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson1_1" title="Lesson1_1 Page">
+                    
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -481,9 +481,10 @@
                           icon="fa fa-chevron-left"
                         >Previous</base-button>
                       </div>
-                    </router-link>
+                    
                   </div>
                   <div class="col-auto">
+                    <router-link to="/lesson2_2" title="Lesson2_2 Page">
                     <div class="btn-wrapper">
                       <base-button
                         tag="a"
@@ -497,6 +498,7 @@
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
