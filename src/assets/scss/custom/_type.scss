@@ -1,5 +1,7 @@
 // General styles
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 p {
 	font-size: $paragraph-font-size;
 	font-weight: $paragraph-font-weight;
@@ -7,7 +9,7 @@ p {
 } 
 
 .fontx{
-	font-family: kanit;
+	font-family: 'Kanit', sans-serif;
 }
 
 .lead {

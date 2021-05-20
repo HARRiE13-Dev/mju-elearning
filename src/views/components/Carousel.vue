@@ -31,6 +31,7 @@
             </div>
         </div>
     </section>
+    
 </template>
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";

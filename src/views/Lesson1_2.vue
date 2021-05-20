@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="position-relative">
+      
       <section class="section-shaped my-0">
         <div class="shape shape-style-1 shape-default">
           <span></span>

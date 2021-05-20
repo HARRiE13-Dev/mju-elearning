@@ -1,55 +1,39 @@
 <template>
   <div>
     <div class="position-relative">
-      <section class="section-shaped my-0">
-        <div class="shape shape-style-1 shape-default">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+      
+      <section class="fontx section section-lg section-shaped overflow-hidden my-0">
+        <div class="shape shape-style-1 shape-default shape-skew">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-
-        <div class="container shape-container d-flex">
-          <div class="col px-0">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <div class="row">
-              <div class="col-lg-8">
-                <h1 class="display-2 text-white">
-                  Documentation Services
-                  <span>Microsoft Word & Google DOCs</span>
-                </h1>
-                <p
-                  class="fontx lead text-white"
-                >โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word) หรือโปรแกรมจัดการด้านเอกสาร เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน ...</p>
-              </div>
+        <br><br>
+        <div class="container py-0 pb-lg">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h1 class="text-white font-weight-light display-1">Documentation Services</h1>
+                    <p class="lead text-white mt-4">โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word) หรือโปรแกรมจัดการด้านเอกสาร เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน ...</p>
+                   
+                </div>
+                <div class="col-lg-6 mb-lg-auto">
+                    <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
+                        <b-carousel id="carousel1"
+                                    controls
+                                    indicators>
+                            <!-- Text slides with image -->
+                            <b-carousel-slide img-src="img/lesson1/b1.png"></b-carousel-slide>
+                        </b-carousel>
+                    </div>
+                </div>
+                
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
         </div>
-      </section>
+        <br><br><br><br><br><br>
+    </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
         <div class="container pt-lg pb-80">
@@ -295,8 +279,14 @@
 </template>
 
 <script>
+import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 export default {
   name: "home",
-  components: {},
+  components: {
+    BCarousel,
+    BCarouselSlide
+  },
+
 };
 </script>
