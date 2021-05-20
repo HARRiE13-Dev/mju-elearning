@@ -12,6 +12,8 @@
         </div>
         <br />
         <br />
+        <br />
+        <br />
         <div class="container py-0 pb-lg">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
@@ -45,7 +47,7 @@
               <!-- -------------------------------- -->
 
               <h2 class="display-3 text-black">
-                โปรแกรมทำเอกสารด้วย Microsoft Word
+                โปรแกรม Microsoft Excel
                 <br />
                 <br />
               </h2>
