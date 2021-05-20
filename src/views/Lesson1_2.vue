@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="position-relative">
-      
       <section class="section-shaped my-0">
         <div class="shape shape-style-1 shape-default">
           <span></span>
@@ -206,7 +205,7 @@
               <hr />
               <h4>
                 #เทคนิคง่ายๆ ของโปรแกรมไมโครซอฟต์เวิร์ด
-                <br />
+                <br /><br />
               </h4>
               <h5>- รหัสผ่านป้องกันเอกสารการทำงาน</h5>
               <p>
@@ -240,20 +239,21 @@
                     Sub arabictothai()
                     <br />For i = 0 To 9
                     <br />With Selection.Find
-                    <br />.Text = Chr(48 + i)
-                    <br />.Replacement.Text = Chr(240 + i)
+                    <p style="color:red">.Text = Chr(48 + i)</p>
+                    .Replacement.Text = Chr(240 + i)
                     <br />.Wrap = wdFindContinue
                     <br />End With
                     <br />Selection.Find.Execute Replace:=wdReplaceAll
                     <br />Next
-                    <br />End Sub <br><hr>
+                    <br />End Sub
+                    <br />
+                    <hr />
                   </div>
                   <div class="col">
                     Sub thaitoarabic()
                     <br />For i = 0 To 9
                     <br />With Selection.Find
-                    <br />.Text = Chr(240 + i)
-                    <br />.Replacement.Text = Chr(48 + i)
+                    <p style="color:red">.Text = Chr(240 + i)</p>.Replacement.Text = Chr(48 + i)
                     <br />.Wrap = wdFindContinue
                     <br />End With
                     <br />Selection.Find.Execute Replace:=wdReplaceAll
@@ -271,55 +271,90 @@
                 <br />
               </p>
               <h5>- การใช้คำสั่ง Selection หรือการเลือก แบบต่างๆ บนเอกสารโปรแกรมไมโครซอฟต์เวิร์ด</h5>
-              <p>
+              
                 แบบที่ 1 ลากและคลุมข้อความ : วิธีนี้เป็นพื้นฐานในการเลือกข้อความหรือ selection
                 <br />แบบที่ 2 ดับเบิลคลิก : เลือกข้อความเป็นคำๆ โดยดับเบิลคลิกที่คำนั้น ซึ่งคำนั้นก็จะถูกเลือกแบบอัตโนมัติ ซึ่งสังเกต ได้จากการมีแถบสีดำปรากฏขึ้นที่คำนั้น
                 <br />แบบที่ 3 ทริปเปิ้ลคลิก (กดสามครั้งเนื่องกัน) : ใช้สำหรับในกรณีที่เราต้องการ เลือกทั้งพารากราฟ หรือทั้งย่อหน้า
                 <br />แบบที่ 4 คลิกหน้าประโยค : คลิกหน้าประโยค หรือบรรทัดที่เราต้องการ ซึ่งมีวิธีที่หลากหลายดังต่อไปนี้
-                <br />- คลิกหนึ่งครั้ง หมายถึง เลือกทั้งประโยค
-                <br />- คลิกสองครั้ง (ต่อเนื่อง) หมายถึง เลือกทั้งย่อหน้า
-                <br />- คลิกสามครั้ง (ต่อเนื่อง) หมายถึง การเลือกทั้งเอกสาร (ทั้งหมด)
-                <br />แบบที่ 5 ใช้ปุ่ม Ctrl : กดปุ่ม CTRL ค้างไว้ จากนั้น ถ้าต้องการคลิกคำใด ก็สามารถดับเบิลคลิกที่คำนั้นได้
-                <br />แบบที่ 6 ใช้ปุ่ม Shift : กดปุ่ม Shift ค้างไว้ จากนั้น คลิกตำแหน่งเริ่มต้น และคลิกอีกครั้งที่ปลายข้อความที่ต้องการหรือจะกดปุ่มลูกศรซ้าย/ขวา จะเป็นการเลือกประโยคข้อความนั้น <br><br>
-              </p>
+
+                <p style="text-indent: 5em;">- คลิกหนึ่งครั้ง หมายถึง เลือกทั้งประโยค</p>
+                
+                <p style="text-indent: 5em;">- คลิกสองครั้ง (ต่อเนื่อง) หมายถึง เลือกทั้งย่อหน้า</p>
+                
+                <p style="text-indent: 5em;">- คลิกสามครั้ง (ต่อเนื่อง) หมายถึง การเลือกทั้งเอกสาร (ทั้งหมด)</p>
+
+                แบบที่ 5 ใช้ปุ่ม Ctrl : กดปุ่ม CTRL ค้างไว้ จากนั้น ถ้าต้องการคลิกคำใด ก็สามารถดับเบิลคลิกที่คำนั้นได้
+                <br />แบบที่ 6 ใช้ปุ่ม Shift : กดปุ่ม Shift ค้างไว้ จากนั้น คลิกตำแหน่งเริ่มต้น และคลิกอีกครั้งที่ปลายข้อความที่ต้องการหรือจะกดปุ่มลูกศรซ้าย/ขวา จะเป็นการเลือกประโยคข้อความนั้น
+                <br />
+                <br />
+              
               <h5>- การใส่ Style ให้กับหัวเรื่อง (Heading)</h5>
               <p>เมื่อเราใส่ Style ให้กับหัวเรื่องแล้ว โปรแกรมจะรู้ว่าเป็นหัวข้อของข้อความที่เราต้องการ และจะมีประโยชน์ในการทำสารบัญต่อไป โดยเลือกหัวข้อที่เราต้องการพร้อมๆ กัน โดยการกด Ctrl ค้างไว้</p>
-              <p style="text-indent: 2.5em;">a. ถ้าต้องการให้หัวข้อนั้นเป็นหัวข้อหลักให้กด Ctrl + Alt + 1</p>
-              <p style="text-indent: 2.5em;">b.	ถ้าต้องการให้หัวข้อนั้นเป็นหัวข้อย่อยของหัวข้อหลักให้กด Ctrl + Alt + 2</p>
-              <p>จากนั้นหัวข้อหลักและหัวข้อย่อยจะแสดงที่บานหน้าต่างนำทาง (Navigation pane)</p><br>
+              <p
+                style="text-indent: 2.5em;"
+              >a. ถ้าต้องการให้หัวข้อนั้นเป็นหัวข้อหลักให้กด Ctrl + Alt + 1</p>
+              <p
+                style="text-indent: 2.5em;"
+              >b. ถ้าต้องการให้หัวข้อนั้นเป็นหัวข้อย่อยของหัวข้อหลักให้กด Ctrl + Alt + 2</p>
+              <p>จากนั้นหัวข้อหลักและหัวข้อย่อยจะแสดงที่บานหน้าต่างนำทาง (Navigation pane)</p>
+              <br />
               <div class="text-center">
                 <img src="/img/lesson1/8.png" width="80%" />
-              </div><br>
+              </div>
+              <br />
               <p>ดังนั้นเมื่อเราได้กำหนดหัวเรื่องแล้วเราสามารถทำสารบัญได้ โดยการเลือก การอ้างอิง > สารบัญ > เลือกรูปแบบสารบัญที่เราต้องการ จะได้รูปแบบตามรูปด้านล่างนี้</p>
               <div class="text-center">
                 <img src="/img/lesson1/9.png" width="100%" />
-              </div><br><br>
+              </div>
+              <br />
+              <br />
               <h5>- การบันทึกข้อมูลแบบอัตโนมัติ (Auto Save) ในโปรแกรมไมโครซอฟต์เวิร์ด</h5>
-              <p>เป็นการตั้งให้โปรแกรมไมโครซอฟต์เวิร์ดการบันทึกข้อมูลแบบอัตโนมัติ เพื่อช่วยบันทึกข้อมูลที่ผู้ใช้งานกำลังดำเนินการอยู่และยังไม่ได้บันทึก รวมถึงในกรณีที่โปรแกรมเกิดความผิดพลาด โปรแกรมจะดำเนินการกู้คืนข้อมูลแบบอัตโนมัติ 
-                โดยเลือก แฟ้ม > ตัวเลือก > บันทึก > กำหนดเวลาและตำแหน่งที่เก็บไฟล์ข้อมูลในการบันทึกข้อมูลแบบอัตโนมัติ<br></p>
+              <p>
+                เป็นการตั้งให้โปรแกรมไมโครซอฟต์เวิร์ดการบันทึกข้อมูลแบบอัตโนมัติ เพื่อช่วยบันทึกข้อมูลที่ผู้ใช้งานกำลังดำเนินการอยู่และยังไม่ได้บันทึก รวมถึงในกรณีที่โปรแกรมเกิดความผิดพลาด โปรแกรมจะดำเนินการกู้คืนข้อมูลแบบอัตโนมัติ
+                โดยเลือก แฟ้ม > ตัวเลือก > บันทึก > กำหนดเวลาและตำแหน่งที่เก็บไฟล์ข้อมูลในการบันทึกข้อมูลแบบอัตโนมัติ
+                <br />
+              </p>
               <div class="text-center">
                 <img src="/img/lesson1/10.png" width="80%" />
-              </div><br><br>
+              </div>
+              <br />
+              <br />
               <h5>- ภาพหน้าจอ (Screen shot)</h5>
               <p>เป็นการทำการตัดภาพบนหน้าจอมาแทรกรูปภาพนั้นบนเอกสาร โดยเลือก แทรก > ภาพหน้าจอ > การคลิปหน้าจอ > จากนั้น Capture รูปภาพหน้าจอที่เราต้องการ > รูปภาพจะมาปรากฏบนเอกสาร</p>
-              <br><br>
+              <br />
+              <br />
               <div class="text-center">
                 <img src="/img/lesson1/11.png" width="80%" />
-              </div><br><br>
+              </div>
+              <br />
+              <br />
               <h5>- การแทรกตาราง</h5>
-              <p style="text-indent: 2.5em;">ขั้นตอนการแทรกตาราง มีดังนี้ เลือกเมนูแทรก > ตาราง > เลือกขนาดของตาราง /p>
-              <p style="text-indent: 5em;">-	แนวตั้ง = คอลัมน์ (column) หรือ สดมภ์</p>
-              <p style="text-indent: 5em;">-	แนวนอน = โรล (row) หรือ แถว</p><br>
+              <p
+                style="text-indent: 2.5em;"
+              >ขั้นตอนการแทรกตาราง มีดังนี้ เลือกเมนูแทรก > ตาราง > เลือกขนาดของตาราง /p></p>
+              <p style="text-indent: 5em;">- แนวตั้ง = คอลัมน์ (column) หรือ สดมภ์</p>
+              <p style="text-indent: 5em;">- แนวนอน = โรล (row) หรือ แถว</p>
+              <br />
               <h5>- การแปลงตัวเลขให้เป็นข้อความจำนวนเงินด้วย baht text</h5>
-              <p style="text-indent: 2.5em;">เป็นเทคนิคการแสดงตัวเลขจำนวนเงินให้เป็นข้อความ ซึ่งมีวิธีดังนี้</p>
+              <p
+                style="text-indent: 2.5em;"
+              >เป็นเทคนิคการแสดงตัวเลขจำนวนเงินให้เป็นข้อความ ซึ่งมีวิธีดังนี้</p>
               <p style="text-indent: 5em;">- ใช้สูตร (fx) ในแถบเค้าโครงภายใต้เครื่องมือตาราง</p>
               <div class="text-center">
                 <img src="/img/lesson1/12.png" width="100%" />
-              </div><br><br>
-              <p style="text-indent: 2.5em;">โดยนำเคอร์เซอร์ (Cursor) ไปวางในเซลล์ (Cell) : C1 จากนั้นไปที่ เครื่องมือตาราง > เค้าโครง > สูตร > พิมพ์สูตร : =b1\*bahttext</p>
-              <br><br>
+              </div>
+              <br />
+              <br />
+              <p
+                style="text-indent: 2.5em;"
+              >โดยนำเคอร์เซอร์ (Cursor) ไปวางในเซลล์ (Cell) : C1 จากนั้นไปที่ เครื่องมือตาราง > เค้าโครง > สูตร > พิมพ์สูตร : =b1\*bahttext</p>
+              <br />
+              <br />
               <h5>- แก้ไขระยะห่างระหว่างบรรทัด</h5>
-              <p style="text-indent: 2.5em;"><p style="text-indent: 2.5em;">วิธีลัด : เมื่อต้องการแก้ไขระยะห่างระหว่างบรรทัด เราสามารถทำได้โดยการคลุมแถบบรรทัดที่เราต้องกำหนดระยะห่าง จากนั้นกดคีย์ลัด ดังนี้</p>
+              <p style="text-indent: 2.5em;"></p>
+              <p
+                style="text-indent: 2.5em;"
+              >วิธีลัด : เมื่อต้องการแก้ไขระยะห่างระหว่างบรรทัด เราสามารถทำได้โดยการคลุมแถบบรรทัดที่เราต้องกำหนดระยะห่าง จากนั้นกดคีย์ลัด ดังนี้</p>
               <p>Ctrl + 1 : เปลี่ยนระยะห่างบรรทัดเดียว</p>
               <div class="text-center">
                 <img src="/img/lesson1/13.png" width="30%" />
@@ -328,7 +363,7 @@
               <div class="text-center">
                 <img src="/img/lesson1/14.png" width="30%" />
               </div>
-              <hr>
+              <hr />
               <br />
               <br />
               <br />
@@ -351,21 +386,19 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
-                    
-                      <div class="btn-wrapper">
-                        <base-button
-                          tag="a"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="mb-3 mb-sm-0"
-                          outline
-                          type="info"
-                        >
-                          Next
-                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                    
+                    <div class="btn-wrapper">
+                      <base-button
+                        tag="a"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="mb-3 mb-sm-0"
+                        outline
+                        type="info"
+                      >
+                        Next
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -379,7 +412,9 @@
         <div class="pt-4 text-center">
           <h5 class="title">
             <span class="d-block mb-1">Author | Assis.Prof. Panuwat Mekha</span>
-            <small class="h6 text-black">Lecturer in the Computer Science Division at Maejo University</small>
+            <small
+              class="h6 text-black"
+            >Lecturer in the Computer Science Division at Maejo University</small>
           </h5>
         </div>
       </div>
