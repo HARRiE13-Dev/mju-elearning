@@ -372,6 +372,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
+                     <router-link to="/lesson2_3" title="Lesson2_3 Page">
                     <div class="btn-wrapper">
                       <base-button
                         tag="a"
@@ -385,6 +386,7 @@
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
