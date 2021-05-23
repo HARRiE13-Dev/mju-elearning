@@ -90,8 +90,52 @@
               </div>
               <br>
               <h5 style="text-indent: 2.5em;">8.4 การแทรกข้อมูล (Insert)</h5>
-
-
+              <p style="text-indent: 5em;">การเพิ่มข้อมูลเข้าไปในสมุดงานหรือแผ่นงานในภายหลัง ทำได้โดยการแทรก (Insert) ข้อมูล           
+                  ซึ่งขั้นตอน ดังนี้</p>
+                  <p style="text-indent: 5em;">1)	การแทรกข้อมูลใน Cell หรือ กลุ่ม Cell </p>
+                  <p style="text-indent: 6em;">1.1)	คลิกเลือก Cell หรือกลุ่ม Cell ที่ต้องการแทรกข้อมูล </p>
+                  <p style="text-indent: 6em;">1.2)	คลิกเมาส์ขวา เลือกคำสั่ง Insert หรือ แทรก </p>
+                  <p style="text-indent: 6em;">1.3)	เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม Cell ที่อยู่ในข้อ 1.1 โดยเลือกได้ 4 กรณี</p>
+                   <p style="text-indent: 7.5em;">- เลื่อนเซลล์ไปทางขวา	ข้อมูลเดิมจะเลื่อนไปยัง Cell ถัดไปที่อยู่ด้านขวามือ </p>
+                   <p style="text-indent: 7.5em;">- เลื่อนเซลล์ลง 	   	ข้อมูลเดิมจะเลื่อนไปอยู่ด้านล่างของ Cell เดิม </p>
+                   <p style="text-indent: 7.5em;">- ทั้งแถว 			ข้อมูลเดิมทั้งแถวจะเลื่อนไปอยู่ด้านล่างทั้งแถว  </p>
+                   <p style="text-indent: 7.5em;">- ทั้งคอลัมน์ 			ข้อมูลเดิมทั้งคอลัมน์จะเลื่อนไปอยู่คอลัมน์ด้านขวา </p>
+                <p style="text-indent: 6em;">1.4)	คลิกเมาส์ขวา เลือกคำสั่ง Paste หรือ วาง</p>
+                <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/58.png" width="40%" />
+                <p>
+                  <br />รูปที่ 58 เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม Cell 
+                </p>
+              </div>
+              <br>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/59.png" width="60%" />
+                <p>
+                  <br />รูปที่ 59 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ไปทางขวา
+                </p>
+              </div>
+              <br>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/60.png" width="60%" />
+                <p>
+                  <br />รูปที่ 60 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ลง 
+                </p>
+              </div>
+              <br>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/61.png" width="60%" />
+                <p>
+                  <br />รูปที่ 61 ผลการแทรกข้อมูล กรณี O ทั้งแถว 
+                </p>
+              </div>
+              <br>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/62.png" width="60%" />
+                <p>
+                  <br />รูปที่ 62 ผลการแทรกข้อมูล กรณี O ทั้งคอลัมน์  
+                </p>
+              </div>
+              <br>
 
 
 
