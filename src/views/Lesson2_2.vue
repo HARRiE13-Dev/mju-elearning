@@ -341,7 +341,7 @@
                 </p>
               </div>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div class="text-center font-italic">
                 <img src="/img/lesson2/p51.png" width="80%" />
                 <p>
                   <br />รูปที่ 51 การเลือกกลุ่ม Cell ไม่ติดกัน-ตำแหน่ง B4, B6, E4 และ E6
