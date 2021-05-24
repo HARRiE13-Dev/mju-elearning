@@ -18,4 +18,7 @@ Step to Install CSMJU e-Learning Services
 6. Run Server 
     & yarn serve
 
+7.Deploy
+    Firebase : csmjuelearning2021.web.app/
+
 Created by HARR!E ----------------------------
