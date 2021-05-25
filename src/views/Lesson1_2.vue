@@ -419,7 +419,7 @@
               <div class="text-center">
                 <img src="/img/lesson1/14.png" width="30%" />
               </div>
-              <br /><br />
+              <br /><br /><hr>
               <h4 class="text-center">
                 การจัดการข้อมูลและเอกสารแบบออนไลน์ด้วย
               </h4>
@@ -589,12 +589,13 @@
                 </p>
               </div>
               <br />
+              <p class="rem2">จากรูปที่ 4 แสดงให้เห็นถึงหน้าตาภาพรวมและเครื่องมือต่างๆ ของกูเกิลเอกสาร ซึ่งจะมีความคล้ายคลึงกับโปรแกรมไมโครซอฟต์ออฟฟิศที่ได้นำเสนอเนื้อหาไปก่อนหน้านี้แล้ว ในที่นี้จะอธิบายรายละเอียดของเครื่องมือต่างๆ 
+                ของกูเกิลเอกสารพอสังเขปโดยแยกเป็นส่วนๆ และเรียงลำดับปุ่มเครื่องมือต่างๆ จากซ้ายไปขวาดังนี้ (ต่อ) </p>
 
 
 
 
-
-              <hr />
+              <br>
               <br />
               <br />
               <br />
@@ -618,6 +619,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
+                    <router-link to="/lesson1_3" title="Lesson1_3 Page">
                     <div class="btn-wrapper">
                       <base-button
                         tag="a"
@@ -631,6 +633,7 @@
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                    </router-link>
                   </div>
                 </div>
               </div>

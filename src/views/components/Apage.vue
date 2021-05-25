@@ -38,7 +38,7 @@
                 <!-- 3 Presentation -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson3_1" title="Lesson3_1">
                             <img v-lazy="'img/couse/pre.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">3. Presentation</h3>

@@ -7,7 +7,15 @@ p {
 	font-weight: $paragraph-font-weight;
 	line-height: $paragraph-line-height;
 } 
-
+.rem2{
+	text-indent: 2.5em;
+}
+.rem5{
+	text-indent: 5em;
+}
+.rem7{
+	text-indent: 7.5em;
+}
 .fontx{
 	font-family: 'Kanit', sans-serif;
 }
