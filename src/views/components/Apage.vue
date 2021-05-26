@@ -54,7 +54,7 @@
                 <!-- 4 Disruption -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson4_1" title="Lesson4_1">
                             <img v-lazy="'img/couse/digi.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">4. Digital Disruption</h3>
@@ -67,7 +67,7 @@
                  <!--5 serach -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson5_1" title="Lesson5_1">
                             <img v-lazy="'img/couse/search.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">5. Data Searching</h3>
@@ -80,7 +80,7 @@
                 <!--6 Social -->   
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson6_1" title="Lesson6_1">
                             <img v-lazy="'img/couse/social.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">6. Social Media</h3>
@@ -96,7 +96,7 @@
                 <!-- 7 Storage -->
                  <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/lesson1_1" title="Landing Page">
+                        <router-link to="/lesson7_1" title="Lesson7_1">
                             <img v-lazy="'img/couse/storage.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">7. Storage And I/O</h3>
@@ -109,7 +109,7 @@
                 <!-- 8 Security -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson8_1" title="Lesson8_1">
                             <img v-lazy="'img/couse/Security.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">8. Security System</h3>
@@ -122,7 +122,7 @@
                 <!-- 9 Techno --> 
                  <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
+                        <router-link to="/lesson9_1" title="Lesson9_1">
                             <img v-lazy="'img/couse/iot.jpg'" class="card-img">
                             <card class="border-0">
                                     <h3 class="text-primary text-uppercase">9. Technology Trending</h3>
