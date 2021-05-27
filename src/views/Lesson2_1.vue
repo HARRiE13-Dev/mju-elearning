@@ -46,7 +46,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
 
-              <h2 class="display-3 text-black">
+              <h2 class="display-3 text-center">
                 โปรแกรม Microsoft Excel
                 <br />
                 <br />
