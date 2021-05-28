@@ -24,635 +24,337 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              <h4>10. การคำนวณโดยการใช้สูตร</h4>
+              
+              <h5 style="text-indent: 2.5em;">8.5 การลบข้อมูล (Delete)</h5>
+              <p style="text-indent: 5em;">
+                1) การลบข้อมูลใน Cell หรือ กลุ่ม Cell
+              </p>
+              <p style="text-indent: 6em;">
+                1.1) คลิกเลือก Cell หรือกลุ่ม Cell ที่ต้องการแทรกข้อมูล
+              </p>
+              <p style="text-indent: 6em;">
+                1.2) คลิกเมาส์ขวา เลือกคำสั่ง Delete หรือ ลบ
+              </p>
+              <p style="text-indent: 7.5em;">
+                เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม Cell ที่อยู่ในข้อ
+                1.1 โดยเลือกได้ 4 กรณี
+              </p>
+              <p style="text-indent: 8em;">
+                O เลื่อนเซลล์ไปทางซ้าย ข้อมูลเดิมจะเลื่อนไปยัง Cell
+                ถัดไปที่อยู่ด้านซ้ายมือ
+              </p>
+              <p style="text-indent: 8em;">
+                O เลื่อนเซลล์ขึ้น ข้อมูลเดิมจะเลื่อนไปอยู่ด้านบนของ Cell เดิม
+              </p>
+              <p style="text-indent: 8em;">
+                O ทั้งแถว ข้อมูลเดิมทั้งแถวจะถูกลบ
+              </p>
+              <p style="text-indent: 8em;">
+                O ทั้งคอลัมน์ ข้อมูลเดิมทั้งคอลัมน์จะถูกลบ
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/65.png" width="40%" />
+                <p>
+                  <br />รูปที่ 65 เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม
+                  Cell
+                </p>
+              </div>
+              <br />
+              <p style="text-indent: 5em;">2) การลบข้อมูลทั้ง Row หรือ แถว</p>
+              <p style="text-indent: 6em;">
+                2.1) คลิกเลือก Row หรือแถว ที่ต้องการลบข้อมูล
+              </p>
+              <p style="text-indent: 6em;">
+                2.2) คลิกเมาส์ขวา เลือกคำสั่ง Delete หรือ ลบ
+              </p>
+              <p style="text-indent: 6em;">
+                2.3) ข้อมูลของแถวที่ถูกเลือกจะถูกลบทันที
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/66.png" width="80%" />
+                <p><br />รูปที่ 66 การเลือกแถวและการลบข้อมูลทั้งแถว</p>
+              </div>
+              <br />
+              <p style="text-indent: 5em;">
+                3) การลบข้อมูลทั้ง Column หรือ คอลัมน์
+              </p>
+              <p style="text-indent: 6em;">
+                3.1) คลิกเลือก Column หรือ คอลัมน์ ที่ต้องการลบข้อมูล
+              </p>
+              <p style="text-indent: 6em;">
+                3.2) คลิกเมาส์ขวา เลือกคำสั่ง Delete หรือ ลบ
+              </p>
+              <p style="text-indent: 6em;">
+                3.3) ข้อมูลของคอลัมน์แถวที่ถูกเลือกจะถูกลบทันที
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/67.png" width="80%" />
+                <p><br />รูปที่ 67 การเลือกคอลัมน์ลาการลบข้อมูลทั้งคอลัมน์</p>
+              </div>
+              <br />
+              <p style="text-indent: 5em;">4) การลบข้อมูลแผ่นงาน (Sheet)</p>
+              <p style="text-indent: 6em;">4.1) คลิกเลือกแผ่นงานที่ต้องการลบ</p>
+              <p style="text-indent: 6em;">
+                4.2) คลิกเมาส์ขวาในชื่อแผ่นงานที่เลือก เลือกคำสั่ง Delete
+              </p>
+              <p style="text-indent: 6em;">
+                4.3) แผ่นงานที่ถูกเลือกจะถูกลบออกจากสมุดงาน
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/68.png" width="80%" />
+                <p><br />รูปที่ 68 แสดงการลบสมุดงาน (Sheet)</p>
+              </div>
+              <br />
+              <p style="text-indent: 5em;">
+                5) การลบข้อมูลในสมุดงาน (Workbook)
+              </p>
+              <p style="text-indent: 6em;">
+                5.1) คลิกเลือกจุดตัดระหว่างแถวและคอลัมน์
+                ให้เกิดแถบสีแสดงการเลือกทั้งหมด
+              </p>
+              <p style="text-indent: 6em;">
+                5.2) คลิกเมาส์ขวา เลือกคำสั่ง Delete หรือ กดปุ่ม Delete
+                ที่คีย์บอร์ด
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/69.png" width="40%" />
+                <p>
+                  <br />รูปที่ 69 การเลือกสมุดงาน
+                  (จุดตัดกันระหว่างคอลัมน์และแถว)
+                </p>
+              </div>
+              <br />
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/70.png" width="80%" />
+                <p><br />รูปที่ 70 การเลือกข้อมูลทั้งสมุดงาน</p>
+              </div>
+              <br />
+              <h5 style="text-indent: 2.5em;">8.6 การลบข้อมูล (Delete)</h5>
+              <p style="text-indent: 5em;">
+                1) นำเมาส์ชี้ที่รอยต่อระหว่างชื่อคอลัมน์
+                ให้ปรากฏเครื่องหมายลูกศร
+              </p>
+              <p style="text-indent: 5em;">
+                2) กดปุ่มเมาส์ค้างไว้และลากขยายความกว้างคอลัมน์ตามต้องการ
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/71.png" width="80%" />
+                <p>
+                  <br />รูปที่ 71
+                  การเลือกตำแหน่งคอลัมน์เพื่อขยายความกว้างคอลัมน์
+                </p>
+              </div>
+              <br />
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/72.png" width="80%" />
+                <p><br />รูปที่ 72 ตัวอย่างผลการขยายความกว้างคอลัมน์</p>
+              </div>
+              <br />
+              <h5 style="text-indent: 2.5em;">8.7 การปรับความกว้างของแถว</h5>
+              <p style="text-indent: 5em;">
+                1) นำเมาส์ชี้ที่รอยต่อระหว่างชื่อคอลัมน์
+                ให้ปรากฏเครื่องหมายลูกศร
+              </p>
+              <p style="text-indent: 5em;">
+                2) กดปุ่มเมาส์ค้างไว้และลากขยายความกว้างคอลัมน์ตามต้องการ
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/73.png" width="80%" />
+                <p>
+                  <br />รูปที่ 73 การเลือกตำแหน่งคอลัมน์เพื่อขยายความกว้างแถว
+                </p>
+              </div>
+              <br />
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/74.png" width="80%" />
+                <p><br />รูปที่ 74 ตัวอย่างผลการขยายความกว้างแถว</p>
+              </div>
+              <br />
+              <h4>9. การตกแต่งสมุดงาน</h4>
               <p style="text-indent: 2.5em;">
-                จากเนื้อหาดังกล่าวมาในหัวข้อลำดับ 1-9
-                เป็นการป้อนข้อมูลและการจัดรูปแบบให้เหมาะสมกับข้อมูลที่ต้องการนำเสนอ
-                เพื่อให้ผู้ใช้งานแยกแยะข้อมูลได้ง่ายและสะดวกต่อการนำไปใช้งาน
-                แต่หัวใจสำคัญของโปรแกรม Excel คือ การคำนวณ และวิเคราะห์ข้อมูล
+                เมื่อป้อนข้อมูลในสมุดงาน การปรับแต่งให้ข้อมูลมีรูปแบบที่เหมาะสม
+                จะช่วยให้ง่ายต่อการแสดงข้อมูล หรือไปใช้งานได้ง่ายยิ่งขึ้น
+                โดยทั่วไปการตกแต่งสมุดงานจะนำวัตถุ เช่น รูปภาพ รูปร่างอัตโนมัติ
+                ตาราง การเปลี่ยนรูปแบบสีตัวหนังสือ รูปแบบพื้นหลัง
+                เข้ามาช่วยจัดรูปแบบ ขั้นตอนการตกแต่งสมุดงาน ดังนี้
               </p>
               <h5 style="text-indent: 2.5em;">
-                10.1 หลักการสำคัญของการป้อนสูตรคำนวณ
+                9.1 การกำหนดรูปแบบการแสดงผลข้อมูล
               </h5>
               <p style="text-indent: 5em;">
-                1) ใช้เครื่องหมายเท่ากับ (=) นำหน้าสูตรเสมอ
+                โดยปกติรูปแบบ ขนาด ลักษณะตัวอักษร จะปรากฏในหน้าแรกของโปรแกรม
+                Excel
               </p>
-              <p style="text-indent: 5em;">
-                2) เครื่องหมายที่ใช้ในการคำนวณ ได้แก่
-              </p>
-              <p style="text-indent: 7.5em;">• เครื่องหมายบวก (+)</p>
-              <p style="text-indent: 7.5em;">• เครื่องหมายลบ (-)</p>
-              <p style="text-indent: 7.5em;">
-                • เครื่องหมายคูณ (X) (โปรแกรม Excel ใช้เครื่องหมาย *)
-              </p>
-              <p style="text-indent: 7.5em;">• เครื่องหมายหาร (/)</p>
-              <p style="text-indent: 7.5em;">• เครื่องหมายยกกำลัง (^)</p>
-              <p style="text-indent: 7.5em;">• เครื่องหมายร้อยละ (%)</p>
-              <p style="text-indent: 5em;">
-                3) ลำดับการคำนวณจะเกิดขึ้นตามลำดับความสำคัญของเครื่องหมาย ดังนี้
-              </p>
-              <table class="table">
-                <thead class="thead-dark text-center">
-                  <tr>
-                    <th scope="col">ลำดับความสำคัญ</th>
-                    <th scope="col">เครื่องหมาย</th>
-                  </tr>
-                </thead>
-                <tbody class="text-center">
-                  <tr>
-                    <td>1. วงเล็บ</td>
-                    <td>( &emsp; )</td>
-                  </tr>
-                  <tr>
-                    <td>2. ยกกำลัง</td>
-                    <td>^</td>
-                  </tr>
-                  <tr>
-                    <td>3. คูณ หาร</td>
-                    <td>x &emsp; /</td>
-                  </tr>
-                  <tr>
-                    <td>4. บวก ลบ</td>
-                    <td>+ &emsp; -</td>
-                  </tr>
-                </tbody>
-              </table>
               <div class="text-center" style="font-style:italic">
-                <p><br />ตารางที่ 1 ลำดับความสำคัญของเครื่องหมายคำนวณ</p>
+                <img src="/img/lesson2/75.png" width="80%" />
+                <p>
+                  <br />รูปที่ 75 หน้าแรกของโปรแกรม Excel
+                  ที่แสดงแถบเครื่องมือในการกำหนดการแสดงผลข้อมูล
+                </p>
               </div>
               <br />
               <p style="text-indent: 2.5em;">
-                หมายเหตุ ถ้าเครื่องหมายที่ใช้ในสูตรคำนวณมีลำดับความสำคัญเท่ากัน
-                โปรแกรม Excel จะคำนวณโดยกระทำจากทางซ้ายไปขวาของสูตร
+                จากรูปที่ 75 การกำหนดรูปแบบที่สำคัญได้แก่
               </p>
               <p style="text-indent: 5em;">
-                4) ตัวอย่างวิธีการคำนวณและผลลัพธ์
+                1) เลือก Cell หรือ กลุ่ม Cell ที่ต้องการจัดรูปแบบ
               </p>
-              <div class="container" style="text-indent: 7.5em;">
-                <div class="row">
-                  <div class="col-sm">
-                    สูตรที่ 1
-                  </div>
-                  <div class="col-sm">
-                    สูตร
-                  </div>
-                  <div class="col-sm">
-                    = 3 + 2 x 4 ^ 2
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    วิธีการคำนวณ
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 3 + 2 x 1 6
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm"></div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 3 + 3 2
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    ผลลัพธ์
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 35
-                  </div>
-                </div>
+              <p style="text-indent: 5em;">2) คลิกที่เครื่องหมายชี้ลง</p>
+              <p style="text-indent: 5em;">
+                3) จะปรากฏแถบเครื่องมือ การจัดรูปแบบเซลล์ ดังรูปที่ 76
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/76.png" width="80%" />
+                <p><br />รูปที่ 76 การจัดรูปแบบเซลล์</p>
               </div>
               <br />
-              <div class="container" style="text-indent: 7.5em;">
-                <div class="row">
-                  <div class="col-sm">
-                    สูตรที่ 2
-                  </div>
-                  <div class="col-sm">
-                    สูตร
-                  </div>
-                  <div class="col-sm">
-                    = ( 3 + 2 ) X 4 ^ 2
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    วิธีการคำนวณ
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 5 X 1 6
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    ผลลัพธ์
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 80
-                  </div>
-                </div>
+              <p style="text-indent: 2.5em;">
+                จากรูปที่ 76 ประกอบด้วยแถบคำสั่งย่อย ได้แก่
+              </p>
+              <p style="text-indent: 5em;">
+                • ตัวเลข เป็นเครื่องมือในการจัดรูปแบบเซลล์ของข้อมูลที่เป็นตัวเลข
+                โดยผู้ใช้งานสามารถเลือกรูปแบบที่ต้องการ ได้เช่น ทั่วไป ตัวเลข
+                สกุลเงิน บัญชี วันที่ เวลา เป็นต้น
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/77.png" width="60%" />
+                <p><br />รูปที่ 77 การจัดรูปแบบเซลล์-ตัวเลข</p>
               </div>
               <br />
-              <div class="container" style="text-indent: 7.5em;">
-                <div class="row">
-                  <div class="col-sm">
-                    สูตรที่ 3
-                  </div>
-                  <div class="col-sm">
-                    สูตร
-                  </div>
-                  <div class="col-sm">
-                    = ( 5 + 5 ) - ( 2 / 2 )
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    วิธีการคำนวณ
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 10 - 1
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    ผลลัพธ์
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 9
-                  </div>
-                </div>
+              <p style="text-indent: 5em;">
+                • การจัดแนว เป็นกลุ่มคำสั่งจัดแนวข้อความ ได้แก่ แนวนอน แนวตั้ง
+                การตัดข้อความ ย่อให้พอดี การผสานเซลล์ เป็นต้น
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/78.png" width="60%" />
+                <p><br />รูปที่ 78 การจัดรูปแบบเซลล์-การจัดแนว</p>
               </div>
               <br />
-              <div class="container" style="text-indent: 7.5em;">
-                <div class="row">
-                  <div class="col-sm">
-                    สูตรที่ 4
-                  </div>
-                  <div class="col-sm">
-                    สูตร
-                  </div>
-                  <div class="col-sm">
-                    = 5 + 5 - ( 2 / 2 )
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    วิธีการคำนวณ
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 5 + 5 - 1
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                    ผลลัพธ์
-                  </div>
-                  <div class="col-sm"></div>
-                  <div class="col-sm">
-                    = 9
-                  </div>
-                </div>
+              <p style="text-indent: 5em;">
+                • ฟอนต์ เป็นกลุ่มคำสั่งจัดการฟอนต์ (รูปแบบ) ตัวอักษร
+                สไตล์ตัวอักษร ขนาด การขีดเส้น สีตัวอักษร
+                โดยจะปรากฏตัวอย่างของคำสั่งที่เลือกให้ผู้ใช้งาน
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/79.png" width="60%" />
+                <p><br />รูปที่ 79 การจัดรูปแบบเซลล์-การจัดแนว</p>
               </div>
+              <br />
+              <p style="text-indent: 5em;">
+                • เส้นขอบ เป็นกลุ่มคำสั่งจัดรูปแบบเส้นขอบ
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/80.png" width="60%" />
+                <p><br />รูปที่ 80 การจัดรูปแบบเส้นขอบตาราง</p>
+              </div>
+              <br />
+              <h5 style="text-indent: 2.5em;">9.3 การแทรก SmartArt , Shapes</h5>
+              <p style="text-indent: 5em;">
+                สมุดงานสามารถแทรกรูปภาพ เช่น รูปถ่าย รูปภาพที่อยู่เว็บไซต์
+                เป็นต้น เข้ามาในสมุดขั้นตอนดังนี้
+              </p>
+              <p style="text-indent: 5em;">1) คลิกรายการคำสั่ง Insert (แทรก)</p>
+              <p style="text-indent: 5em;">
+                2) เลือกคำสั่งย่อย Picture (รูปภาพ)
+              </p>
+              <p style="text-indent: 5em;">
+                3) เลือก Drive หรือ folder ที่เก็บรูปภาพที่ต้องการนำมาแทรก
+              </p>
+              <p style="text-indent: 5em;">
+                4) คลิกเลือกชื่อไฟล์รูปภาพที่ต้องการนำมาแทรกในสมุดงาน
+              </p>
+              <p style="text-indent: 5em;">5) คลิกปุ่ม Insert (แทรก)</p>
+              <p style="text-indent: 5em;">
+                6) รูปภาพจะปรากฏในสมุดงาน ตัวอย่างดังรูปที่ 81
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/81.png" width="60%" />
+                <p><br />รูปที่ 80 การจัดรูปแบบเส้นขอบตาราง</p>
+              </div>
+              <br />
+              <p style="text-indent: 5em;">
+                หากต้องการตกแต่งรูปภาพให้กดเลือกรูปภาพ และกด double click
+                จะปรากฏเครื่องหมายการเลือก จะปรากฏแถบเครื่องมือในการตกแต่งรูปภาพ
+                ดังรูปที่ 82
+              </p>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/82.png" width="80%" />
+                <p><br />รูปที่ 82 แถบเครื่องมือสำหรับตกแต่งรูปภาพบนสมุดงาน</p>
+              </div>
+              <br />
+              <h5 style="text-indent: 2.5em;">9.3 การแทรก SmartArt , Shapes</h5>
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/83.png" width="60%" />
+                <p><br />รูปที่ 83 ตัวอย่าง Smart Art</p>
+              </div>
+              <br />
+              <div class="text-center" style="font-style:italic">
+                <img src="/img/lesson2/84.png" width="60%" />
+                <p><br />รูปที่ 84 ตัวอย่าง Shapes</p>
+              </div>
+              <br />
+              <p style="text-indent: 2.5em;">
+                SmartArt และ Shapes
+                เป็นเครื่องมือที่ช่วยให้การนำเสนอข้อมูลมีความน่าสนใจ
+                ขั้นตอนการใช้งาน ดังนี้
+              </p>
+              <p style="text-indent: 5em;">1) คลิกรายการคำสั่ง Insert (แทรก)</p>
+              <p style="text-indent: 5em;">
+                2) เลือกคำสั่งย่อย SmartArt หรือ Shapes
+              </p>
+              <p style="text-indent: 5em;">
+                3) คลิกเลือกรูปแบบที่ต้องการนำมาแทรกในสมุดงาน
+              </p>
+              <p style="text-indent: 5em;">
+                4) ทำตามขั้นตอนที่แต่ละรูปแบบกำหนด เช่น
+                คลิกเมาส์และวาดขนาดตามที่ต้องการ หรือกดปุ่ม ok
+              </p>
               <br />
               <h5 style="text-indent: 2.5em;">
-                10.2 วิธีการป้อนสูตรคำนวณ
+                9.4 การใส่เส้นตารางและการแรเงาพื้นหลังตาราง
               </h5>
               <p style="text-indent: 5em;">
-                1) เปิดไฟล์ข้อมูล Excel โดยใช้คำสั่ง Open
+                การใช้เส้นตารางและการแรเงาพื้นหลังตารางจะช่วยดูข้อมูลได้ง่ายและสะดวก
+                ขั้นตอนการใส่เส้นตารางและการแรเงาพื้นหลังตาราง ดังนี้
               </p>
               <p style="text-indent: 5em;">
-                2) ตัวอย่างไฟล์ข้อมูลที่ใช้ในการคำนวณ ดังรูปที่ ......
+                1) เลือกเซลล์ หรือกลุ่มเซลล์ข้อมูลที่ต้องการใส่เส้นตาราง
               </p>
               <p style="text-indent: 5em;">
-                3) เลื่อน Cell Pointer ไปยังตำแหน่งที่ต้องการให้ผลลัพธ์ปรากฏ
-                เช่น D4
+                2) คลิกเลือกแถบเครื่องมือการใส่เส้นตาราง
               </p>
-              <p style="text-indent: 5em;">4) การคำนวณใช้เงื่อนไขดังนี้</p>
-              <p style="text-indent: 7.5em;">
-                • ค่าครองชีพ (พิเศษ) ร้อยละ 10 ของเงินเดือน
-              </p>
-              <p style="text-indent: 7.5em;">
-                • ค่าล่วงเวลา กำหนดให้ทุกคนทำงานล่วงเวลาเดือนละ 10 วันๆ ละ 300
-                บาท
-              </p>
-              <p style="text-indent: 7.5em;">
-                • ประกันสังคม ร้อยละ 5 ของเงินเดือน (ไม่รวมค่าครองชีพ
-                และค่าล่วงเวลา)
-              </p>
-              <p style="text-indent: 7.5em;">
-                • ภาษีเงินได้ ร้อยละ 3 ของเงินเดือน
-              </p>
-              <p style="text-indent: 7.5em;">• รายรับสุทธิ รายรับ – รายจ่าย</p>
-              <p style="text-indent: 9em;">
-                - รายรับ คิดจาก เงินเดือน + ค่าครองชีพ (พิเศษ) + ค่าล่วงเวลา
-              </p>
-              <p style="text-indent: 9em;">
-                - รายจ่าย คิดจาก ประกันสังคม + ภาษีเงินได้
+              <p style="text-indent: 5em;">
+                3) คลิกเลือกรูปแบบเส้นตารางที่ต้องการนำมาใส่ในตาราง ดังรูปที่ 85
               </p>
               <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/88.png" width="80%" />
-                <p><br />รูปที่ 88 ตัวอย่างไฟล์ข้อมูล Excel</p>
+                <img src="/img/lesson2/85.png" width="30%" />
+                <p><br />รูปที่ 85 รูปแบบเส้นตาราง</p>
               </div>
               <br />
-              <p style="text-indent: 5em;">5) คำนวณโดยการป้อนสูตรแบบตัวเลข</p>
-              <p style="text-indent: 7.5em;">
-                5.1) ตัวอย่างการคำนวณค่าครองชีพ (เงินพิเศษ)
+              <p style="text-indent: 2.5em;">การแรเงาช่องในตาราง</p>
+              <p style="text-indent: 5em;">1) คลิกเลือกเซลล์ หรือกลุ่มเซลล์</p>
+              <p style="text-indent: 5em;">
+                2) คลิกที่ลูกศรหลังกแถบเครื่องมือ(การแรเงา)
               </p>
-              <p style="text-indent: 9em;">
-                เงื่อนไขการคำนวณ (เพื่อนำมาสร้างสูตร)
-              </p>
-              <p style="text-indent: 9em;">
-                ค่าครองชีพ (เงินพิเศษ) ร้อยละ 10 ของเงินเดือน
-              </p>
-
-              <p style="text-indent: 7.5em; font-weight: bold; ">
-                วิธีการคำนวณ
-              </p>
-              <p style="text-indent: 9em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 9em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D4
-              </p>
-              <p style="text-indent: 9em;">
-                - พิมพ์สูตร =15000*10/100 หรือ 15000*10%
-              </p>
-              <p style="text-indent: 9em;">พนักงานลำดับ 2</p>
-              <p style="text-indent: 9em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D5
-              </p>
-              <p style="text-indent: 9em;">
-                - พิมพ์สูตร = 14500*10/100 หรือ =14500*10%
-              </p>
-              <p style="text-indent: 9em;">พนักงาน ลำดับ 3</p>
-              <p style="text-indent: 9em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D6
-              </p>
-              <p style="text-indent: 9em;">
-                - พิมพ์สูตร = 13200*10/100 หรือ =13200*10%
-              </p>
-              <p style="text-indent: 9em;">พนักงาน ลำดับ 4</p>
-              <p style="text-indent: 9em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D6
-              </p>
-              <p style="text-indent: 9em;">
-                - พิมพ์สูตร = 12400*10/100 หรือ =12400*10%
+              <p style="text-indent: 5em;">
+                3) คลิกเลือกสีที่ต้องการแรเงา และสีตัวอักษรในตารางที่ต้องการ
               </p>
               <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/89.png" width="80%" />
+                <img src="/img/lesson2/86.png" width="60%" />
                 <p>
-                  <br />รูปที่ 89 ตัวอย่างการพิมพ์สูตรคำนวณ ค่าครองชีพ (พิเศษ)
-                  โดยใช้ตัวเลข
+                  <br />รูปที่ 86 ตัวอย่างข้อมูลที่ยังไม่ใส่เส้นตารางและการแรเงา
                 </p>
               </div>
               <br />
-              <p style="text-indent: 2.5em;">
-                จากรูปที่ 89 เมื่อเลื่อน Cell Pointer ไปยังตำแหน่ง D4
-                และให้สังเกตที่แถบสูตร จะแสดงข้อมูลที่มาของผลลัพธ์ 1,5000
-                โดยปรากฏสูตรคำนวณ =15000*10%
-              </p>
               <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/90.png" width="80%" />
-                <p>
-                  <br />รูปที่ 90 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
-                  โดยใข้ค่าตัวเลข
-                </p>
+                <img src="/img/lesson2/87.png" width="60%" />
+                <p><br />รูปที่ 87 ตัวอย่างข้อมูลที่ใส่เส้นตารางและการแรเงา</p>
               </div>
-              <br />
-              <p style="text-indent: 2.5em;">
-                จากตัวอย่างการคำนวณ ค่าครองชีพ (พิเศษ) โดยใช้ตัวเลข
-                จะเห็นได้ว่าผู้ใช้งานต้องเลื่อน Cell Pointer ไปยังตำแหน่งเซลล์
-                D4, D5, D6, D7 และพิมพ์สูตรคำนวณ จำนวน 4 ครั้ง จึงจะได้ผลลัพธ์
-                แต่การคำนวณโดยวิธีนี้มีข้อจำกัด ดังนี้
-              </p>
-              <p style="text-indent: 2.5em;">
-                1. ข้อมูลตัวอย่างมีพนักงาน จำนวน 4 คน เท่านั้น
-                ผู้ใช้งานสามารถพิมพ์สูตรคำนวณพนักงานคนที่ 1 ถึงคนที่ 4 ได้
-                โดยไม่ลำบากนัก
-              </p>
-              <p style="text-indent: 2.5em;">
-                2. หากมีการแก้ไขเงินเดือน เช่น เดิม 15,000 บาท เป็น 16,000 บาท
-                ผู้ใช้งานต้องแก้ไขสูตรคำนวณใหม่จึงจะได้ค่าครองชีพที่ถูกต้อง
-              </p>
-              <p style="text-indent: 2.5em;">
-                ดังนั้น การมีข้อจำกัดดังกล่าวข้างต้น การสร้างสูตรคำนวณในโปรแกรม
-                Excel จึงไม่นิยมใช้ค่าตัวเลขในการสร้างสูตรคำนวณ
-                แต่จะใช้ตำแหน่งเซลล์ที่เก็บข้อมูล ซึ่งได้ผลลัพธ์ที่เท่ากัน
-                แต่จะลดข้อจำกัดได้ดีกว่า
-              </p>
-              <br />
-              <p style="text-indent: 2.5em; font-weight: bold; ">
-                คำนวณโดยการป้อนสูตรแบบตำแหน่งเซลล์
-              </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C4*10/100 หรือ C4*10%
-              </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 2</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D5
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C5*10/100 หรือ =C5*10%
-              </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 3</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D6
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C6*10/100 หรือ =C6*10%
-              </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 4</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ D6
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C7*10/100 หรือ =C7*10%
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/91.png" width="80%" />
-                <p>
-                  <br />รูปที่ 91 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
-                  โดยใข้ค่าตัวเลข
-                </p>
-              </div>
-              <br />
-              <p style="text-indent: 2.5em;">
-                จากรูปที่ 91 เมื่อเลื่อน Cell Pointer ไปยังตำแหน่ง D4
-                และให้สังเกตที่แถบสูตร จะแสดงข้อมูลที่มาของผลลัพธ์ 1,5000
-                โดยปรากฏสูตรคำนวณ =C4*10%
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/92.png" width="80%" />
-                <p>
-                  <br />รูปที่ 92 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
-                  โดยใช้ตำแหน่งเซลล์
-                </p>
-              </div>
-              <br />
-              <p style="text-indent: 2.5em;">
-                จากตัวอย่างการคำนวณ ค่าครองชีพ (พิเศษ) โดยใช้ตำแหน่งเซลล์
-                ของพนักงานคนที่ 1 เมื่อต้องการคำนวณพนักงานคนที่ 2
-                สูตรที่ใช้ในการคำนวณเปลี่ยนสูตรคำนวณ =C5*10% พนักงานคนที่ 3 สูตร
-                =C6*10% พนักงานคนที่ 4 สูตร =C7*10%
-                การใช้สูตรที่มีความแตกต่างกันเฉพาะตำแหน่งเซลล์
-                สามารถใช้คำสั่งคัดลอกสูตรได้โดยง่าย
-                ลักษณะการคัดลอกสูตรมีขั้นตอนดังนี้
-              </p>
-              <p style="text-indent: 5em;">
-                1. เลื่อน Cell Pointer ไปยังตำแหน่งเซลล์ D4
-              </p>
-              <p style="text-indent: 5em;">
-                2. สูตร =C4*10% กดปุ่ม Enter เพื่อให้ปรากฏผลลัพธ์
-              </p>
-              <p style="text-indent: 5em;">
-                3. เลื่อน Cell Pointer ไปยังตำแหน่ง D4
-              </p>
-              <p style="text-indent: 5em;">
-                4. คลิกเมาส์ที่ตำแหน่งด้านล่างของ Cell
-                ในบริเวณที่ปรากฏเครื่องหมาย +
-              </p>
-              <p style="text-indent: 5em;">
-                5. คลิกเมาส์ค้างไว้ และลากจนกระทั่งถึงข้อมูลพนักงานคนที่ 4
-                และปล่อยมือจากเมาส์
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/93.png" width="80%" />
-                <p><br />รูปที่ 93 การคัดลอกสูตรคำนวณโดยใช้ตำแหน่งเซลล์</p>
-              </div>
-              <br />
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/94.png" width="80%" />
-                <p>
-                  <br />รูปที่ 94 ผลลัพธ์ที่ได้จากการคำนวณค่าครองชีพ (พิเศษ)
-                </p>
-              </div>
-              <br />
-              <p style="text-indent: 2.5em; font-weight: bold; ">
-                ข้อดีของการใช้สูตรที่ใช้ตำแหน่งเซลล์ ดังนี้
-              </p>
-              <p style="text-indent: 5em; ">
-                1. สามารถใช้วิธีการคัดลอกสูตร ทำให้ประหยัดเวลาในการคำนวณ
-                ถึงแม้จะมีข้อมูลพนักงานจำนวนมากก็ตาม
-              </p>
-              <p style="text-indent: 5em; ">
-                2. หากข้อมูลในตำแหน่งเซลล์มีการเปลี่ยนแปลง เช่น เงินเดือน 15,000
-                เปลี่ยนเป็น 16,000
-                ผลลัพธ์ที่ได้จากการคำนวณจะเปลี่ยนแปลงให้โดยอัตโนมัติ
-                ผู้ใช้งานไม่ต้องกลับมาแก้ไขสูตรคำนวณใหม่
-              </p>
-              <h5 style="text-indent: 2.5em;">
-                10.3 ตัวอย่างการใช้สูตรคำนวณ
-              </h5>
-              <p style="text-indent: 5em; ">
-                จากรูปที่ 94 จะแสดงตัวอย่างการคำนวณโดยการใช้สูตร ได้แก่
-                ค่าล่วงเวลา ประกันสังคม ภาษีเงินได้ และรายรับสุทธิ
-                เพื่อให้เกิดความเข้าใจหลักการสร้างสูตรคำนวณโดยใช้โปรแกรม Excel
-                ตามลำดับดังนี้
-              </p>
-              <h6 style="text-indent: 5em;">
-                10.3.1 ตัวอย่าง คำนวณค่าล่วงเวลา
-              </h6>
-              <br />
-              <p style="text-indent: 5em;">เงื่อนไขคำนวณค่าล่วงเวลา</p>
-              <p style="text-indent: 7.5em;">
-                - พนักงานทุกคนทำงานล่วงเวลาเดือนละ 10 วัน
-              </p>
-              <p style="text-indent: 7.5em;">- ค่าแรงวันละ 300 บาท</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ E4
-              </p>
-              <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 2</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ E5
-              </p>
-              <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 3</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ E
-              </p>
-              <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 4</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ E5
-              </p>
-              <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <br />
-              <p style="text-indent: 2.5em; font-weight: bold; ">
-                การคำนวณโดยใช้วิธีการคัดลอกสูตร (ควรใช้วิธีนี้)
-              </p>
-              <p style="text-indent: 2.5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ E4
-              </p>
-              <p style="text-indent: 5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">- ได้ผลลัพธ์ที่ตำแหน่ง E4 = 3,000</p>
-              <p style="text-indent: 5em;">
-                - เลื่อน Cell Pointer ไปยังตำแหน่ง E4
-              </p>
-              <p style="text-indent: 5em;">
-                - คลิกที่เส้นขอบของเซลล์ E4 (บริเวณที่ปรากฏสัญลักษณ์ )+
-              </p>
-              <p style="text-indent: 5em;">
-                - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ E5 ถึง E7 จะได้ผลลัพธ์
-                ดังรูปที่ 95
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/95.png" width="80%" />
-                <p><br />รูปที่ 95 ผลลัพธ์ที่ได้จากการคำนวณค่าล่วงเวลา</p>
-              </div>
-              <br />
-              <h6 style="text-indent: 5em;">
-                10.3.2 ตัวอย่างการคำนวณประกันสังคม
-              </h6>
-              <br />
-              <p style="text-indent: 5em;">เงื่อนไขคำนวณประกันสังคม</p>
-              <p style="text-indent: 5em; font-style:italic;">
-                ร้อยละ 5 ของเงินเดือน (ไม่รวมค่าครองชีพ และค่าล่วงเวลา)
-              </p>
-              <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ F4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C4*5% หรือ =C4*(5/100) หรือ =C4*5/100
-              </p>
-              <p style="text-indent: 7.5em;">- ได้ผลลัพธ์ที่ตำแหน่ง F4 = 750</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปยังตำแหน่ง F4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกที่เส้นขอบของเซลล์ F4 (บริเวณที่ปรากฏสัญลักษณ์ +)
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ F5 ถึง F7 จะได้ผลลัพธ์
-                ดังรูปที่ 96
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/96.png" width="80%" />
-                <p><br />รูปที่ 96 ผลลัพธ์ที่ได้จากการคำนวณประกันสังคม</p>
-              </div>
-              <br />
-              <h6 style="text-indent: 5em;">
-                10.3.3 ตัวอย่างการคำนวณภาษีเงินได้
-              </h6>
-              <br />
-              <p style="text-indent: 5em;">เงื่อนไขคำนวณภาษีเงินได้</p>
-              <p style="text-indent: 5em; font-style:italic;">
-                ร้อยละ 3 ของเงินเดือน
-              </p>
-              <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ G4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - พิมพ์สูตร =C4*5% หรือ =C4*(5/100) หรือ =C4*5/100
-              </p>
-              <p style="text-indent: 7.5em;">- ได้ผลลัพธ์ที่ตำแหน่ง G4 = 750</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปยังตำแหน่ง G4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกที่เส้นขอบของเซลล์ G4 (บริเวณที่ปรากฏสัญลักษณ์ + )
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ G5 ถึง G7 จะได้ผลลัพธ์
-                ดังรูปที่ 97
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/97.png" width="80%" />
-                <p><br />รูปที่ 97 ผลลัพธ์ที่ได้จากการคำนวณภาษีเงินได้</p>
-              </div>
-              <br />
-              <h6 style="text-indent: 5em;">
-                10.3.4 ตัวอย่างการคำนวณรายรับสุทธิ
-              </h6>
-              <br />
-              <p style="text-indent: 5em;">เงื่อนไขคำนวณภาษีเงินได้</p>
-              <p style="text-indent: 5em; font-style:italic;">
-                รายรับสุทธิ รายรับ – รายจ่าย
-              </p>
-              <p style="text-indent: 7.5em; font-style:italic;">
-                • รายรับ คิดจาก เงินเดือน + ค่าครองชีพ (พิเศษ) + ค่าล่วงเวลา
-              </p>
-              <p style="text-indent: 7.5em; font-style:italic;">
-                • รายจ่าย คิดจาก ประกันสังคม + ภาษีเงินได้
-              </p>
-              <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปที่เซลล์ H4
-              </p>
-              <p style="text-indent: 7.5em;">- พิมพ์สูตร =(C4+D4+E4)-(F4+G4)</p>
-              <p style="text-indent: 7.5em;">- ได้ผลลัพธ์ที่ตำแหน่ง G4 = 750</p>
-              <p style="text-indent: 7.5em;">
-                - เลื่อน Cell Pointer ไปยังตำแหน่ง G4
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกที่เส้นขอบของเซลล์ G4 (บริเวณที่ปรากฏสัญลักษณ์ + )
-              </p>
-              <p style="text-indent: 7.5em;">
-                - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ G5 ถึง G7 จะได้ผลลัพธ์
-                ดังรูปที่ 98
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/98.png" width="80%" />
-                <p><br />รูปที่ 98 ผลลัพธ์ที่ได้จากการคำนวณรายรับสุทธิ</p>
-              </div>
-              <br />
-              <h4>11. การคำนวณโดยการใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function)</h4>
-              <p style="text-indent: 2.5em;">
-                การคำนวณโดยการป้อนสูตรคำนวณในหัวข้อที่ 10 โปรแกรม Excel
-                ยังมีวิธีการคำนวณที่ใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function) คือ
-                สูตรที่กำหนดไว้ล่วงหน้า ที่คำนวณโดยใช้ค่าที่ระบุที่เรียกว่า
-                argument ฟังก์ชันจะใช้ในการคำนวณแบบต่างๆ ที่ใช้บ่อย
-                การนำฟังก์ชันมาใช้งานจะทำให้ทำงานได้สะดวกยิ่งขึ้น
-                เพราะไม่ต้องเขียนสูตรขึ้นมาใหม่ทุกครั้ง ใน Excel
-                มีฟังก์ชันมากกว่า 300 ฟังก์ชัน สำหรับทำหน้าที่ต่าง ๆ เน การคำนวณ
-                ตัวเลข การวิเคราะห์ข้อมูลสถิติทางการเงิน การจัดการฐานข้อมูล
-                เป็ฯต้น ซึ่งแต่ละฟังก์ชันจะมีรายละเอียดการใช้งานที่แตกต่างกันไป
-                วิธีการตรวจสอบฟังก์ชันทำได้โดยกดปุ่ม Shift + ปุ่ม F3
-                จะปรากฏกล่องโต้ตอบฟังก์ชัน ดังรูปที่ 99
-              </p>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/99.png" width="60%" />
-                <p><br />รูปที่ 99 กล่องโต้ตอบฟังก์ชันของโปรแกรม Excel</p>
-              </div>
-              <br />
-              <h5 style="text-indent: 2.5em;">
-                11.1 ส่วนประกอบของฟังก์ชัน
-              </h5><br>
-              <div class="text-center" style="font-style:italic">
-                <img src="/img/lesson2/100.png" width="60%" />
-                <p><br />รูปที่ 100  ส่วนประกอบของฟังก์ชัน</p>
-              </div>
-              <br />
-               <p style="text-indent: 2.5em; font-weight: bold; ">
-                จากรูปที่ 100 อธิบายดังนี้
-              </p>
-              <p style="text-indent: 2.5em;"> 1  เมื่อต้องการใช้งานฟังก์ชันต้องขึ้นต้นด้วยเครื่องหมายเท่ากับ (=) เช่นเดียวกับสูตรคำนวณทั่วไป</p>
-              <p style="text-indent: 2.5em;"> 2  ชื่อฟังก์ชัน ต้องเป็นฟังก์ชันที่โปรแกรม Excel รู้จักเท่านั้น</p>
-              <p style="text-indent: 2.5em;"> 3  เครื่องหมายจุลภาค (,) ใช้แบ่งค่า argument ออกจากกัน</p>
-              <p style="text-indent: 2.5em;"> 4  ข้อมูลที่ป้อนเพื่อให้ฟังก์ชันนำไปใช้ในการคำนวณ ซึ่งอาจมีค่า argument ได้หลายค่า</p><br>
-              <br />
-              <br>
-              <br>
-              <br>
               <!-- -------------------------------- -->
+              <br />
+              <br />
+              <br />
+              <br />
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
@@ -690,6 +392,7 @@
                   </div>
                 </div>
               </div>
+              <div class="text-center mt-5">Page 4/7</div>
             </div>
           </div>
         </div>
@@ -699,7 +402,7 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Alongkot  Gongmanee</span>
+            <span class="d-block mb-1">Author | Alongkot Gongmanee</span>
             <small class="h6 text-black"
               >Lecturer in the Computer Science Division at Maejo
               University</small

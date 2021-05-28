@@ -448,7 +448,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson4_1" title="Lesson4_1 Page">
+                    <router-link to="/lesson5_1" title="Lesson5_1 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -464,6 +464,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
+                    <router-link to="/lesson6_1" title="Lesson6_1 Page">
                     <div class="btn-wrapper">
                       <base-button
                         tag="a"
@@ -473,13 +474,15 @@
                         outline
                         type="info"
                       >
-                        Next
+                        Continue
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
+              <div class="text-center mt-5">Page 2/2</div>
             </div>
           </div>
         </div>

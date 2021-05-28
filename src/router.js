@@ -7,17 +7,32 @@ import Landing from "./views/Landing.vue";
 import Lesson1_1 from "./views/Lesson1_1.vue";
 import Lesson1_2 from "./views/Lesson1_2.vue";
 import Lesson1_3 from "./views/Lesson1_3.vue";
+import Lesson1_4 from "./views/Lesson1_4.vue";
+
 import Lesson2_1 from "./views/Lesson2_1.vue";
 import Lesson2_2 from "./views/Lesson2_2.vue";
 import Lesson2_3 from "./views/Lesson2_3.vue";
 import Lesson2_4 from "./views/Lesson2_4.vue";
 import Lesson2_5 from "./views/Lesson2_5.vue";
+import Lesson2_6 from "./views/Lesson2_6.vue";
+import Lesson2_7 from "./views/Lesson2_7.vue";
+
+
 import Lesson3_1 from "./views/Lesson3_1.vue";
 import Lesson3_2 from "./views/Lesson3_2.vue";
+import Lesson3_3 from "./views/Lesson3_3.vue";
+
 import Lesson4_1 from "./views/Lesson4_1.vue";
 import Lesson4_2 from "./views/Lesson4_2.vue";
+import Lesson4_3 from "./views/Lesson4_3.vue";
+
 import Lesson5_1 from "./views/Lesson5_1.vue";
 import Lesson5_2 from "./views/Lesson5_2.vue";
+
+import Lesson6_1 from "./views/Lesson6_1.vue";
+import Lesson6_2 from "./views/Lesson6_2.vue";
+import Lesson6_3 from "./views/Lesson6_3.vue";
+import Lesson6_4 from "./views/Lesson6_4.vue";
 
 
 
@@ -76,6 +91,15 @@ export default new Router({
       }
     },
     {
+      path: "/lesson1_4",
+      name: "lesson1_4",
+      components: {
+        header: AppHeader,
+        default: Lesson1_4,
+        footer: AppFooter
+      }
+    },
+    {
       path: "/lesson2_1",
       name: "lesson2_1",
       components: {
@@ -121,6 +145,24 @@ export default new Router({
       }
     },
     {
+      path: "/lesson2_6",
+      name: "lesson2_6",
+      components: {
+        header: AppHeader,
+        default: Lesson2_6,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson2_7",
+      name: "lesson2_7",
+      components: {
+        header: AppHeader,
+        default: Lesson2_7,
+        footer: AppFooter
+      }
+    },
+    {
       path: "/lesson3_1",
       name: "lesson3_1",
       components: {
@@ -135,6 +177,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Lesson3_2,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson3_3",
+      name: "lesson3_3",
+      components: {
+        header: AppHeader,
+        default: Lesson3_3,
         footer: AppFooter
       }
     },
@@ -157,6 +208,15 @@ export default new Router({
       }
     },
     {
+      path: "/lesson4_3",
+      name: "lesson4_3",
+      components: {
+        header: AppHeader,
+        default: Lesson4_3,
+        footer: AppFooter
+      }
+    },
+    {
       path: "/lesson5_1",
       name: "lesson5_1",
       components: {
@@ -171,6 +231,42 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Lesson5_2,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson6_1",
+      name: "lesson6_1",
+      components: {
+        header: AppHeader,
+        default: Lesson6_1,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson6_2",
+      name: "lesson6_2",
+      components: {
+        header: AppHeader,
+        default: Lesson6_2,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson6_3",
+      name: "lesson6_3",
+      components: {
+        header: AppHeader,
+        default: Lesson6_3,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson6_4",
+      name: "lesson6_4",
+      components: {
+        header: AppHeader,
+        default: Lesson6_4,
         footer: AppFooter
       }
     },

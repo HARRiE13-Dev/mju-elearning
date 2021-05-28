@@ -365,6 +365,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
+                    <router-link to="/lesson4_1" title="Lesson4_1 Page">
                     <div class="btn-wrapper">
                       <base-button
                         tag="a"
@@ -377,6 +378,7 @@
                         >Previous</base-button
                       >
                     </div>
+                    </router-link>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson5_2" title="Lesson5_2 Page">
@@ -397,6 +399,7 @@
                   </div>
                 </div>
               </div>
+              <div class="text-center mt-5">Page 1/2</div>
             </div>
           </div>
         </div>
