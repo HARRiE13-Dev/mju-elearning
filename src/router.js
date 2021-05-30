@@ -34,6 +34,9 @@ import Lesson6_2 from "./views/Lesson6_2.vue";
 import Lesson6_3 from "./views/Lesson6_3.vue";
 import Lesson6_4 from "./views/Lesson6_4.vue";
 
+import Lesson7_1 from "./views/Lesson7_1.vue";
+import Lesson7_2 from "./views/Lesson7_2.vue";
+
 
 
 import Login from "./views/Login.vue";
@@ -267,6 +270,24 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Lesson6_4,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson7_1",
+      name: "lesson7_1",
+      components: {
+        header: AppHeader,
+        default: Lesson7_1,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/lesson7_2",
+      name: "lesson7_2",
+      components: {
+        header: AppHeader,
+        default: Lesson7_2,
         footer: AppFooter
       }
     },
