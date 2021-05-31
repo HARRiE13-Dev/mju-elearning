@@ -223,7 +223,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson6_2" title="Lesson6_2 Page">
+                    <router-link to="/lesson7_2" title="Lesson7_2 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -248,7 +248,7 @@
                           outline
                           type="info"
                         >
-                          Next
+                          Continue
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>

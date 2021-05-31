@@ -234,7 +234,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson6_3" title="Lesson6_3 Page">
+                    <router-link to="/lesson8_3" title="Lesson8_3 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -249,7 +249,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
-                    <router-link to="/lesson7_1" title="Lesson7_1 Page">
+                    <router-link to="/lesson9_1" title="Lesson9_1 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
