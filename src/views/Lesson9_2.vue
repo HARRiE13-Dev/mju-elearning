@@ -192,7 +192,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson8_1" title="Lesson8_1 Page">
+                    <router-link to="/lesson9_1" title="Lesson9_1 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -207,7 +207,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
-                    <router-link to="/lesson8_3" title="Lesson8_3 Page">
+                    <router-link to="/lesson9_3" title="Lesson9_3 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -225,7 +225,7 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 2/3</div>
+              <div class="text-center mt-5">Page 2/8</div>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | -</span>
+            <span class="d-block mb-1">Author | Dr.Payungsak Kasemsumran</span>
             <small class="h6 text-black">_</small>
           </h5>
         </div>

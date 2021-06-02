@@ -2,15 +2,7 @@
     <div>
         <hero></hero>
         <apage></apage>
-        <basic-elements></basic-elements>
-        <inputs></inputs>
-        <custom-controls></custom-controls>
-        <navigation></navigation>
-        <javascript-components></javascript-components>
-        <icons></icons>
-        <examples></examples>
-        <download-section></download-section>
-        <carousel></carousel>
+        
         
 
     </div>

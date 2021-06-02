@@ -3,7 +3,7 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
-import Landing from "./views/Landing.vue";
+
 import Lesson1_1 from "./views/Lesson1_1.vue";
 import Lesson1_2 from "./views/Lesson1_2.vue";
 import Lesson1_3 from "./views/Lesson1_3.vue";
@@ -49,11 +49,10 @@ import Lesson9_2 from "./views/Lesson9_2.vue";
 import Lesson9_3 from "./views/Lesson9_3.vue";
 import Lesson9_4 from "./views/Lesson9_4.vue";
 import Lesson9_5 from "./views/Lesson9_5.vue";
+import Lesson9_6 from "./views/Lesson9_6.vue";
+import Lesson9_7 from "./views/Lesson9_7.vue";
+import Lesson9_8 from "./views/Lesson9_8.vue";
 
-
-import Login from "./views/Login.vue";
-import Register from "./views/Register.vue";
-import Profile from "./views/Profile.vue";
 
 Vue.use(Router);
 
@@ -66,15 +65,6 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Components,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/landing",
-      name: "landing",
-      components: {
-        header: AppHeader,
-        default: Landing,
         footer: AppFooter
       }
     },
@@ -393,31 +383,30 @@ export default new Router({
         footer: AppFooter
       }
     },
-
     {
-      path: "/login",
-      name: "login",
+      path: "/lesson9_6",
+      name: "lesson9_6",
       components: {
         header: AppHeader,
-        default: Login,
+        default: Lesson9_6,
         footer: AppFooter
       }
     },
     {
-      path: "/register",
-      name: "register",
+      path: "/lesson9_7",
+      name: "lesson9_7",
       components: {
         header: AppHeader,
-        default: Register,
+        default: Lesson9_7,
         footer: AppFooter
       }
     },
     {
-      path: "/profile",
-      name: "profile",
+      path: "/lesson9_8",
+      name: "lesson9_8",
       components: {
         header: AppHeader,
-        default: Profile,
+        default: Lesson9_8,
         footer: AppFooter
       }
     }

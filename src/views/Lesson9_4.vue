@@ -162,7 +162,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson2_3" title="Lesson2_3 Page">
+                    <router-link to="/lesson9_3" title="Lesson9_3 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -177,7 +177,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
-                    <router-link to="/lesson2_5" title="Lesson2_5 Page">
+                    <router-link to="/lesson9_5" title="Lesson9_5 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -195,7 +195,7 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 4/7</div>
+              <div class="text-center mt-5">Page 4/8</div>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Alongkot Gongmanee</span>
+            <span class="d-block mb-1">Author | Dr.Payungsak Kasemsumran</span>
             <small class="h6 text-black">
               Lecturer in the Computer Science Division at Maejo
               University

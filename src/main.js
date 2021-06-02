@@ -1,18 +1,15 @@
 /*!
 
 =========================================================
-* Vue Argon Design System - v1.1.0
+* Maejo University e-Learning Website Services
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)
-
-* Coded by www.creative-tim.com
+* Product Page : The Computer Science Divition at Maejo University
+* Licensed under MIT : Argon Vue by Creative Tim
+* Copyright 2021 by csmju.jowave.com
+* Design and Development by HARR!E.13
 
 =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
 import Vue from "vue";

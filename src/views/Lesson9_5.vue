@@ -167,9 +167,13 @@
                     <img src="/img/lesson9/diet.png" width="40%" />
                   </div>
                   <br>
+                  <br>
                 <h4>วัตถุประสงค์หลักของระบบผู้เชี่ยวชาญ</h4>
                 <p class="rem2">การช่วยในการตัดสินใจ การให้ความรู้ คำแนะนำ หรือคำปรึกษา อย่างที่เราต้องการจากผู้เชี่ยวชาญเฉพาะด้านระบบผู้เชี่ยวชาญ (EXPERT SYSTEM AND ARTIFICIAL INTELLIGENCE) </p>
-
+                 <br />
+              <div class="text-center font-italic col">
+                <img src="/img/lesson9/e1.png" width="80%" />
+              </div>
               <!-- -------------------------------- -->
               <br />
               <br />
@@ -178,7 +182,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson2_4" title="Lesson2_4 Page">
+                    <router-link to="/lesson9_4" title="Lesson9_4 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -193,7 +197,7 @@
                     </router-link>
                   </div>
                   <div class="col-auto">
-                    <router-link to="/lesson2_6" title="Lesson2_6 Page">
+                    <router-link to="/lesson9_6" title="Lesson9_6 Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -211,7 +215,7 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 5/7</div>
+              <div class="text-center mt-5">Page 5/8</div>
             </div>
           </div>
         </div>
@@ -221,7 +225,7 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Alongkot Gongmanee</span>
+            <span class="d-block mb-1">Author | Dr.Payungsak Kasemsumran</span>
             <small class="h6 text-black">
               Lecturer in the Computer Science Division at Maejo
               University
