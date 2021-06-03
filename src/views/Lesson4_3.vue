@@ -429,7 +429,7 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Dr.Sujttra Kaewseenual</span>
+            <span class="d-block mb-1">Author | Dr.Sujittra Kaewseenuald</span>
             <small class="h6 text-black"
               >Lecturer in the Digital Communications at Maejo University</small
             >

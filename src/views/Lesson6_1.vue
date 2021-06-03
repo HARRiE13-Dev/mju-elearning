@@ -382,9 +382,9 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | -</span>
+            <span class="d-block mb-1">Author | Dr. Ukrit Marang</span>
             <small class="h6 text-black"
-              >_</small
+              >Lecturer in The Business Information System at Maejo University</small
             >
           </h5>
         </div>

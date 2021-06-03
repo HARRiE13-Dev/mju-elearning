@@ -61,7 +61,7 @@
                 จากภาวะเช่นนี้ทำให้เกิดการกระทำที่เป็นความรับผิดชอบด้านจริยธรรมและด้านสังคมขึ้น
               </p>
               <br />
-              <h4>ข้อควรพิจารณาเกี่ยวกับจริยธรรมขอผู้ใช้คอมพิวเตอร์</h4>
+              <h4>ข้อควรพิจารณาเกี่ยวกับจริยธรรมของผู้ใช้คอมพิวเตอร์</h4>
               <p class="rem2">
                 การพิจารณาถึงจริยธรรมของผู้ใช้คอมพิวเตอร์ (Ethical
                 considerations)
@@ -100,8 +100,9 @@
               <br />
               <h4>
                 ความสัมพันธ์ระหว่างคอมพิวเตอร์และปัญหาด้านจริยธรรม
-                (Computer-related ethical issues) สิ่ง
+                (Computer-related ethical issues)
               </h4>
+              <p class="rem2">สิ่งที่ต้องคำนึงถึงและถือว่าเป็นมิติของจรรยาบรรณสำหรับผู้ทำงานกับระบบข้อมูลข่าวสารสามารถแบ่งออกได้เป็น 4 ส่วนด้วยกัน คือ</p>
               <p class="rem2">
                 1. ความเป็นส่วนตัว (Privacy)
                 เป็นความเกี่ยวข้องกับการรวบรวมและใช้ข้อมูลสำหรับส่วนบุคคล และ
@@ -273,9 +274,9 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | -</span>
+            <span class="d-block mb-1">Author | Dr. Piyawan Siriprasertsil</span>
             <small class="h6 text-black"
-              >_</small
+              >Lecturer in The Business Administration at Maejo University</small
             >
           </h5>
         </div>
