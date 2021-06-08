@@ -20,7 +20,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Data Searching
+                5. Data Searching
               </h1>
               <p class="lead text-white mt-4">
                 การหาข้อมูลบนอินเทอร์เน็ตในปัจจุบันสามารถแบ่งประเภทการค้นหาได้ 2
@@ -56,7 +56,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h2 class="display-3 text-center">
-                การใช้ Internet ในการหาข้อมูล และการอ้างอิงข้อมูล
+                5. การใช้ Internet ในการหาข้อมูล และการอ้างอิงข้อมูล
               </h2>
               <br /><br />
               <h4>การใช้อินเทอร์เน็ตในการหาข้อมูล</h4>
@@ -379,6 +379,22 @@
                       >
                     </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson5_2" title="Lesson5_2 Page">

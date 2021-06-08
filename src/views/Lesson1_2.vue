@@ -25,16 +25,16 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h4>
-                #คีย์ลัดที่ใช้บ่อยในโปรแกรมไมโครซอฟต์เวิร์ด
+                1.5 คีย์ลัดที่ใช้บ่อยในโปรแกรมไมโครซอฟต์เวิร์ด
                 <br />
                 <br />
               </h4>
               <div class="container">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-5">
                     <!-- table#1 -->
                     <table class="table">
-                      <thead class="thead-light">
+                      <thead class="thead-light text-center">
                         <tr>
                           <th scope="col">คำสั่ง</th>
                           <th scope="col">คีย์ลัด</th>
@@ -43,163 +43,237 @@
                       <tbody>
                         <tr>
                           <td>เปิด</td>
-                          <td>Ctrl + O</td>
+                          <td >
+                          <button type="button" class="btn btn-secondary">Ctrl + O</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>บันทึก</td>
-                          <td>Ctrl + S</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + S</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ปิด</td>
-                          <td>Ctrl + W</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + W</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ตัด</td>
-                          <td>Ctrl + X</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + X</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>คัดลอก</td>
-                          <td>Ctrl + C</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + C</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>วาง</td>
-                          <td>Ctrl + V</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + V</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เลือกทั้งหมด</td>
-                          <td>Ctrl + A</td>
+                          <td>
+                            <button type="button" class="btn btn-secondary">Ctrl + A</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ตัวหนา</td>
-                          <td>Ctrl + B</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + B</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ตัวเอียง</td>
-                          <td>Ctrl + I</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + I</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ขีดเส้นใต้</td>
-                          <td>Ctrl + U</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + U</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ลดขนาดฟอนต์ลง 1 พอยต์</td>
-                          <td>Ctrl + [</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + [</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เพิ่มขนาดฟอนต์ขึ้น 1 พอยต์</td>
-                          <td>Ctrl + ]</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + ]</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความกึ่งกลาง</td>
-                          <td>Ctrl + E</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + E</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความชิดซ้าย</td>
-                          <td>Ctrl + L</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + L</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความชิดขวา</td>
-                          <td>Ctrl + R</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + R</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ยกเลิก</td>
-                          <td>ESC</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">ESC</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เลิกทำ</td>
-                          <td>Ctrl + Z</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Z</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ทำซ้ำ</td>
-                          <td>Ctrl + Y</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Y</button>
+                          </td>
                         </tr>
-                        <tr>
-                          <td>จัดข้อความให้ชิดซ้ายและชิดขวา</td>
-                          <td>Ctrl + J</td>
-                        </tr>
-                        <tr>
-                          <td>สั่งพิมพ์เอกสาร</td>
-                          <td>Ctrl + P</td>
-                        </tr>
-                        <tr>
-                          <td>สร้างตารางข้อมูล</td>
-                          <td>Alt + Shift + O</td>
-                        </tr>
+                       
                       </tbody>
                     </table>
                   </div>
                   <div class="col">
                     <table class="table">
-                      <thead class="thead-light">
+                      <thead class="thead-light text-center">
                         <tr>
                           <th scope="col">คำสั่ง</th>
                           <th scope="col">คีย์ลัด</th>
                         </tr>
                       </thead>
                       <tbody>
+                         <tr>
+                          <td>จัดข้อความให้ชิดซ้ายและชิดขวา</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + J</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>สั่งพิมพ์เอกสาร</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + P</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>สร้างตารางข้อมูล</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Shift + O</button>
+                          </td>
+                        </tr>
+
                         <tr>
                           <td>สลับไปยังหน้าก่อนหน้านี้</td>
-                          <td>Alt + Shift + Tab</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Shift + Tab</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>สลับไปยังหน้าต่อไป</td>
-                          <td>Alt + Tab</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Tab</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>แทรกตัวแบ่งหน้า</td>
-                          <td>Ctrl + Enter</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + D</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ขีดเส้นใต้แบบ 2 เส้น</td>
-                          <td>Ctrl + Shift + D</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + D</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เปิดหน้าต่างแบบอักษร</td>
-                          <td>Ctrl + Shift + F</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + F</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>แบ่งหน้าต่างเอกสารออกเป็น 2 ส่วน</td>
-                          <td>Alt + Ctrl + S</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Ctrl + S</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>ยกเลิกแบ่งหน้าต่างเอกสารออกเป็น 2 ส่วน</td>
-                          <td>Alt + Shift + C</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Shift + C</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เรียกใช้สัญลักษณ์แสดงหัวข้อย่อย</td>
-                          <td>Ctrl + Shift + L</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + L</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>นับจำนวนคำหรือตัวอักษรทั้งหมดในเอกสาร</td>
-                          <td>Ctrl + Shift + G</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + G</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>เปิดหน้าต่างค้นหาและแทนที่</td>
-                          <td>Ctrl + H</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + H</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>สร้างเอกสารใหม่</td>
-                          <td>Ctrl + N</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + N</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>
                             แทรกคำอธิบายเพิ่มเติมลงไปตรงข้อความที่ต้องการอธิบาย(Endnote)
                           </td>
-                          <td>Alt + Ctrl + D</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Ctrl + D</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>
                             แทรกคำอภิบายเพิ่มเติมลงทางด้านล่างของหน้ากระดาษ(Footnote)
                           </td>
-                          <td>Alt + Ctrl + F</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Ctrl + F</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>แทรกเวลาปัจจุบันลงในเอกสาร</td>
-                          <td>Alt + Shift + T</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Alt + Shift + T</button>
+                          </td>
                         </tr>
                         <tr>
                           <td>วางเฉพาะข้อความอย่างเดียว</td>
-                          <td>Ctrl + Shift + V</td>
+                          <td>
+                             <button type="button" class="btn btn-secondary">Ctrl + Shift + V</button>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -208,7 +282,7 @@
               </div>
               <hr />
               <h4>
-                #เทคนิคง่ายๆ ของโปรแกรมไมโครซอฟต์เวิร์ด
+                1.6 เทคนิคง่ายๆ ของโปรแกรมไมโครซอฟต์เวิร์ด
                 <br /><br />
               </h4>
               <h5>- รหัสผ่านป้องกันเอกสารการทำงาน</h5>
@@ -235,7 +309,7 @@
               </div>
               <br />
               <br />
-              <h5>- การใส่ลายน้ำ</h5>
+              <h5>1.6.1 การใส่ลายน้ำ</h5>
               <p></p>
               เริ่มจากไปที่เมนู มุมมอง > แมโคร > ตั้งชื่อ แมโคร (ใช้ภาษาอังกฤษ
               ห้ามเว้นวรรค สามารถใช้ขีดล่างได้) > กดปุ่มสร้าง >
@@ -254,7 +328,7 @@
                     <br />Selection.Find.Execute Replace:=wdReplaceAll
                     <br />Next <br />End Sub
                     <br />
-                    <hr />
+                    
                   </div>
                   <div class="col">
                     Sub thaitoarabic()
@@ -277,7 +351,7 @@
                 <br />
               </p>
               <h5>
-                - การใช้คำสั่ง Selection หรือการเลือก แบบต่างๆ
+                1.6.2 การใช้คำสั่ง Selection หรือการเลือก แบบต่างๆ
                 บนเอกสารโปรแกรมไมโครซอฟต์เวิร์ด
               </h5>
 
@@ -312,7 +386,7 @@
               <br />
               <br />
 
-              <h5>- การใส่ Style ให้กับหัวเรื่อง (Heading)</h5>
+              <h5>1.6.3 การใส่ Style ให้กับหัวเรื่อง (Heading)</h5>
               <p>
                 เมื่อเราใส่ Style ให้กับหัวเรื่องแล้ว
                 โปรแกรมจะรู้ว่าเป็นหัวข้อของข้อความที่เราต้องการ
@@ -346,7 +420,7 @@
               <br />
               <br />
               <h5>
-                - การบันทึกข้อมูลแบบอัตโนมัติ (Auto Save)
+                1.6.4 การบันทึกข้อมูลแบบอัตโนมัติ (Auto Save)
                 ในโปรแกรมไมโครซอฟต์เวิร์ด
               </h5>
               <p>
@@ -363,7 +437,7 @@
               </div>
               <br />
               <br />
-              <h5>- ภาพหน้าจอ (Screen shot)</h5>
+              <h5>1.6.5 ภาพหน้าจอ (Screen shot)</h5>
               <p>
                 เป็นการทำการตัดภาพบนหน้าจอมาแทรกรูปภาพนั้นบนเอกสาร โดยเลือก แทรก
                 > ภาพหน้าจอ > การคลิปหน้าจอ > จากนั้น Capture
@@ -376,7 +450,7 @@
               </div>
               <br />
               <br />
-              <h5>- การแทรกตาราง</h5>
+              <h5>1.6.6 การแทรกตาราง</h5>
               <p style="text-indent: 2.5em;">
                 ขั้นตอนการแทรกตาราง มีดังนี้ เลือกเมนูแทรก > ตาราง >
                 เลือกขนาดของตาราง /p>
@@ -386,7 +460,7 @@
               </p>
               <p style="text-indent: 5em;">- แนวนอน = โรล (row) หรือ แถว</p>
               <br />
-              <h5>- การแปลงตัวเลขให้เป็นข้อความจำนวนเงินด้วย baht text</h5>
+              <h5>1.6.7 การแปลงตัวเลขให้เป็นข้อความจำนวนเงินด้วย baht text</h5>
               <p style="text-indent: 2.5em;">
                 เป็นเทคนิคการแสดงตัวเลขจำนวนเงินให้เป็นข้อความ ซึ่งมีวิธีดังนี้
               </p>
@@ -404,7 +478,7 @@
               </p>
               <br />
               <br />
-              <h5>- แก้ไขระยะห่างระหว่างบรรทัด</h5>
+              <h5>1.6.8 แก้ไขระยะห่างระหว่างบรรทัด</h5>
               <p style="text-indent: 2.5em;"></p>
               <p style="text-indent: 2.5em;">
                 วิธีลัด : เมื่อต้องการแก้ไขระยะห่างระหว่างบรรทัด
@@ -420,7 +494,6 @@
                 <img src="/img/lesson1/14.png" width="30%" />
               </div>
               <br />
-              
 
               <br />
               <br />
@@ -428,6 +501,7 @@
               <br />
               <!-- -------------------------------- -->
               <div class="container">
+
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson1_1" title="Lesson1_1 Page">
@@ -445,6 +519,23 @@
                       </div>
                     </router-link>
                   </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
+                  </div>
+
                   <div class="col-auto">
                     <router-link to="/lesson1_3" title="Lesson1_3 Page">
                       <div class="btn-wrapper">
@@ -464,13 +555,14 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 2/4</div>
+               <div class="text-center mt-5">Page 2/4</div>
             </div>
           </div>
         </div>
       </section>
+      
 
-      <hr />
+      
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">

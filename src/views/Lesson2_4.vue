@@ -25,7 +25,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               
-              <h5 style="text-indent: 2.5em;">8.5 การลบข้อมูล (Delete)</h5>
+              <h5 style="text-indent: 2.5em;">2.8.5 การลบข้อมูล (Delete)</h5>
               <p style="text-indent: 5em;">
                 1) การลบข้อมูลใน Cell หรือ กลุ่ม Cell
               </p>
@@ -40,17 +40,17 @@
                 1.1 โดยเลือกได้ 4 กรณี
               </p>
               <p style="text-indent: 8em;">
-                O เลื่อนเซลล์ไปทางซ้าย ข้อมูลเดิมจะเลื่อนไปยัง Cell
+                - เลื่อนเซลล์ไปทางซ้าย ข้อมูลเดิมจะเลื่อนไปยัง Cell
                 ถัดไปที่อยู่ด้านซ้ายมือ
               </p>
               <p style="text-indent: 8em;">
-                O เลื่อนเซลล์ขึ้น ข้อมูลเดิมจะเลื่อนไปอยู่ด้านบนของ Cell เดิม
+                - เลื่อนเซลล์ขึ้น ข้อมูลเดิมจะเลื่อนไปอยู่ด้านบนของ Cell เดิม
               </p>
               <p style="text-indent: 8em;">
-                O ทั้งแถว ข้อมูลเดิมทั้งแถวจะถูกลบ
+                - ทั้งแถว ข้อมูลเดิมทั้งแถวจะถูกลบ
               </p>
               <p style="text-indent: 8em;">
-                O ทั้งคอลัมน์ ข้อมูลเดิมทั้งคอลัมน์จะถูกลบ
+                - ทั้งคอลัมน์ ข้อมูลเดิมทั้งคอลัมน์จะถูกลบ
               </p>
               <div class="text-center" style="font-style:italic">
                 <img src="/img/lesson2/65.png" width="40%" />
@@ -129,7 +129,7 @@
                 <p><br />รูปที่ 70 การเลือกข้อมูลทั้งสมุดงาน</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">8.6 การลบข้อมูล (Delete)</h5>
+              <h5 style="text-indent: 2.5em;">2.8.6 การลบข้อมูล (Delete)</h5>
               <p style="text-indent: 5em;">
                 1) นำเมาส์ชี้ที่รอยต่อระหว่างชื่อคอลัมน์
                 ให้ปรากฏเครื่องหมายลูกศร
@@ -150,7 +150,7 @@
                 <p><br />รูปที่ 72 ตัวอย่างผลการขยายความกว้างคอลัมน์</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">8.7 การปรับความกว้างของแถว</h5>
+              <h5 style="text-indent: 2.5em;">2.8.7 การปรับความกว้างของแถว</h5>
               <p style="text-indent: 5em;">
                 1) นำเมาส์ชี้ที่รอยต่อระหว่างชื่อคอลัมน์
                 ให้ปรากฏเครื่องหมายลูกศร
@@ -170,7 +170,7 @@
                 <p><br />รูปที่ 74 ตัวอย่างผลการขยายความกว้างแถว</p>
               </div>
               <br />
-              <h4>9. การตกแต่งสมุดงาน</h4>
+              <h4>2.9 การตกแต่งสมุดงาน</h4>
               <p style="text-indent: 2.5em;">
                 เมื่อป้อนข้อมูลในสมุดงาน การปรับแต่งให้ข้อมูลมีรูปแบบที่เหมาะสม
                 จะช่วยให้ง่ายต่อการแสดงข้อมูล หรือไปใช้งานได้ง่ายยิ่งขึ้น
@@ -179,7 +179,7 @@
                 เข้ามาช่วยจัดรูปแบบ ขั้นตอนการตกแต่งสมุดงาน ดังนี้
               </p>
               <h5 style="text-indent: 2.5em;">
-                9.1 การกำหนดรูปแบบการแสดงผลข้อมูล
+                2.9.1 การกำหนดรูปแบบการแสดงผลข้อมูล
               </h5>
               <p style="text-indent: 5em;">
                 โดยปกติรูปแบบ ขนาด ลักษณะตัวอักษร จะปรากฏในหน้าแรกของโปรแกรม
@@ -248,7 +248,7 @@
                 <p><br />รูปที่ 80 การจัดรูปแบบเส้นขอบตาราง</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">9.3 การแทรก SmartArt , Shapes</h5>
+              <h5 style="text-indent: 2.5em;">2.9.2 การแทรก SmartArt , Shapes</h5>
               <p style="text-indent: 5em;">
                 สมุดงานสามารถแทรกรูปภาพ เช่น รูปถ่าย รูปภาพที่อยู่เว็บไซต์
                 เป็นต้น เข้ามาในสมุดขั้นตอนดังนี้
@@ -282,7 +282,7 @@
                 <p><br />รูปที่ 82 แถบเครื่องมือสำหรับตกแต่งรูปภาพบนสมุดงาน</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">9.3 การแทรก SmartArt , Shapes</h5>
+              <h5 style="text-indent: 2.5em;">2.9.3 การแทรก SmartArt , Shapes</h5>
               <div class="text-center" style="font-style:italic">
                 <img src="/img/lesson2/83.png" width="60%" />
                 <p><br />รูปที่ 83 ตัวอย่าง Smart Art</p>
@@ -311,7 +311,7 @@
               </p>
               <br />
               <h5 style="text-indent: 2.5em;">
-                9.4 การใส่เส้นตารางและการแรเงาพื้นหลังตาราง
+                2.9.4 การใส่เส้นตารางและการแรเงาพื้นหลังตาราง
               </h5>
               <p style="text-indent: 5em;">
                 การใช้เส้นตารางและการแรเงาพื้นหลังตารางจะช่วยดูข้อมูลได้ง่ายและสะดวก
@@ -372,6 +372,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_5" title="Lesson2_5 Page">

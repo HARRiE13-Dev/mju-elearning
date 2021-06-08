@@ -20,7 +20,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Presentations
+                3. Presentations
               </h1>
               <p class="lead text-white mt-4">
                 การนำเสนอ (presentation)
@@ -56,10 +56,10 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h2 class="display-3 text-center">
-                การใช้โปรแกรมนำเสนองานอย่างมีประสิทธิภาพ
+                3. การใช้โปรแกรมนำเสนองานอย่างมีประสิทธิภาพ
               </h2>
               <br /><br />
-              <h4>1. ความหมายและความสำคัญของการนำเสนอ</h4>
+              <h4>3.1 ความหมายและความสำคัญของการนำเสนอ</h4>
               <p class="rem2">
                 การนำเสนอ (presentation)
                 หมายถึงการนำข้อมูลเรื่องใดเรื่องหนึ่งไปนำเสนอต่อผู้ฟังให้เข้าใจ
@@ -71,7 +71,7 @@
                 การสร้างงานนำเสนอเพื่อให้มีความน่าสนใจและเข้าใจได้ง่ายจึงเป็นสิ่งสำคัญ
               </p>
               <br />
-              <h4>2. หลักการนำเสนองานอย่างมีประสิทธิภาพ</h4>
+              <h4>3.2 หลักการนำเสนองานอย่างมีประสิทธิภาพ</h4>
               <p class="rem2">
                 การนำเสนอที่ดีและมีประสิทธิภาพนั้น
                 นอกจากการเลือกรูปแบบของการนำเสนอให้ถูกต้องและเหมาะสมแล้ว
@@ -119,7 +119,7 @@
               </p>
               <br />
 
-              <h4>3. โปรแกรมคอมพิวเตอร์สำหรับการนำเสนองาน</h4>
+              <h4>3.3 โปรแกรมคอมพิวเตอร์สำหรับการนำเสนองาน</h4>
               <p class="rem2">
                 ปัจจุบันมีโปรแกรมคอมพิวเตอร์หลายโปรแกรมที่พัฒนาขึ้นมาเพื่อใช้สำหรับการนำเสนอให้น่าสนใจ
                 ทำให้ผู้นำเสนอสามารถนำเสนอได้ทั้งตัวอักษร
@@ -209,7 +209,7 @@
               </p>
               <br />
               <h4>
-                4. การใช้งาน Microsoft Power Point
+                3.4 การใช้งาน Microsoft Power Point
                 ในการนำเสนองานอย่างมีประสิทธิภาพ
               </h4>
               <p class="rem2">
@@ -234,7 +234,7 @@
                 graphs)
               </p>
               <br />
-              <h5 class="rem2">4.1 การใช้ธีมที่เหมาะสม (use suitable theme)</h5>
+              <h5 class="rem2">3.4.1 การใช้ธีมที่เหมาะสม (use suitable theme)</h5>
               <p class="rem5">
                 การทำสไลด์นำเสนอให้มีประสิทธิภาพนั้น
                 ควรให้มีความเรียบง่ายมากที่สุดและรูปแบบการนำเสนอควรดูสบายตา
@@ -254,7 +254,7 @@
                 ที่มีให้ในโปรแกรม
                 หรือสร้างขึ้นใช้เองโดยเฉพาะเพื่อให้เป็นเอกลักษณ์และไม่ซ้ำกับของคนอื่น
               </p>
-              <h6 class="rem2">4.1.1 การใช้สไลด์ต้นแบบ (Template)</h6>
+              <h6 class="rem2">3.4.1.1 การใช้สไลด์ต้นแบบ (Template)</h6>
               <p class="rem5">
                 การสร้างงานนำเสนอใหม่ด้วย Microsoft PowerPoint
                 สามารถเริ่มต้นโดยการใช้สไลด์ต้นแบบ (Template) และชุดของสี
@@ -280,7 +280,7 @@
                 </p>
               </div>
               <br />
-              <h6 class="rem2">4.1.2 การสร้าง Theme ใหม่</h6>
+              <h6 class="rem2">3.4.1.2 การสร้าง Theme ใหม่</h6>
               <p class="rem5">
                 ผู้ใช้สามารถสร้าง Theme ของตัวเองได้ หาก Theme
                 สำเร็จรูปที่มีอยู่ไม่ตรงกับความต้องการ โดยเริ่มจาก File ---> New
@@ -316,7 +316,7 @@
               </p>
               <br />
               <h6 class="rem2">
-                4.1.3 การใช้ Slide Master เพื่อสร้างต้นแบบสไลด์
+                3.4.1.3 การใช้ Slide Master เพื่อสร้างต้นแบบสไลด์
               </h6>
               <p class="rem5">
                 การสร้าง presentation
@@ -431,6 +431,22 @@
                         >Previous</base-button
                       >
                     </div>
+                    <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
+                  </div>
                     </router-link>
                   </div>
                   <div class="col-auto">

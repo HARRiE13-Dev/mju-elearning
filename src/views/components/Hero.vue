@@ -12,7 +12,8 @@
                     <div class="col-lg-7 text-center pt-lg">
                         <img src="img/brand/logo.png" style="width: 800px;" class="img-fluid">
                         <p class="lead text-white mt-1 mb-5"></p>
-                        <div class="btn-wrapper">
+
+                        <div class="btn-wrapper fontx">
                             <base-button tag="a"
                                          href="https://www.mju.ac.th/etesting/RegisterICTCOVID.html"
                                          
@@ -20,13 +21,26 @@
                                          rel="noopener noreferrer"
 
                                          class="mb-3 mb-sm-0"
-                                         outline type="info"
+                                         type="info"
+                                         icon="fa fa-book">
+                                บทเรียน
+                            </base-button>
+                            <base-button tag="a"
+                                         href="https://www.mju.ac.th/etesting/RegisterICTCOVID.html"
+                                         
+                                         target="_blank" 
+                                         rel="noopener noreferrer"
+
+                                         class="mb-3 mb-sm-0"
+                                         type="white"
                                          icon="fa fa-sign-in">
-                                Enroll Me
+                                สมัครสอบ
                             </base-button>
                             
                            
                         </div>
+                        
+
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-around stars-and-coded">
@@ -37,7 +51,10 @@
     
 </template>
 <script>
-export default {};
+export default {
+
+    
+};
 </script>
 <style>
 </style>

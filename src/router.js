@@ -53,6 +53,8 @@ import Lesson9_6 from "./views/Lesson9_6.vue";
 import Lesson9_7 from "./views/Lesson9_7.vue";
 import Lesson9_8 from "./views/Lesson9_8.vue";
 
+import Regulations from "./views/Regulations.vue";
+
 
 Vue.use(Router);
 
@@ -408,7 +410,16 @@ export default new Router({
         header: AppHeader,
         default: Lesson9_8,
         footer: AppFooter
-      }
+      }  
+    },
+    {
+      path: "/regulations",
+      name: "regulations",
+      components: {
+        header: AppHeader,
+        default: Regulations,
+        footer: AppFooter
+      }  
     }
   ],
   scrollBehavior: to => {

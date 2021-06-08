@@ -27,15 +27,15 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Courses</span>
                     </a>
-                    <router-link to="/lesson1_1" class="dropdown-item">Documentation </router-link>
-                    <router-link to="/lesson2_1" class="dropdown-item">Microsoft Excel</router-link>
-                    <router-link to="/lesson3_1" class="dropdown-item">Presentation</router-link>
-                    <router-link to="/lesson4_1" class="dropdown-item">Digital Disruption</router-link>
-                    <router-link to="/lesson5_1" class="dropdown-item">Data Searching</router-link>
-                    <router-link to="/lesson6_1" class="dropdown-item">Social Media</router-link>
-                    <router-link to="/lesson7_1" class="dropdown-item">Storage and Interface</router-link>
-                    <router-link to="/lesson8_1" class="dropdown-item">Security System</router-link>
-                    <router-link to="/lesson9_1" class="dropdown-item">Technology Trending</router-link>
+                    <router-link to="/lesson1_1" class="dropdown-item">1. Documentation </router-link>
+                    <router-link to="/lesson2_1" class="dropdown-item">2. Microsoft Excel</router-link>
+                    <router-link to="/lesson3_1" class="dropdown-item">3. Presentation</router-link>
+                    <router-link to="/lesson4_1" class="dropdown-item">4. Digital Disruption</router-link>
+                    <router-link to="/lesson5_1" class="dropdown-item">5. Data Searching</router-link>
+                    <router-link to="/lesson6_1" class="dropdown-item">6. Social Media</router-link>
+                    <router-link to="/lesson7_1" class="dropdown-item">7. Storage and Interface</router-link>
+                    <router-link to="/lesson8_1" class="dropdown-item">8. Security System</router-link>
+                    <router-link to="/lesson9_1" class="dropdown-item">9. Technology Trending</router-link>
                     
                 </base-dropdown>
                     <a slot="title" href="https://www.mju.ac.th/th/About-MJU.html" class="nav-link" data-toggle="dropdown" role="button">

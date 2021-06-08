@@ -20,7 +20,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Storage and Interface
+                7. Storage and Interface
               </h1>
               <p class="lead text-white mt-4">
                 การทำงานในยุกต์ดิจิทัลนั้นคงหลีกเลี่ยงไม่ได้ที่จะต้องทำงานกับข้อมูล
@@ -55,7 +55,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h2 class="display-3 text-center">
-                การบันทึก ส่งออก และนำเข้าข้อมูล
+                7. การบันทึก ส่งออก และนำเข้าข้อมูล
               </h2>
               <br /><br />
               <p class="rem2">
@@ -363,6 +363,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson7_2" title="Lesson7_2 Page">

@@ -25,7 +25,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h5 class="rem2">
-                4.7 การทำอินโฟกราฟิกด้วยโปรแกรม Microsoft PowerPoint
+                3.4.7 การทำอินโฟกราฟิกด้วยโปรแกรม Microsoft PowerPoint
               </h5>
               <p class="rem2">
                 Infographic ย่อมาจากคำว่า Information Graphic หมายถึง
@@ -301,6 +301,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                       <router-link to="/lesson4_1" title="Lesson4_1 Page">

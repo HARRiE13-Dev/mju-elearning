@@ -128,7 +128,7 @@
                 ผู้ใช้งานไม่ต้องกลับมาแก้ไขสูตรคำนวณใหม่
               </p>
               <h5 style="text-indent: 2.5em;">
-                10.3 ตัวอย่างการใช้สูตรคำนวณ
+                2.10.3 ตัวอย่างการใช้สูตรคำนวณ
               </h5>
               <p style="text-indent: 5em; ">
                 จากรูปที่ 94 จะแสดงตัวอย่างการคำนวณโดยการใช้สูตร ได้แก่
@@ -137,7 +137,7 @@
                 ตามลำดับดังนี้
               </p>
               <h6 style="text-indent: 5em;">
-                10.3.1 ตัวอย่าง คำนวณค่าล่วงเวลา
+                2.10.3.1 ตัวอย่าง คำนวณค่าล่วงเวลา
               </h6>
               <br />
               <p style="text-indent: 5em;">เงื่อนไขคำนวณค่าล่วงเวลา</p>
@@ -191,7 +191,7 @@
               </div>
               <br />
               <h6 style="text-indent: 5em;">
-                10.3.2 ตัวอย่างการคำนวณประกันสังคม
+                2.10.3.2 ตัวอย่างการคำนวณประกันสังคม
               </h6>
               <br />
               <p style="text-indent: 5em;">เงื่อนไขคำนวณประกันสังคม</p>
@@ -223,7 +223,7 @@
               </div>
               <br />
               <h6 style="text-indent: 5em;">
-                10.3.3 ตัวอย่างการคำนวณภาษีเงินได้
+                2.10.3.3 ตัวอย่างการคำนวณภาษีเงินได้
               </h6>
               <br />
               <p style="text-indent: 5em;">เงื่อนไขคำนวณภาษีเงินได้</p>
@@ -255,7 +255,7 @@
               </div>
               <br />
               <h6 style="text-indent: 5em;">
-                10.3.4 ตัวอย่างการคำนวณรายรับสุทธิ
+                2.10.3.4 ตัวอย่างการคำนวณรายรับสุทธิ
               </h6>
               <br />
               <p style="text-indent: 5em;">เงื่อนไขคำนวณภาษีเงินได้</p>
@@ -290,7 +290,7 @@
                 <p><br />รูปที่ 98 ผลลัพธ์ที่ได้จากการคำนวณรายรับสุทธิ</p>
               </div>
               <br />
-              <h4>11. การคำนวณโดยการใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function)</h4>
+              <h4>2.11 การคำนวณโดยการใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function)</h4>
               <p style="text-indent: 2.5em;">
                 การคำนวณโดยการป้อนสูตรคำนวณในหัวข้อที่ 10 โปรแกรม Excel
                 ยังมีวิธีการคำนวณที่ใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function) คือ
@@ -310,7 +310,7 @@
               </div>
               <br />
               <h5 style="text-indent: 2.5em;">
-                11.1 ส่วนประกอบของฟังก์ชัน
+                2.11.1 ส่วนประกอบของฟังก์ชัน
               </h5>
               <br />
               <div class="text-center" style="font-style:italic">
@@ -368,7 +368,7 @@
               <p style="text-indent: 5em;">3. argument (E3:E15)</p>
 
               <h5 style="text-indent: 2.5em;">
-                11.2 อาร์กิวเมนต์ (Argument)
+                2.11.2 อาร์กิวเมนต์ (Argument)
               </h5>
               <p style="text-indent: 5em;">
                 อาร์กิวเมนต์ (Argument) คือ
@@ -395,11 +395,11 @@
               <br />
 
               <h5 style="text-indent: 2.5em;">
-                11.3 ฟังก์ชันสำคัญ
+                2.11.3 ฟังก์ชันสำคัญ
               </h5>
               <br />
               <table class="table">
-                <thead class="thead-dark text-center">
+                <thead class="thead-light text-center">
                   <tr>
                     <th scope="col">ฟังก์ชัน</th>
                     <th scope="col">รูปแบบการใช้งาน</th>
@@ -455,6 +455,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                       <router-link to="/lesson2_7" title="Lesson2_7 Page">

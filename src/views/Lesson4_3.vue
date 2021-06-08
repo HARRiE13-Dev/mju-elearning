@@ -25,7 +25,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <h4 class="rem2">
-                3.4 การจัดการเรื่องความเป็นส่วนตัว (Privacy management)
+                4.3.4 การจัดการเรื่องความเป็นส่วนตัว (Privacy management)
               </h4>
               <p class="rem5">
                 ความสามารถใช้ดุลยพินิจในการแชร์ข้อมูลของตนเองและผู้อื่นโดยคำนึงถึงความเป็นส่วนตัว
@@ -45,7 +45,7 @@
               </p>
               <br />
               <h4 class="rem2">
-                3.5 การคิดวิเคราะห์อย่างมีวิจารณญาณ (Critical Thinking)
+                4.3.5 การคิดวิเคราะห์อย่างมีวิจารณญาณ (Critical Thinking)
               </h4>
               <p class="rem5">
                 ความสามารถในการวิเคราะห์แยกแยะระหว่างข้อมูลที่ถูกต้องและข้อมูลที่ผิด
@@ -156,7 +156,7 @@
               </p>
               <br />
               <h4 class="rem2">
-                3.6 การบริหารจัดการข้อมูลที่ผู้ใช้งานมีการทิ้งไว้บนโลกออนไลน์
+                4.3.6 การบริหารจัดการข้อมูลที่ผู้ใช้งานมีการทิ้งไว้บนโลกออนไลน์
                 (Digital footprint)
               </h4>
               <p class="rem5">
@@ -399,6 +399,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                       <router-link to="/lesson5_1" title="Lesson5_1 Page">

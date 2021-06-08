@@ -17,7 +17,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Documentation Services
+               1. Documents Service
               </h1>
               <p class="lead text-white mt-4">
                 โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word)
@@ -47,10 +47,10 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <h2 class="display-3 text-center">
-                โปรแกรมทำเอกสารด้วย Microsoft Word
+                1. โปรแกรมทำเอกสารด้วย Microsoft Word (2010)
               </h2>
               <br />
-              <p class="lead mt-3" style="text-indent: 2.5em;">
+              <p class="rem2">
                 โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word)
                 หรือโปรแกรมจัดการด้านเอกสาร
                 เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน
@@ -115,7 +115,7 @@
               </table>
               <br />
               <h4>
-                #ขั้นตอนการเข้าโปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word 2010)
+                1.1 ขั้นตอนการเข้าโปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word 2010)
               </h4>
               <div class="container text-black mt-3">
                 <div class="row">
@@ -144,7 +144,7 @@
 
               <br />
               <br />
-              <h4>#ส่วนประกอบของหน้าจอหลักโปรแกรมไมโครซอฟต์เวิร์ด</h4>
+              <h4>1.2 ส่วนประกอบของหน้าจอหลักโปรแกรมไมโครซอฟต์เวิร์ด</h4>
               <div class="text-center">
                 <img src="/img/lesson1/4.png" width="100%" />
               </div>
@@ -237,7 +237,7 @@
               จำนวนหน้า จำนวนคำ และภาษาที่ใช้พิมพ์
 
               <br /><br />
-              <h4>#การจัดการแฟ้มเอกสารในโปรแกรมไมโครซอฟต์เวิร์ด</h4>
+              <h4>1.3 การจัดการแฟ้มเอกสารในโปรแกรมไมโครซอฟต์เวิร์ด</h4>
 
               <p>- การสร้างแฟ้มเอกสารใหม่ ต้องดำเนินการได้หลายวิธี ได้แก่</p>
               <p style="text-indent: 5em;">
@@ -271,7 +271,7 @@
                 - สั่งพิมพ์แบบเรียงหน้า 1-5, 10-14, 20-23
               </p>
               <br />
-              <h4>#การจัดการข้อความ</h4>
+              <h4>1.4 การจัดการข้อความ</h4>
               <p class="text-black mt-3">
                 ข้อความทั้งหมดในเอกสารสามารถจัดการปรับแต่ง
                 เพิ่มเติมข้อความได้โดยการลากเมาส์คลุมข้อความที่ต้องการปรับแต่ง
@@ -306,8 +306,22 @@
               <div class="container">
                 <div class="row">
                   <!-- Previous buttom -->
-                  <div class="col-auto mr-auto">
-                    
+                  <div class="col-auto mr-auto"></div>
+                   <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <!-- next buttom -->
                   <div class="col-auto">
@@ -329,12 +343,12 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 1/4</div>
+               <div class="text-center mt-5">Page 1/4</div>
             </div>
           </div>
         </div>
       </section>
-
+  
       <!-- Author -->
       <hr />
       <div class="col-lg-center">
@@ -357,10 +371,13 @@
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 export default {
+  
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
   },
+  
 };
+
 </script>

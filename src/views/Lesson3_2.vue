@@ -25,7 +25,7 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               
-              <h5 class="rem2">4.2 การใส่เนื้อหาให้เหมาะสมบนแต่ละสไลด์</h5>
+              <h5 class="rem2">3.4.2 การใส่เนื้อหาให้เหมาะสมบนแต่ละสไลด์</h5>
               <p class="rem5">
                 เนื้อหาเป็นหัวใจสำคัญของการนำเสนอ
                 แต่ผู้นำเสนอไม่จำเป็นต้องใส่เนื้อหาทุกอย่างลงไปในสไลด์
@@ -68,7 +68,7 @@
               </div>
               <br />
               <h5 class="rem2">
-                4.3 การเลือกใช้ฟอนต์ให้เหมาะสม (choose appropriate fonts)
+                3.4.3 การเลือกใช้ฟอนต์ให้เหมาะสม (choose appropriate fonts)
               </h5>
               <p class="rem2">
                 ฟอนต์ถือเป็นสิ่งสำคัญรองลงมาจากการใช้สีพื้นหลัง
@@ -119,7 +119,7 @@
               </div>
               <br />
               <h5 class="rem2">
-                4.4 แผนภูมิหรือกราฟที่ใช้ประกอบการนำเสนอต้องต้องมีความถูกต้อง
+                3.4.4 แผนภูมิหรือกราฟที่ใช้ประกอบการนำเสนอต้องต้องมีความถูกต้อง
                 และตรงประเด็น (use accurate and relevant charts and graphs)
               </h5>
               <p class="rem5">
@@ -180,7 +180,7 @@
                 </p>
               </div>
               <h5 class="rem2">
-                4.5 การใช้ภาพหรือกราฟิกที่มีคุณภาพประกอบการนำเสนอ (use
+                3.4.5 การใช้ภาพหรือกราฟิกที่มีคุณภาพประกอบการนำเสนอ (use
                 high-quality photos and graphics)
               </h5>
               <p class="rem2">
@@ -340,7 +340,7 @@
                 </p>
               </div>
               <br />
-              <h5 class="rem2">4.6 การใส่วิดีโอเข้าไปในการนำเสนอ</h5>
+              <h5 class="rem2">3.4.6 การใส่วิดีโอเข้าไปในการนำเสนอ</h5>
               <p class="rem2 ">
                 การนำเสนอข้อมูลหรือไอเดียใหม่ๆ
                 การนำเสนอด้วยมุมมองที่แตกต่างจะช่วยให้มีความน่าสนใจมากขึ้น เช่น
@@ -380,6 +380,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson3_3" title="Lesson3_3 Page">

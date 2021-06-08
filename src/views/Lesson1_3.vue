@@ -25,12 +25,11 @@
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
 
-              <h4 class="text-center">
-                การจัดการข้อมูลและเอกสารแบบออนไลน์ด้วย
-              </h4>
-              <h4 class="text-center">
-                กูเกิลเอกสาร (Google Docs) และกูเกิลฟอร์ม (Google Form)
-              </h4>
+              <h2 class="display-3 text-center">
+                การจัดการข้อมูลและเอกสาร<br>
+               แบบออนไลน์ด้วย Google Docs & Google Form
+              </h2>
+              
               <br />
               <p style="text-indent: 2.5em;">
                 จากการพัฒนาของระบบอินเตอร์เน็ตที่เป็นไปอย่างก้าวกระโดดจึงทำให้ในปัจจุบันเทคโนโลยีดิจิทัลได้เข้ามามีบทบาทสำคัญในวิถีชีวิตของคนทั้งโลก
@@ -310,6 +309,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson1_4" title="Lesson1_4 Page">

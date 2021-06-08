@@ -24,7 +24,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              <h4>6. การบันทึกข้อมูล</h4>
+              <h4>2.6 การบันทึกข้อมูล</h4>
               <p style="text-indent: 2.5em;">
                 เมื่อผู้ใช้งานป้อนข้อมูลลงบนแผ่นงานเสร็จเรียบร้อยแล้ว
                 ต้องทำการบันทึกข้อมูลไว้ในรูปแบบของไฟล์ข้อมูล
@@ -36,17 +36,17 @@
               <p style="text-indent: 2.5em;">6.2 คลิกเลือก คำสั่ง File</p>
               <p style="text-indent: 2.5em;">6.3 คลิกเลือกคำสั่ง Save</p>
               <p style="text-indent: 2.5em;">
-                6.4 เลือกที่เก็บข้อมูล เช่น Drive E หรือ Folder
+                2.6.4 เลือกที่เก็บข้อมูล เช่น Drive E หรือ Folder
               </p>
               <p style="text-indent: 2.5em;">
-                6.5 ตั้งชื่อไฟล์ข้อมูล เช่น เงินเดือนพนักงาน เป็นต้น
+                2.6.5 ตั้งชื่อไฟล์ข้อมูล เช่น เงินเดือนพนักงาน เป็นต้น
               </p>
               <p style="text-indent: 2.5em;">
-                6.6 เลือกชนิดของไฟล์ข้อมูลที่ต้องการบันทึก ซึ่งโดยปกติ Excel
+                2.6.6 เลือกชนิดของไฟล์ข้อมูลที่ต้องการบันทึก ซึ่งโดยปกติ Excel
                 จะเลือกเป็น Excel Workbook
               </p>
               <p style="text-indent: 2.5em;">
-                6.7 คลิกที่ปุ่ม Save หรือ บันทึก
+                2.6.7 คลิกที่ปุ่ม Save หรือ บันทึก
               </p>
               <br />
 
@@ -85,18 +85,18 @@
                 จากรูปที่ 44 ไฟล์ข้อมูลจะปรากฏสัญลักษณ์โปรแกรม Excel ชื่อไฟล์
                 วันที่ เวลาบันทึก ชนิดไฟล์ และขนาดของไฟล์
               </p>
-              <h4>7. การเปิดใช้งานไฟล์ข้อมูล</h4>
+              <h4>2.7 การเปิดใช้งานไฟล์ข้อมูล</h4>
               <p style="text-indent: 2.5em;">
                 ไฟล์ Excel ที่ถูกบันทึก
                 ผู้ใช้งานสามารถเปิดไฟล์เพื่อใช้งานโดยมีขั้นตอน ดังนี้
               </p>
-              <p style="text-indent: 2.5em;">7.1 ไปที่แถบรายการคำสั่ง</p>
-              <p style="text-indent: 2.5em;">7.2 คลิกเลือก คำสั่ง Open</p>
+              <p style="text-indent: 2.5em;">2.7.1 ไปที่แถบรายการคำสั่ง</p>
+              <p style="text-indent: 2.5em;">2.7.2 คลิกเลือก คำสั่ง Open</p>
               <p style="text-indent: 2.5em;">
-                7.3 เลือก Drive หรือ folder ที่เคยใช้เป็นที่เก็บไฟล์ข้อมูล
+                2.7.3 เลือก Drive หรือ folder ที่เคยใช้เป็นที่เก็บไฟล์ข้อมูล
               </p>
-              <p style="text-indent: 2.5em;">7.4 คลิกเลือกไฟล์ที่ต้องการเปิด</p>
-              <p style="text-indent: 2.5em;">7.5 คลิกที่ปุ่ม Open หรือ เปิด</p>
+              <p style="text-indent: 2.5em;">2.7.4 คลิกเลือกไฟล์ที่ต้องการเปิด</p>
+              <p style="text-indent: 2.5em;">2.7.5 คลิกที่ปุ่ม Open หรือ เปิด</p>
               <br />
               <div class="text-center" style="font-style:italic">
                 <img src="/img/lesson2/p45.png" width="80%" />
@@ -108,14 +108,14 @@
                 <p><br />รูปที่ 46 ตัวอย่างข้อมูลที่ได้จากการเปิดไฟล์ Excel</p>
               </div>
               <br />
-              <h4>8. การทำงานร่วมกับกลุ่ม Cell</h4>
+              <h4>2.8 การทำงานร่วมกับกลุ่ม Cell</h4>
               <p style="text-indent: 2.5em;">
                 การใช้งานสมุดงานที่ประกอบด้วยข้อมูลจำนวนมาก
                 วิธีการเลือกเซลล์ที่ถูกวิธีจะช่วยให้ทำงานได้รวดเร็วยิ่งขึ้น
                 การทำงานร่วมกับกลุ่มเซลล์มีขั้นตอน ดังนี้
               </p>
               <h5 style="text-indent: 2.5em;">
-                8.1 การเลือก Cell หรือกลุ่ม Cell
+                2.8.1 การเลือก Cell หรือกลุ่ม Cell
               </h5>
               <p style="text-indent: 5em;">
                 1) เลือก Cell 1 Cell - ใช้เมาส์คลิกเลือก Cell
@@ -163,7 +163,7 @@
                 </p>
               </div>
               <br><br>
-              <h5 style="text-indent: 2.5em;">8.2 การย้ายข้อมูล (Move)</h5>
+              <h5 style="text-indent: 2.5em;">2.8.2 การย้ายข้อมูล (Move)</h5>
               <p style="text-indent: 2.5em;">
                 การย้ายข้อมูลใน Cell มีขั้นตอนการย้ายได้ 2 วิธี คือ
               </p>
@@ -208,7 +208,7 @@
                 <p><br />รูปที่ 54 การย้ายข้อมูลใน Cell D6</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">8.3 การคัดลอกข้อมูล (Copy)</h5>
+              <h5 style="text-indent: 2.5em;">2.8.3 การคัดลอกข้อมูล (Copy)</h5>
               <p style="text-indent: 5em;">
                 การป้อนข้อมูลที่ข้อมูลซ้ำ ๆ กัน
                 สามารถใช้คำสั่งคัดลอกข้อมูลเพื่อให้เกิดความรวดเร็วยิ่งขึ้น
@@ -268,7 +268,7 @@
                 <p><br />รูปที่ 57 การคัดลอกข้อมูลในกลุ่ม Cell B4:D5</p>
               </div>
               <br />
-              <h5 style="text-indent: 2.5em;">8.4 การแทรกข้อมูล (Insert)</h5>
+              <h5 style="text-indent: 2.5em;">2.8.4 การแทรกข้อมูล (Insert)</h5>
               <p style="text-indent: 5em;">
                 การเพิ่มข้อมูลเข้าไปในสมุดงานหรือแผ่นงานในภายหลัง
                 ทำได้โดยการแทรก (Insert) ข้อมูล ซึ่งขั้นตอน ดังนี้
@@ -386,6 +386,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_4" title="Lesson2_4 Page">

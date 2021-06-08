@@ -20,7 +20,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Social Media
+                6. Social Media
               </h1>
               <p class="lead text-white mt-4">
                 สำหรับในยุคนี้ เราคงจะหลีกเลี่ยงหรือหนีคำว่า Social Media
@@ -56,7 +56,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              <h2 class="text-center display-2">SOCIAL MEDIA</h2>
+              <h2 class="text-center display-2">6. SOCIAL MEDIA</h2>
               <br /><br />
               <p class="rem2">
                 สำหรับในยุคนี้ เราคงจะหลีกเลี่ยงหรือหนีคำว่า Social Media
@@ -351,6 +351,22 @@
                       >
                     </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson6_2" title="Lesson6_2 Page">

@@ -473,6 +473,22 @@
                       </div>
                     </router-link>
                   </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
+                  </div>
                   <div class="col-auto">
                       <router-link to="/lesson6_4" title="Lesson6_4 Page">
                     <div class="btn-wrapper">

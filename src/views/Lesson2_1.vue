@@ -20,7 +20,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-                Microsoft Excel
+                2. Microsoft Excel
               </h1>
               <p class="lead text-white mt-4">
                 โปรแกรม Excel เป็นโปรแกรมประเภทตารางคำนวณ หรือ Spreadsheet
@@ -57,12 +57,12 @@
               <!-- -------------------------------- -->
 
               <h2 class="display-3 text-center">
-                โปรแกรม Microsoft Excel
+                2. โปรแกรม Microsoft Excel
                 <br />
                 <br />
               </h2>
               <h4>
-                1. ความรู้เบื้องต้นเกี่ยวกับโปรแกรม Excel
+                2.1 ความรู้เบื้องต้นเกี่ยวกับโปรแกรม Excel
                 <br />
               </h4>
               <p style="text-indent: 2.5em;">
@@ -151,7 +151,7 @@
                 เพื่อนำไปแสดงในโฮมเพจ เป็นต้น
               </p>
               <br />
-              <h4>2. วิธีเปิดใช้งานโปรแกรม Excel</h4>
+              <h4>2.2 วิธีเปิดใช้งานโปรแกรม Excel</h4>
               <p style="text-indent: 2.5em;">
                 การเรียกใช้งานโปรแกรม Excel มีขั้นตอน ดังนี้
               </p>
@@ -162,7 +162,7 @@
               <p style="text-indent: 5em;">2.2 Microsoft Office</p>
               <p style="text-indent: 5em;">2.3 Microsoft Excel</p>
               <br />
-              <h4>3. หน้าจอโปรแกรม Excel</h4>
+              <h4>2.3 หน้าจอโปรแกรม Excel</h4>
               <p style="text-indent: 2.5em;">
                 เมื่อเปิดใช้งานโปรแกรม Excel จะปรากฏหน้าจอของโปรแกรม
                 โดยปรากฏพื้นที่การทำงาน หรือ สมุดงาน (Workbook) ดังรูปที่ 2
@@ -181,7 +181,7 @@
               </p>
               <br />
               <h5 style="text-indent: 2.5em;">
-                3.1 แถบรายการคำสั่ง (Menu Bar) และแถบเครื่องมือ (Tool Bar)
+                2.3.1 แถบรายการคำสั่ง (Menu Bar) และแถบเครื่องมือ (Tool Bar)
               </h5>
               <br />
               <div class="text-center" style="font-style:italic">
@@ -193,7 +193,7 @@
                 จากรูปที่ 3 รายการคำสั่งพื้นฐานของโปรแกรม Excel ที่สำคัญ ดังนี้
               </p>
               <br />
-              <h6 style="text-indent: 5em;">3.1.1 กลุ่มคำสั่ง FILE</h6>
+              <h6 style="text-indent: 5em;">2.3.1.1 กลุ่มคำสั่ง FILE</h6>
               <p style="text-indent: 7.5em;">
                 เป็นกลุ่มคำสั่งจัดการสมุดงาน หรือไฟล์ข้อมูล คำสั่งที่สำคัญ เช่น
                 การสร้างไฟล์ใหม่ (New) การเปิดอ่านไฟล์ (Open) การบันทึกข้อมูล
@@ -206,7 +206,7 @@
                 <p><br />รูปที่ 4 กลุ่มคำสั่ง FILE</p>
               </div>
               <br />
-              <h6 style="text-indent: 5em;">3.1.2 กลุ่มคำสั่ง HOME</h6>
+              <h6 style="text-indent: 5em;">2.3.1.2 กลุ่มคำสั่ง HOME</h6>
               <p style="text-indent: 7.5em;">
                 เป็นกลุ่มคำสั่งเริ่มต้นของโปรแกรม Excel
                 โดยเมื่อเปิดหน้าจอเข้าสู่การใช้งานโปรแกรมจะปรากฏหน้าจอของกลุ่มคำสั่ง
@@ -307,7 +307,7 @@
               </div>
               <br />
 
-              <h6 style="text-indent: 5em;">3.1.3 กลุ่มคำสั่ง INSERT</h6>
+              <h6 style="text-indent: 5em;">2.3.1.3 กลุ่มคำสั่ง INSERT</h6>
               <p style="text-indent: 7.5em;">
                 เป็นกลุ่มคำสั่ง หรือเครื่องมือที่ใช้แทรกวัตถุเข้ามาในสมุดงาน
                 เพื่อจัดรูปแบบข้อมูลให้มีความสมบูรณ์ยิ่งขึ้น
@@ -424,6 +424,22 @@
                       >
                     </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_2" title="Lesson2_2 Page">

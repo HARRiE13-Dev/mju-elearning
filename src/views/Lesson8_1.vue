@@ -17,7 +17,7 @@
         <div class="container py-0 pb-lg">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
-              <h1 class="text-white font-weight-light display-1">Security System</h1>
+              <h1 class="text-white font-weight-light display-1">8. Security Systems</h1>
               <p class="lead text-white mt-4">
                 ในยุคปัจจุบันเป็นโลกแห่งเทคโนโลยีสารสนเทศระบบข้อมูลสารสนเทศหลากหลาย
                 ระบบได้ถูกพัฒนาและนำมาใช้ในการบริหารจัดการองค์กร...
@@ -46,7 +46,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              <h2 class="display-3 text-center">การจัดการข้อมูลและการป้องกันข้อมูลในระบบคอมพิวเตอร์</h2>
+              <h2 class="display-3 text-center">8. การจัดการข้อมูลและการป้องกันข้อมูลในระบบคอมพิวเตอร์</h2>
               <br />
               <br />
               <h4>• การจัดการข้อมูล</h4>
@@ -163,6 +163,22 @@
                         >Previous</base-button>
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson8_2" title="Lesson8_2 Page">

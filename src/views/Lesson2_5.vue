@@ -24,7 +24,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              <h4>10. การคำนวณโดยการใช้สูตร</h4>
+              <h4>2.10 การคำนวณโดยการใช้สูตร</h4>
               <p style="text-indent: 2.5em;">
                 จากเนื้อหาดังกล่าวมาในหัวข้อลำดับ 1-9
                 เป็นการป้อนข้อมูลและการจัดรูปแบบให้เหมาะสมกับข้อมูลที่ต้องการนำเสนอ
@@ -32,7 +32,7 @@
                 แต่หัวใจสำคัญของโปรแกรม Excel คือ การคำนวณ และวิเคราะห์ข้อมูล
               </p>
               <h5 style="text-indent: 2.5em;">
-                10.1 หลักการสำคัญของการป้อนสูตรคำนวณ
+                2.10.1 หลักการสำคัญของการป้อนสูตรคำนวณ
               </h5>
               <p style="text-indent: 5em;">
                 1) ใช้เครื่องหมายเท่ากับ (=) นำหน้าสูตรเสมอ
@@ -52,7 +52,7 @@
                 3) ลำดับการคำนวณจะเกิดขึ้นตามลำดับความสำคัญของเครื่องหมาย ดังนี้
               </p>
               <table class="table">
-                <thead class="thead-dark text-center">
+                <thead class="thead-light text-center">
                   <tr>
                     <th scope="col">ลำดับความสำคัญ</th>
                     <th scope="col">เครื่องหมาย</th>
@@ -224,7 +224,7 @@
               </div>
               <br />
               <h5 style="text-indent: 2.5em;">
-                10.2 วิธีการป้อนสูตรคำนวณ
+                2.10.2 วิธีการป้อนสูตรคำนวณ
               </h5>
               <p style="text-indent: 5em;">
                 1) เปิดไฟล์ข้อมูล Excel โดยใช้คำสั่ง Open
@@ -369,6 +369,22 @@
                         >
                       </div>
                     </router-link>
+                  </div>
+                  <div class="col text-center">
+                         <div class="btn-wrapper">
+                          <base-button
+                          id="back-to-top"
+                          href="#"
+                          role="button"
+                          tag="a"
+                          rel="noopener noreferrer"
+                          class="btn  back-to-top"
+                          
+                          outline type="info"
+                        >
+                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_6" title="Lesson2_6 Page">
