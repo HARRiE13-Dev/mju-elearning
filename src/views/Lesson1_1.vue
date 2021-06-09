@@ -19,7 +19,7 @@
               <h1 class="text-white font-weight-light display-1">
                1. Documents Service
               </h1>
-              <p class="lead text-white mt-4">
+              <p class="lead text-white mt-4 text-justify">
                 โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word)
                 หรือโปรแกรมจัดการด้านเอกสาร
                 เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน ...
@@ -50,7 +50,7 @@
                 1. โปรแกรมทำเอกสารด้วย Microsoft Word (2010)
               </h2>
               <br />
-              <p class="rem2">
+              <p class="rem2 text-justify">
                 โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word)
                 หรือโปรแกรมจัดการด้านเอกสาร
                 เป็นโปรแกรมที่นิยมใช้ในหลากหลายหน่วยงาน ทั้งภาครัฐและเอกชน

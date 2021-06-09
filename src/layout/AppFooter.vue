@@ -5,10 +5,10 @@
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">MJU e-Learning</h3>
-                    <h4 class="mb-0 font-weight-light">Contact Services :</h4>
+                    <h4 class="mb-0 font-weight-light">Contact Services : 088-888888</h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
-                    <a target="_blank" rel="noopener" href="http://csmju.jowave.com/location.php"
+                    <a target="_blank" rel="noopener" href="https://it.mju.ac.th/"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="information">
                         <i class="fa fa-info"></i>
@@ -17,11 +17,6 @@
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://www.instagram.com/maejouniversity/"
-                       class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
-                       data-original-title="Follow us">
-                        <i class="fa fa-instagram"></i>
                     </a>
                     <a target="_blank" rel="noopener" href="https://goo.gl/maps/3xBCou84RfPmrjqb8"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"

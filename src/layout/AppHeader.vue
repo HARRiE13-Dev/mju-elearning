@@ -19,13 +19,13 @@
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Home</span>
+                        <span class="nav-link-inner--text fontx">หน้าหลัก</span>
                     </a>
                 
                 <base-dropdown tag="li" class="fontx nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Courses</span>
+                        <span class="nav-link-inner--text fontx">บทเรียน</span>
                     </a>
                     <router-link to="/lesson1_1" class="dropdown-item">1. Documentation </router-link>
                     <router-link to="/lesson2_1" class="dropdown-item">2. Microsoft Excel</router-link>
@@ -36,16 +36,26 @@
                     <router-link to="/lesson7_1" class="dropdown-item">7. Storage and Interface</router-link>
                     <router-link to="/lesson8_1" class="dropdown-item">8. Security System</router-link>
                     <router-link to="/lesson9_1" class="dropdown-item">9. Technology Trending</router-link>
+                    <router-link to="/lesson_ref" class="dropdown-item">References</router-link>
+
                     
                 </base-dropdown>
-                    <a slot="title" href="https://www.mju.ac.th/th/About-MJU.html" class="nav-link" data-toggle="dropdown" role="button">
+              
+
+                    <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">About Us</span>
+                        <router-link to="/regulations" title="Lesson1_2 Page">
+                        <span class="nav-link-inner--text fontx text-white">ข้อบังคับ</span>
+                        </router-link>
                     </a>
                     
-                    <a slot="title" href="http://csmju.jowave.com/location.php" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Contact</span>
+                        <span class="nav-link-inner--text fontx">ติดต่อ</span>
+                    </a>
+                       <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text fontx">ศูนย์สอบวันมาตรฐาน ICT </span>
                     </a>
                     
             </ul>
@@ -59,19 +69,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://www.instagram.com/maejouniversity/"
+                    <a class="nav-link nav-link-icon" href="https://it.mju.ac.th/"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-globe"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://twitter.com/mjulibrary?lang=en" target="_blank" rel="noopener"
-                       data-toggle="tooltip" title="Follow us on Twitter">
-                        <i class="fa fa-twitter-square"></i>
-                        <span class="nav-link-inner--text d-lg-none">Twitter</span>
-                    </a>
-                </li>
+                
                 
             
             </ul>

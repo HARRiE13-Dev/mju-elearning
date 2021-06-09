@@ -54,7 +54,6 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-            
 
               <!-- ---------------------------------->
               <br />
@@ -64,20 +63,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                    <router-link to="/lesson4_1" title="Lesson4_1 Page">
-                    <div class="btn-wrapper">
-                      <base-button
-                        tag="a"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
-                        outline
-                        type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
-                      >
-                    </div>
-                    </router-link>
+                   
                   </div>
                    <div class="col text-center">
                          <div class="btn-wrapper">
@@ -96,7 +82,7 @@
                       </div>
                   </div>
                   <div class="col-auto">
-                    <router-link to="/lesson5_2" title="Lesson5_2 Page">
+                    <router-link to="/" title="Home Page">
                       <div class="btn-wrapper">
                         <base-button
                           tag="a"
@@ -106,7 +92,7 @@
                           outline
                           type="info"
                         >
-                          Next
+                          กลับสู่หน้าหลัก
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>
@@ -125,9 +111,9 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Dr.Sayan Unankard</span>
+            <span class="d-block mb-1">MAEJO UNIVERSITY</span>
             <small class="h6 text-black"
-              >Lecturer in the Information Technology Division at Maejo University</small
+              >มหาวิทยาลัยแม่โจ้</small
             >
           </h5>
         </div>
@@ -147,4 +133,7 @@ export default {
     BCarouselSlide,
   },
 };
+
 </script>
+
+

@@ -247,7 +247,21 @@
                       </div>
                   </div>
                   <div class="col-auto">
-                  
+                   <router-link to="/lesson_ref" title="Lesson_ref Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          References
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
+                    </router-link>
                   </div>
 
                 </div>
