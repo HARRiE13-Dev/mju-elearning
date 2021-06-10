@@ -17,7 +17,7 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0">
               <h1 class="text-white font-weight-light display-1">
-               1. Documents Service
+                1. Documents Service
               </h1>
               <p class="lead text-white mt-4 text-justify">
                 โปรแกรมไมโครซอฟต์เวิร์ด (Microsoft Word)
@@ -120,34 +120,81 @@
               <div class="container text-black mt-3">
                 <div class="row">
                   <div class="col">1. คลิกที่ปุ่ม</div>
-                  <div class="col">
+
+                  <div class="col" @click="modals.modal1 = true">
                     <img src="/img/lesson1/1.png" alt />
                   </div>
+
+                  <modal :show.sync="modals.modal1">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      1. คลิกที่ปุ่ม
+                    </h6>
+                    <div class="col">
+                      <img src="/img/lesson1/1.png" width="100%" alt />
+                    </div>
+                  </modal>
                 </div>
                 <br />
                 <div class="row">
                   <div class="col">2. คลิกที่ Microsoft Word 2010</div>
-                  <div class="col">
+
+                  <div class="col" @click="modals.modal2 = true">
                     <img src="/img/lesson1/2.png" alt />
                   </div>
+                  <modal :show.sync="modals.modal2">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      2. คลิกที่ Microsoft Word 2010
+                    </h6>
+                    <div class="col">
+                      <img src="/img/lesson1/2.png" width="100%" alt />
+                    </div>
+                  </modal>
                 </div>
                 <br />
                 <div class="row">
                   <div class="col">
                     3. เข้าสู่หน้าจอหลักของโปรแกรมไมโครซอฟต์เวิร์ด
                   </div>
-                  <div class="col md-center">
+
+                  <div class="col md-center" @click="modals.modal3 = true">
                     <img src="/img/lesson1/3.png" width="300px" />
                   </div>
+                  <modal :show.sync="modals.modal3">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      3. เข้าสู่หน้าจอหลักของโปรแกรมไมโครซอฟต์เวิร์ด
+                    </h6>
+                    <div class="col">
+                      <img src="/img/lesson1/3.png" width="100%" alt />
+                    </div>
+                  </modal>
                 </div>
               </div>
 
               <br />
               <br />
               <h4>1.2 ส่วนประกอบของหน้าจอหลักโปรแกรมไมโครซอฟต์เวิร์ด</h4>
-              <div class="text-center">
-                <img src="/img/lesson1/4.png" width="100%" />
+              <div class="text-center" @click="modals.modal4 = true">
+                <img src="/img/lesson1/4.png" width="80%" />
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  1.2 ส่วนประกอบของหน้าจอหลักโปรแกรมไมโครซอฟต์เวิร์ด
+                </h6>
+                <img src="/img/lesson1/4.png" width="100%" />
+              </modal>
+
               <p class="text-black mt-3">
                 1. แฟ้ม (File) เป็นส่วนรมคำสั่งสำหรับจัดการไฟล์ เช่น บันทึก
                 (Save) บันทึกเป็น (Save as) เปิด (Open) สร้างไฟล์ใหม่ (New file)
@@ -277,7 +324,17 @@
                 เพิ่มเติมข้อความได้โดยการลากเมาส์คลุมข้อความที่ต้องการปรับแต่ง
               </p>
 
-              <img src="/img/lesson1/5.png" width="100%" />
+              <img
+                src="/img/lesson1/5.png"
+                width="100%"
+                @click="modals.modal5 = true"
+              />
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  1.4 การจัดการข้อความ
+                </h6>
+                <img src="/img/lesson1/5.png" width="100%" />
+              </modal>
 
               <p class="text-black mt-3">
                 อีกทั้งการจัดการข้อความในส่วนขนาดตัวอักษรค่าต่ำสุดและค่าสูงสุดที่โปรแกรมไมโครซอฟต์เวิร์ดมีให้เลือกมีขนาด
@@ -307,21 +364,21 @@
                 <div class="row">
                   <!-- Previous buttom -->
                   <div class="col-auto mr-auto"></div>
-                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                  <div class="col text-center">
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <!-- next buttom -->
                   <div class="col-auto">
@@ -343,12 +400,12 @@
                   </div>
                 </div>
               </div>
-               <div class="text-center mt-5">Page 1/4</div>
+              <div class="text-center mt-5">Page 1/4</div>
             </div>
           </div>
         </div>
       </section>
-  
+
       <!-- Author -->
       <hr />
       <div class="col-lg-center">
@@ -370,14 +427,34 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
-  
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
   },
-  
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+      },
+    };
+  },
 };
-
 </script>

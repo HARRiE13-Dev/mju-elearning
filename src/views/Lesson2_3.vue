@@ -63,23 +63,53 @@
                 ข้อมูลที่อยู่ในไฟล์เป็นข้อมูลที่ปรากฏในสมุดงานในเวลาที่ใช้คำสั่ง
                 Save ครั้งล่าสุด
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson2/p42.png" width="80%" />
                 <p><br />รูปที่ 42 หน้าจอการบันทึกข้อมูลของโปรแกรม Excel</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 42 หน้าจอการบันทึกข้อมูลของโปรแกรม Excel
+                </h6>
+                <img src="/img/lesson2/p42.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson2/p43.png" width="40%" />
                 <p><br />รูปที่ 43 รูปแบบและสัญลักษณ์ของไฟล์ข้อมูล Excel</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 43 รูปแบบและสัญลักษณ์ของไฟล์ข้อมูล Excel
+                </h6>
+                <img src="/img/lesson2/p43.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson2/p44.png" width="80%" />
                 <p>
                   <br />รูปที่ 44 ไฟล์ข้อมูล Excel ในมุมมองแบบแสดงรายละเอียด
                   (Detail)
                 </p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 44 ไฟล์ข้อมูล Excel ในมุมมองแบบแสดงรายละเอียด (Detail)
+                </h6>
+                <img src="/img/lesson2/p44.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 5em;">
                 จากรูปที่ 44 ไฟล์ข้อมูลจะปรากฏสัญลักษณ์โปรแกรม Excel ชื่อไฟล์
@@ -95,18 +125,42 @@
               <p style="text-indent: 2.5em;">
                 2.7.3 เลือก Drive หรือ folder ที่เคยใช้เป็นที่เก็บไฟล์ข้อมูล
               </p>
-              <p style="text-indent: 2.5em;">2.7.4 คลิกเลือกไฟล์ที่ต้องการเปิด</p>
-              <p style="text-indent: 2.5em;">2.7.5 คลิกที่ปุ่ม Open หรือ เปิด</p>
+              <p style="text-indent: 2.5em;">
+                2.7.4 คลิกเลือกไฟล์ที่ต้องการเปิด
+              </p>
+              <p style="text-indent: 2.5em;">
+                2.7.5 คลิกที่ปุ่ม Open หรือ เปิด
+              </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson2/p45.png" width="80%" />
                 <p><br />รูปที่ 45 การเปิดไฟล์ข้อมูล Excel</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 45 การเปิดไฟล์ข้อมูล Excel
+                </h6>
+                <img src="/img/lesson2/p45.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson2/p46.png" width="80%" />
                 <p><br />รูปที่ 46 ตัวอย่างข้อมูลที่ได้จากการเปิดไฟล์ Excel</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 46 ตัวอย่างข้อมูลที่ได้จากการเปิดไฟล์ Excel
+                </h6>
+                <img src="/img/lesson2/p46.png" width="100%" />
+              </modal>
               <br />
               <h4>2.8 การทำงานร่วมกับกลุ่ม Cell</h4>
               <p style="text-indent: 2.5em;">
@@ -135,34 +189,84 @@
                 5) การเลือกกลุ่ม Cell ไม่ติดกัน - กดปุ่ม Ctrl ที่คีย์บอร์ด
                 และใช้เมาส์คลิกเลือก Cell ที่ต้องการ
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson2/p47.png" width="80%" />
                 <p><br />รูปที่ 47 การเลือก Cell 1 Cell ตำแหน่ง B2</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 47 การเลือก Cell 1 Cell ตำแหน่ง B2
+                </h6>
+                <img src="/img/lesson2/p47.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson2/p48.png" width="80%" />
                 <p><br />รูปที่ 48 การเลือกทั้งแถว-แถวที่ 5</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 48 การเลือกทั้งแถว-แถวที่ 5
+                </h6>
+                <img src="/img/lesson2/p48.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson2/p49.png" width="80%" />
                 <p><br />รูปที่ 49 การเลือกทั้งคอลัมน์-คอลัมน์ C</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 49 การเลือกทั้งคอลัมน์-คอลัมน์ C
+                </h6>
+                <img src="/img/lesson2/p49.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson2/p50.png" width="80%" />
                 <p><br />รูปที่ 50 การเลือกกลุ่ม Cell ติดกัน-ตำแหน่ง B4:D5</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 50 การเลือกกลุ่ม Cell ติดกัน-ตำแหน่ง B4:D5
+                </h6>
+                <img src="/img/lesson2/p50.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson2/p51.png" width="80%" />
                 <p>
                   <br />รูปที่ 51 การเลือกกลุ่ม Cell ไม่ติดกัน-ตำแหน่ง B4, B6,
                   E4 และ E6
                 </p>
               </div>
-              <br><br>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 51 การเลือกกลุ่ม Cell ไม่ติดกัน-ตำแหน่ง B4, B6, E4 และ
+                  E6
+                </h6>
+                <img src="/img/lesson2/p51.png" width="100%" />
+              </modal>
+              <br /><br />
               <h5 style="text-indent: 2.5em;">2.8.2 การย้ายข้อมูล (Move)</h5>
               <p style="text-indent: 2.5em;">
                 การย้ายข้อมูลใน Cell มีขั้นตอนการย้ายได้ 2 วิธี คือ
@@ -191,22 +295,52 @@
               <p style="text-indent: 5em;">
                 2.4) ปล่อยมือจากเมาส์เพื่อวางข้อมูล
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson2/52.png" width="20%" />
                 <p>
                   <br />รูปที่ 52 ลูกศรสัญลักษณ์การใช้คำสั่งย้ายข้อมูล (Move)
                 </p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 52 ลูกศรสัญลักษณ์การใช้คำสั่งย้ายข้อมูล (Move)
+                </h6>
+                <img src="/img/lesson2/52.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson2/53.png" width="60%" />
                 <p><br />รูปที่ 53 การย้ายข้อมูลใน Cell D6</p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 53 การย้ายข้อมูลใน Cell D6
+                </h6>
+                <img src="/img/lesson2/53.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson2/54.png" width="60%" />
                 <p><br />รูปที่ 54 การย้ายข้อมูลใน Cell D6</p>
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 54 การย้ายข้อมูลใน Cell D6
+                </h6>
+                <img src="/img/lesson2/54.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">2.8.3 การคัดลอกข้อมูล (Copy)</h5>
               <p style="text-indent: 5em;">
@@ -250,23 +384,54 @@
               <p style="text-indent: 7.5em;">
                 2.6) คลิกเมาส์ขวา เลือกคำสั่ง Paste หรือ วาง
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal14 = true"
+              >
                 <img src="/img/lesson2/55.png" width="60%" />
                 <p>
                   <br />รูปที่ 55 สัญลักษณ์คำสั่ง Copy (คัดลอก) เส้นไข่ปลา
                   (ต้นฉบับ) และคำสั่ง Paste (การวาง)
                 </p>
               </div>
+              <modal :show.sync="modals.modal14">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 55 สัญลักษณ์คำสั่ง Copy (คัดลอก) เส้นไข่ปลา (ต้นฉบับ)
+                  และคำสั่ง Paste (การวาง)
+                </h6>
+                <img src="/img/lesson2/55.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal15 = true"
+              >
                 <img src="/img/lesson2/56.png" width="80%" />
                 <p><br />รูปที่ 56 การคัดลอกข้อมูลใน Cell ตำแหน่ง B4</p>
               </div>
+              <modal :show.sync="modals.modal15">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 56 การคัดลอกข้อมูลใน Cell ตำแหน่ง B4
+                </h6>
+                <img src="/img/lesson2/56.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal16 = true"
+              >
                 <img src="/img/lesson2/57.png" width="80%" />
                 <p><br />รูปที่ 57 การคัดลอกข้อมูลในกลุ่ม Cell B4:D5</p>
               </div>
+              <modal :show.sync="modals.modal16">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 57 การคัดลอกข้อมูลในกลุ่ม Cell B4:D5
+                </h6>
+                <img src="/img/lesson2/57.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">2.8.4 การแทรกข้อมูล (Insert)</h5>
               <p style="text-indent: 5em;">
@@ -302,35 +467,85 @@
               <p style="text-indent: 6em;">
                 1.4) คลิกเมาส์ขวา เลือกคำสั่ง Paste หรือ วาง
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal17 = true"
+              >
                 <img src="/img/lesson2/58.png" width="40%" />
                 <p>
                   <br />รูปที่ 58 เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม
                   Cell
                 </p>
               </div>
+              <modal :show.sync="modals.modal17">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ปที่ 58 เลือกวิธีการจัดการกับข้อมูลใน Cell หรือกลุ่ม Cell
+                </h6>
+                <img src="/img/lesson2/58.png" width="40%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal18 = true"
+              >
                 <img src="/img/lesson2/59.png" width="60%" />
                 <p>
                   <br />รูปที่ 59 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ไปทางขวา
                 </p>
               </div>
+              <modal :show.sync="modals.modal18">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 59 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ไปทางขวา
+                </h6>
+                <img src="/img/lesson2/59.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal19 = true"
+              >
                 <img src="/img/lesson2/60.png" width="60%" />
                 <p><br />รูปที่ 60 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ลง</p>
               </div>
+              <modal :show.sync="modals.modal19">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  <p><br />รูปที่ 60 ผลการแทรกข้อมูล กรณี O เลื่อนเซลล์ลง</p>
+                </h6>
+                <img src="/img/lesson2/60.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal20 = true"
+              >
                 <img src="/img/lesson2/61.png" width="60%" />
                 <p><br />รูปที่ 61 ผลการแทรกข้อมูล กรณี O ทั้งแถว</p>
               </div>
+              <modal :show.sync="modals.modal20">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 61 ผลการแทรกข้อมูล กรณี O ทั้งแถว
+                </h6>
+                <img src="/img/lesson2/61.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal21 = true"
+              >
                 <img src="/img/lesson2/62.png" width="60%" />
                 <p><br />รูปที่ 62 ผลการแทรกข้อมูล กรณี O ทั้งคอลัมน์</p>
               </div>
+              <modal :show.sync="modals.modal21">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 62 ผลการแทรกข้อมูล กรณี O ทั้งคอลัมน์
+                </h6>
+                <img src="/img/lesson2/62.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 5em;">2) การแทรกข้อมูลทั้ง Row หรือ แถว</p>
               <p style="text-indent: 6em;">
@@ -342,10 +557,20 @@
               <p style="text-indent: 6em;">
                 2.3) ข้อมูลของแถวที่ถูกเลือกจะเลื่อนมาอยู่แถวด้านล่าง
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal22 = true"
+              >
                 <img src="/img/lesson2/63.png" width="60%" />
                 <p><br />รูปที่ 63 ผลการแทรกข้อมูลทั้งแถว</p>
               </div>
+              <modal :show.sync="modals.modal22">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 63 ผลการแทรกข้อมูลทั้งแถว
+                </h6>
+                <img src="/img/lesson2/63.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 5em;">
                 3) การแทรกข้อมูลทั้ง Column หรือ คอลัมน์
@@ -360,12 +585,22 @@
                 3.3)
                 ข้อมูลของคอลัมน์ที่ถูกเลือกจะเลื่อนมาอยู่ด้านขวาของคอลัมน์ที่ถูกเลือก
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal23 = true"
+              >
                 <img src="/img/lesson2/64.png" width="60%" />
                 <p><br />รูปที่ 64 ผลการแทรกข้อมูลทั้งคมลัมน์</p>
               </div>
+              <modal :show.sync="modals.modal23">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 64 ผลการแทรกข้อมูลทั้งคมลัมน์
+                </h6>
+                <img src="/img/lesson2/64.png" width="100%" />
+              </modal>
               <!-- -------------------------------- -->
-               <br />
+              <br />
               <br />
               <br />
               <br />
@@ -388,20 +623,20 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_4" title="Lesson2_4 Page">
@@ -446,9 +681,41 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+        modal21: false,
+        modal22: false,
+        modal23: false,
+      },
+    };
+  },
 };
 </script>
 

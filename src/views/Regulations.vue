@@ -54,7 +54,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-
+               
               <!-- ---------------------------------->
               <br />
               <br />
@@ -110,7 +110,7 @@
       <hr />
       <div class="col-lg-center">
         <div class="pt-4 text-center">
-          <h5 class="title">
+          <h5 class="title fontx">
             <span class="d-block mb-1">MAEJO UNIVERSITY</span>
             <small class="h6 text-black"
               >มหาวิทยาลัยแม่โจ้</small
@@ -126,13 +126,17 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    
   },
+   
 };
+
 
 </script>
 

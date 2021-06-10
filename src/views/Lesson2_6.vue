@@ -55,26 +55,48 @@
               <p style="text-indent: 7.5em;">
                 - พิมพ์สูตร =C7*10/100 หรือ =C7*10%
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson2/91.png" width="80%" />
                 <p>
                   <br />รูปที่ 91 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
                   โดยใข้ค่าตัวเลข
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 91 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
+                  โดยใข้ค่าตัวเลข
+                </h6>
+                <img src="/img/lesson2/91.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 จากรูปที่ 91 เมื่อเลื่อน Cell Pointer ไปยังตำแหน่ง D4
                 และให้สังเกตที่แถบสูตร จะแสดงข้อมูลที่มาของผลลัพธ์ 1,5000
                 โดยปรากฏสูตรคำนวณ =C4*10%
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson2/92.png" width="80%" />
                 <p>
                   <br />รูปที่ 92 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
                   โดยใช้ตำแหน่งเซลล์
                 </p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 92 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
+                  โดยใช้ตำแหน่งเซลล์
+                </h6>
+                <img src="/img/lesson2/92.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 จากตัวอย่างการคำนวณ ค่าครองชีพ (พิเศษ) โดยใช้ตำแหน่งเซลล์
@@ -102,17 +124,37 @@
                 5. คลิกเมาส์ค้างไว้ และลากจนกระทั่งถึงข้อมูลพนักงานคนที่ 4
                 และปล่อยมือจากเมาส์
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson2/93.png" width="80%" />
                 <p><br />รูปที่ 93 การคัดลอกสูตรคำนวณโดยใช้ตำแหน่งเซลล์</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 93 การคัดลอกสูตรคำนวณโดยใช้ตำแหน่งเซลล์
+                </h6>
+                <img src="/img/lesson2/93.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson2/94.png" width="80%" />
                 <p>
                   <br />รูปที่ 94 ผลลัพธ์ที่ได้จากการคำนวณค่าครองชีพ (พิเศษ)
                 </p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 94 ผลลัพธ์ที่ได้จากการคำนวณค่าครองชีพ (พิเศษ)
+                </h6>
+                <img src="/img/lesson2/94.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em; font-weight: bold; ">
                 ข้อดีของการใช้สูตรที่ใช้ตำแหน่งเซลล์ ดังนี้
@@ -185,10 +227,20 @@
                 - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ E5 ถึง E7 จะได้ผลลัพธ์
                 ดังรูปที่ 95
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson2/95.png" width="80%" />
                 <p><br />รูปที่ 95 ผลลัพธ์ที่ได้จากการคำนวณค่าล่วงเวลา</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 95 ผลลัพธ์ที่ได้จากการคำนวณค่าล่วงเวลา
+                </h6>
+                <img src="/img/lesson2/95.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">
                 2.10.3.2 ตัวอย่างการคำนวณประกันสังคม
@@ -217,10 +269,20 @@
                 - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ F5 ถึง F7 จะได้ผลลัพธ์
                 ดังรูปที่ 96
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson2/96.png" width="80%" />
                 <p><br />รูปที่ 96 ผลลัพธ์ที่ได้จากการคำนวณประกันสังคม</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 96 ผลลัพธ์ที่ได้จากการคำนวณประกันสังคม
+                </h6>
+                <img src="/img/lesson2/96.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">
                 2.10.3.3 ตัวอย่างการคำนวณภาษีเงินได้
@@ -249,10 +311,20 @@
                 - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ G5 ถึง G7 จะได้ผลลัพธ์
                 ดังรูปที่ 97
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson2/97.png" width="80%" />
                 <p><br />รูปที่ 97 ผลลัพธ์ที่ได้จากการคำนวณภาษีเงินได้</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 97 ผลลัพธ์ที่ได้จากการคำนวณภาษีเงินได้
+                </h6>
+                <img src="/img/lesson2/97.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">
                 2.10.3.4 ตัวอย่างการคำนวณรายรับสุทธิ
@@ -285,10 +357,20 @@
                 - คลิกเมาส์ลากให้เกิดเส้นประครอบคลุมเซลล์ G5 ถึง G7 จะได้ผลลัพธ์
                 ดังรูปที่ 98
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson2/98.png" width="80%" />
                 <p><br />รูปที่ 98 ผลลัพธ์ที่ได้จากการคำนวณรายรับสุทธิ</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 98 ผลลัพธ์ที่ได้จากการคำนวณรายรับสุทธิ
+                </h6>
+                <img src="/img/lesson2/98.png" width="100%" />
+              </modal>
               <br />
               <h4>2.11 การคำนวณโดยการใช้สูตรสำเร็จ หรือ ฟังก์ชัน (Function)</h4>
               <p style="text-indent: 2.5em;">
@@ -304,19 +386,39 @@
                 วิธีการตรวจสอบฟังก์ชันทำได้โดยกดปุ่ม Shift + ปุ่ม F3
                 จะปรากฏกล่องโต้ตอบฟังก์ชัน ดังรูปที่ 99
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson2/99.png" width="60%" />
                 <p><br />รูปที่ 99 กล่องโต้ตอบฟังก์ชันของโปรแกรม Excel</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 99 กล่องโต้ตอบฟังก์ชันของโปรแกรม Excel
+                </h6>
+                <img src="/img/lesson2/99.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">
                 2.11.1 ส่วนประกอบของฟังก์ชัน
               </h5>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson2/100.png" width="60%" />
                 <p><br />รูปที่ 100 ส่วนประกอบของฟังก์ชัน</p>
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 100 ส่วนประกอบของฟังก์ชัน
+                </h6>
+                <img src="/img/lesson2/100.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em; font-weight: bold; ">
                 จากรูปที่ 100 อธิบายดังนี้
@@ -338,13 +440,24 @@
               <p style="text-indent: 2.5em;  font-weight: bold; ">
                 ตัวอย่างการพิมพ์ฟังก์ชัน =ROUND ปัดเศษตัวเลขในเซลล์ A10
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson2/101.png" width="50%" />
                 <p>
                   <br />รูปที่ 101 ตัวอย่างการพิมพ์ฟังก์ชัน ROUND
                   (ปัดเศษตัวเลขในเซลล์)
                 </p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 101 ตัวอย่างการพิมพ์ฟังก์ชัน ROUND
+                  (ปัดเศษตัวเลขในเซลล์)
+                </h6>
+                <img src="/img/lesson2/101.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">จากรูปที่ 101 อธิบายดังนี้</p>
               <p style="text-indent: 5em;">1. เครื่องหมาย =</p>
@@ -357,10 +470,20 @@
                 ตัวอย่างการพิมพ์ฟังก์ชัน =SUM การหาผลรวมค่าข้อมูลของเซลล์ E3 ถึง
                 E5
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson2/102.png" width="50%" />
                 <p><br />รูปที่ 102 ตัวอย่างการพิมพ์ฟังก์ชัน SUM (ผลรวม)</p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 102 ตัวอย่างการพิมพ์ฟังก์ชัน SUM (ผลรวม)
+                </h6>
+                <img src="/img/lesson2/102.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">จากรูปที่ 102 อธิบายดังนี้</p>
               <p style="text-indent: 5em;">1. เครื่องหมาย =</p>
@@ -434,7 +557,7 @@
               </div>
 
               <!-- -------------------------------- -->
-               <br />
+              <br />
               <br />
               <br />
               <br />
@@ -457,36 +580,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                      <router-link to="/lesson2_7" title="Lesson2_7 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson2_7" title="Lesson2_7 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -515,9 +638,30 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+      },
+    };
+  },
 };
 </script>
 

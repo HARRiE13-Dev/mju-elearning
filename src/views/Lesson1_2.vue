@@ -43,113 +43,148 @@
                       <tbody>
                         <tr>
                           <td>เปิด</td>
-                          <td >
-                          <button type="button" class="btn btn-secondary">Ctrl + O</button>
+                          <td>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + O
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>บันทึก</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + S</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + S
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ปิด</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + W</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + W
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ตัด</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + X</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + X
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>คัดลอก</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + C</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + C
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>วาง</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + V</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + V
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เลือกทั้งหมด</td>
                           <td>
-                            <button type="button" class="btn btn-secondary">Ctrl + A</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + A
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ตัวหนา</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + B</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + B
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ตัวเอียง</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + I</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + I
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ขีดเส้นใต้</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + U</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + U
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ลดขนาดฟอนต์ลง 1 พอยต์</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + [</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + [
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เพิ่มขนาดฟอนต์ขึ้น 1 พอยต์</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + ]</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + ]
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความกึ่งกลาง</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + E</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + E
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความชิดซ้าย</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + L</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + L
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>จัดข้อความชิดขวา</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + R</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + R
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ยกเลิก</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">ESC</button>
+                            <button type="button" class="btn btn-secondary">
+                              ESC
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เลิกทำ</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Z</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Z
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ทำซ้ำ</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Y</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Y
+                            </button>
                           </td>
                         </tr>
-                       
                       </tbody>
                     </table>
                   </div>
@@ -162,89 +197,117 @@
                         </tr>
                       </thead>
                       <tbody>
-                         <tr>
+                        <tr>
                           <td>จัดข้อความให้ชิดซ้ายและชิดขวา</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + J</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + J
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>สั่งพิมพ์เอกสาร</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + P</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + P
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>สร้างตารางข้อมูล</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Shift + O</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Shift + O
+                            </button>
                           </td>
                         </tr>
 
                         <tr>
                           <td>สลับไปยังหน้าก่อนหน้านี้</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Shift + Tab</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Shift + Tab
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>สลับไปยังหน้าต่อไป</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Tab</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Tab
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>แทรกตัวแบ่งหน้า</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + D</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + D
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ขีดเส้นใต้แบบ 2 เส้น</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + D</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + D
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เปิดหน้าต่างแบบอักษร</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + F</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + F
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>แบ่งหน้าต่างเอกสารออกเป็น 2 ส่วน</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Ctrl + S</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Ctrl + S
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>ยกเลิกแบ่งหน้าต่างเอกสารออกเป็น 2 ส่วน</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Shift + C</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Shift + C
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เรียกใช้สัญลักษณ์แสดงหัวข้อย่อย</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + L</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + L
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>นับจำนวนคำหรือตัวอักษรทั้งหมดในเอกสาร</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + G</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + G
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>เปิดหน้าต่างค้นหาและแทนที่</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + H</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + H
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>สร้างเอกสารใหม่</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + N</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + N
+                            </button>
                           </td>
                         </tr>
                         <tr>
@@ -252,7 +315,9 @@
                             แทรกคำอธิบายเพิ่มเติมลงไปตรงข้อความที่ต้องการอธิบาย(Endnote)
                           </td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Ctrl + D</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Ctrl + D
+                            </button>
                           </td>
                         </tr>
                         <tr>
@@ -260,19 +325,25 @@
                             แทรกคำอภิบายเพิ่มเติมลงทางด้านล่างของหน้ากระดาษ(Footnote)
                           </td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Ctrl + F</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Ctrl + F
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>แทรกเวลาปัจจุบันลงในเอกสาร</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Alt + Shift + T</button>
+                            <button type="button" class="btn btn-secondary">
+                              Alt + Shift + T
+                            </button>
                           </td>
                         </tr>
                         <tr>
                           <td>วางเฉพาะข้อความอย่างเดียว</td>
                           <td>
-                             <button type="button" class="btn btn-secondary">Ctrl + Shift + V</button>
+                            <button type="button" class="btn btn-secondary">
+                              Ctrl + Shift + V
+                            </button>
                           </td>
                         </tr>
                       </tbody>
@@ -291,9 +362,15 @@
                 เราสามารถใส่รหัสป้องกันได้ด้วยการคลิก แฟ้ม > ข้อมูล >
                 ป้องกันเอกสาร > เข้ารหัสลับด้วยรหัสผ่าน > ใส่รหัสผ่าน > ตกลง
               </p>
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal1 = true">
                 <img src="/img/lesson1/6.png" width="50%" />
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รหัสผ่านป้องกันเอกสารการทำงาน
+                </h6>
+                <img src="/img/lesson1/6.png" width="100%" />
+              </modal>
               <br />
               <br />
               <h5>- การใส่ลายน้ำ</h5>
@@ -304,9 +381,16 @@
                 เค้าโครงหน้ากระดาษ > ลายน้ำ > เลือกแบบตามตัวอย่างหรือกำหนดเอง
                 <br />
               </p>
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal2 = true">
                 <img src="/img/lesson1/7.png" width="50%" />
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  การใส่ลายน้ำ
+                </h6>
+                <img src="/img/lesson1/7.png" width="100%" />
+              </modal>
+
               <br />
               <br />
               <h5>1.6.1 การใส่ลายน้ำ</h5>
@@ -328,7 +412,6 @@
                     <br />Selection.Find.Execute Replace:=wdReplaceAll
                     <br />Next <br />End Sub
                     <br />
-                    
                   </div>
                   <div class="col">
                     Sub thaitoarabic()
@@ -405,18 +488,30 @@
                 (Navigation pane)
               </p>
               <br />
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal3 = true">
                 <img src="/img/lesson1/8.png" width="80%" />
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Navigation pane
+                </h6>
+                <img src="/img/lesson1/8.png" width="100%" />
+              </modal>
               <br />
               <p>
                 ดังนั้นเมื่อเราได้กำหนดหัวเรื่องแล้วเราสามารถทำสารบัญได้
                 โดยการเลือก การอ้างอิง > สารบัญ > เลือกรูปแบบสารบัญที่เราต้องการ
                 จะได้รูปแบบตามรูปด้านล่างนี้
               </p>
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal4 = true">
                 <img src="/img/lesson1/9.png" width="100%" />
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  สารบัญ
+                </h6>
+                <img src="/img/lesson1/9.png" width="100%" />
+              </modal>
               <br />
               <br />
               <h5>
@@ -432,9 +527,15 @@
                 กำหนดเวลาและตำแหน่งที่เก็บไฟล์ข้อมูลในการบันทึกข้อมูลแบบอัตโนมัติ
                 <br />
               </p>
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal5 = true">
                 <img src="/img/lesson1/10.png" width="80%" />
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  กำหนดเวลาและตำแหน่งที่เก็บไฟล์ข้อมูลในการบันทึกข้อมูลแบบอัตโนมัติ
+                </h6>
+                <img src="/img/lesson1/10.png" width="100%" />
+              </modal>
               <br />
               <br />
               <h5>1.6.5 ภาพหน้าจอ (Screen shot)</h5>
@@ -445,9 +546,15 @@
               </p>
               <br />
               <br />
-              <div class="text-center">
+              <div class="text-center" @click="modals.modal6 = true">
                 <img src="/img/lesson1/11.png" width="80%" />
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพหน้าจอ (Screen shot)
+                </h6>
+                <img src="/img/lesson1/11.png" width="100%" />
+              </modal>
               <br />
               <br />
               <h5>1.6.6 การแทรกตาราง</h5>
@@ -467,9 +574,15 @@
               <p style="text-indent: 5em;">
                 - ใช้สูตร (fx) ในแถบเค้าโครงภายใต้เครื่องมือตาราง
               </p>
-              <div class="text-center">
-                <img src="/img/lesson1/12.png" width="100%" />
+              <div class="text-center" @click="modals.modal7 = true">
+                <img src="/img/lesson1/12.png" width="80%" />
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ใช้สูตร (fx) ในแถบเค้าโครงภายใต้เครื่องมือตาราง
+                </h6>
+                <img src="/img/lesson1/12.png" width="100%" />
+              </modal>
               <br />
               <br />
               <p style="text-indent: 2.5em;">
@@ -501,7 +614,6 @@
               <br />
               <!-- -------------------------------- -->
               <div class="container">
-
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson1_1" title="Lesson1_1 Page">
@@ -520,20 +632,20 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
 
                   <div class="col-auto">
@@ -555,14 +667,12 @@
                   </div>
                 </div>
               </div>
-               <div class="text-center mt-5">Page 2/4</div>
+              <div class="text-center mt-5">Page 2/4</div>
             </div>
           </div>
         </div>
       </section>
-      
 
-      
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
@@ -580,9 +690,33 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+      },
+    };
+  },
 };
 </script>
 

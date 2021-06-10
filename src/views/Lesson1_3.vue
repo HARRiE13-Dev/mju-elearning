@@ -26,10 +26,10 @@
               <!-- -------------------------------- -->
 
               <h2 class="display-3 text-center">
-                การจัดการข้อมูลและเอกสาร<br>
-               แบบออนไลน์ด้วย Google Docs & Google Form
+                การจัดการข้อมูลและเอกสาร<br />
+                แบบออนไลน์ด้วย Google Docs & Google Form
               </h2>
-              
+
               <br />
               <p class=" text-justify" style="text-indent: 2.5em;">
                 จากการพัฒนาของระบบอินเตอร์เน็ตที่เป็นไปอย่างก้าวกระโดดจึงทำให้ในปัจจุบันเทคโนโลยีดิจิทัลได้เข้ามามีบทบาทสำคัญในวิถีชีวิตของคนทั้งโลก
@@ -77,10 +77,21 @@
                 โดยเราจะเข้าสู่รายละเอียดของบริการดังกล่าวในหัวข้อถัดไป
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson1/p1.png" width="80%" />
                 <p><br />รูปที่ 1 ตัวอย่างบริการต่างๆ ของกูเกิล</p>
               </div>
+
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 1 ตัวอย่างบริการต่างๆ ของกูเกิล
+                </h6>
+                <img src="/img/lesson1/p1.png" width="100%" />
+              </modal>
+
               <br />
               <h5>
                 2.
@@ -97,13 +108,22 @@
                 แอปพลิเคชันหลักที่สามารถดำเนินการกับข้อมูลและเอกสารในรูปแบบที่แตกต่างกันได้
                 มีดังต่อไปนี้ (รูปไอคอนของแอปพลิเคชันแสดงในรูปที่ 2)
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson1/p2.png" width="80%" />
                 <p>
                   <br />รูปที่ 2
                   ไอคอนของแอปพลิเคชันที่ใช้สำหรับจัดการเอกสารของกูเกิล
                 </p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ไอคอนของแอปพลิเคชันที่ใช้สำหรับจัดการเอกสารของกูเกิล
+                </h6>
+                <img src="/img/lesson1/p2.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 1) กูเกิลเอกสาร (Google Docs)
@@ -156,13 +176,23 @@
                 และหากไม่ปรากฏ สามารถกดปุ่ม “เพิ่มเติมจาก Google”
                 เพื่อค้นหาแอปพลิเคชันที่ต้องการได้)
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson1/p3.png" width="80%" />
                 <p>
                   <br />รูปที่ 3 การลงชื่อเข้าใช้บัญชีกูเกิล (A)
                   และการเปิดตัวเลือกแอปพลิเคชัน (B)
                 </p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 3 การลงชื่อเข้าใช้บัญชีกูเกิล (A)
+                  และการเปิดตัวเลือกแอปพลิเคชัน (B)
+                </h6>
+                <img src="/img/lesson1/p3.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 โดยชุดเครื่องมือจากกูเกิลที่ใช้สำหรับจัดการงานด้านเอกสารแบบออนไลน์
@@ -204,10 +234,20 @@
                 โดยจะทำงานภายใต้การจัดการไฟล์ผ่านกูเกิลไดรฟ์
                 ซึ่งจะเป็นการเก็บข้อมูลไว้บนคลาวน์ของกูเกิลเอง
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson1/p4.png" width="80%" />
                 <p><br />รูปที่ 4 ภาพรวมและองค์ประกอบของกูเกิลเอกสาร</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 4 ภาพรวมและองค์ประกอบของกูเกิลเอกสาร
+                </h6>
+                <img src="/img/lesson1/p4.png" width="100%" />
+              </modal>
+
               <br />
               <p class="rem2">
                 จากรูปที่ 4 แสดงให้เห็นถึงหน้าตาภาพรวมและเครื่องมือต่างๆ
@@ -280,12 +320,21 @@
                 (เอกสารที่ต้องการสร้างหรือแก้ไข)
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson1/p5.png" width="40%" />
                 <p><br />รูปที่ 5 โหมดการแก้ไข</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 5 โหมดการแก้ไข
+                </h6>
+                <img src="/img/lesson1/p5.png" width="100%" />
+              </modal>
               <br />
-            
+
               <br />
               <br />
               <br />
@@ -311,36 +360,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                    <router-link to="/lesson1_4" title="Lesson1_4 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson1_4" title="Lesson1_4 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -369,9 +418,33 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+      },
+    };
+  },
 };
 </script>
 

@@ -258,10 +258,21 @@
               <p style="text-indent: 9em;">
                 - รายจ่าย คิดจาก ประกันสังคม + ภาษีเงินได้
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson2/88.png" width="80%" />
                 <p><br />รูปที่ 88 ตัวอย่างไฟล์ข้อมูล Excel</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 88 ตัวอย่างไฟล์ข้อมูล Excel
+                </h6>
+                <img src="/img/lesson2/88.png" width="100%" />
+              </modal>
+
               <br />
               <p style="text-indent: 5em;">5) คำนวณโดยการป้อนสูตรแบบตัวเลข</p>
               <p style="text-indent: 7.5em;">
@@ -305,26 +316,50 @@
               <p style="text-indent: 9em;">
                 - พิมพ์สูตร = 12400*10/100 หรือ =12400*10%
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson2/89.png" width="80%" />
                 <p>
                   <br />รูปที่ 89 ตัวอย่างการพิมพ์สูตรคำนวณ ค่าครองชีพ (พิเศษ)
                   โดยใช้ตัวเลข
                 </p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 89 ตัวอย่างการพิมพ์สูตรคำนวณ ค่าครองชีพ (พิเศษ)
+                  โดยใช้ตัวเลข
+                </h6>
+                <img src="/img/lesson2/89.png" width="100%" />
+              </modal>
+
               <br />
               <p style="text-indent: 2.5em;">
                 จากรูปที่ 89 เมื่อเลื่อน Cell Pointer ไปยังตำแหน่ง D4
                 และให้สังเกตที่แถบสูตร จะแสดงข้อมูลที่มาของผลลัพธ์ 1,5000
                 โดยปรากฏสูตรคำนวณ =15000*10%
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson2/90.png" width="80%" />
                 <p>
                   <br />รูปที่ 90 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
                   โดยใข้ค่าตัวเลข
                 </p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 90 แถบสูตรแสดงสูตรที่ใช้คำนวณค่าครองชีพ (พิเศษ)
+                  โดยใข้ค่าตัวเลข
+                </h6>
+                <img src="/img/lesson2/90.png" width="100%" />
+              </modal>
+
               <br />
               <p style="text-indent: 2.5em;">
                 จากตัวอย่างการคำนวณ ค่าครองชีพ (พิเศษ) โดยใช้ตัวเลข
@@ -371,36 +406,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                    <router-link to="/lesson2_6" title="Lesson2_6 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson2_6" title="Lesson2_6 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -429,9 +464,21 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+      },
+    };
+  },
 };
 </script>
 

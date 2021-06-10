@@ -68,8 +68,8 @@
               <p style="text-indent: 2.5em;">
                 โปรแกรมไมโครซอฟท์ เอ็กเซล (Microsoft Excel)
                 เป็นโปรแกรมที่อยู่ในชุดโปรแกรม ไมโครซอฟท์ออฟฟิศ (Microsoft
-                Office)
-                ที่ประกอบด้วยชุดโปรแกรมที่มีความสามารถใช้งานที่แตกต่าง ดังนี้
+                Office) ที่ประกอบด้วยชุดโปรแกรมที่มีความสามารถใช้งานที่แตกต่าง
+                ดังนี้
                 <br />
                 <br />1. Microsoft Word โปรแกรมที่ใช้สำหรับงานด้านเอกสาร
                 <br />2. Microsoft Excel โปรแกรมสำหรับงานด้านการคำนวณ
@@ -168,10 +168,21 @@
                 โดยปรากฏพื้นที่การทำงาน หรือ สมุดงาน (Workbook) ดังรูปที่ 2
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson2/4.png" width="80%" />
                 <p>รูปที่ 2 หน้าจอโปรแกรม Excel</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 2 หน้าจอโปรแกรม Excel
+                </h6>
+                <img src="/img/lesson2/4.png" width="100%" />
+              </modal>
+
               <br />
               <p style="text-indent: 2.5em;">
                 จากรูปที่ 2 ส่วนประกอบการหน้าจอโปรแกรมที่สำคัญ ได้แก่
@@ -184,10 +195,21 @@
                 2.3.1 แถบรายการคำสั่ง (Menu Bar) และแถบเครื่องมือ (Tool Bar)
               </h5>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson2/5.png" width="80%" />
                 <p><br />รูปที่ 3 แถบรายการคำสั่ง หรือ Menu Bar</p>
               </div>
+
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 3 แถบรายการคำสั่ง หรือ Menu Bar
+                </h6>
+                <img src="/img/lesson2/5.png" width="100%" />
+              </modal>
               <br />
               <p>
                 จากรูปที่ 3 รายการคำสั่งพื้นฐานของโปรแกรม Excel ที่สำคัญ ดังนี้
@@ -201,10 +223,20 @@
                 (Print) เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson2/6.png" width="60%" />
                 <p><br />รูปที่ 4 กลุ่มคำสั่ง FILE</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 4 กลุ่มคำสั่ง FILE
+                </h6>
+                <img src="/img/lesson2/6.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">2.3.1.2 กลุ่มคำสั่ง HOME</h6>
               <p style="text-indent: 7.5em;">
@@ -214,10 +246,22 @@
                 (แถบเครื่องมือ) ดังรูปที่ 5
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson2/7.png" width="100%" />
                 <p><br />รูปที่ 5 กลุ่มคำสั่ง HOME</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 5 กลุ่มคำสั่ง HOME
+                </h6>
+                <img src="/img/lesson2/7.png" width="100%" />
+              </modal>
+
               <br />
               <p>
                 จากรูปที่ 5 มีการแบ่งกลุ่มคำสั่งที่อยู่ในลักษณะแถบเครื่องมือเป็น
@@ -232,10 +276,21 @@
                 เพื่อวางข้อความหรือรูปภาพบน workbook ได้ทันที
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson2/8.png" width="30%" />
                 <p><br />รูปที่ 6 กลุ่มคำสั่ง HOME กลุ่ม Clipboard</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 6 กลุ่มคำสั่ง HOME กลุ่ม Clipboard
+                </h6>
+                <img src="/img/lesson2/8.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 • กลุ่ม Font เป็นคำสั่งที่ใช้กำหนดรูปแบบตัวอักษร (Font)
@@ -244,10 +299,20 @@
                 เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson2/9.png" width="30%" />
                 <p><br />รูปที่ 7 กลุ่มคำสั่ง HOME กลุ่ม Font</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 7 กลุ่มคำสั่ง HOME กลุ่ม Font
+                </h6>
+                <img src="/img/lesson2/9.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 • กลุ่ม Alignment
@@ -256,10 +321,21 @@
                 ชิดขวา การรวมตาราง การตัดคำ เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson2/10.png" width="30%" />
                 <p><br />รูปที่ 8 กลุ่มคำสั่ง HOME กลุ่ม Alignment</p>
               </div>
+
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 8 กลุ่มคำสั่ง HOME กลุ่ม Alignment
+                </h6>
+                <img src="/img/lesson2/10.png" width="100%" />
+              </modal>
               <br />
 
               <p style="text-indent: 2.5em;">
@@ -268,10 +344,20 @@
                 เครื่องหมายร้อยละ เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson2/11.png" width="30%" />
                 <p><br />รูปที่ 9 กลุ่มคำสั่ง HOME กลุ่ม Number</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 9 กลุ่มคำสั่ง HOME กลุ่ม Number
+                </h6>
+                <img src="/img/lesson2/11.png" width="100%" />
+              </modal>
               <br />
 
               <p style="text-indent: 2.5em;">
@@ -279,10 +365,20 @@
                 สีสันสวยงาม ง่ายต่อการแยกข้อมูล เป็น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson2/12.png" width="30%" />
                 <p><br />รูปที่ 10 กลุ่มคำสั่ง HOME กลุ่ม Styles</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 10 กลุ่มคำสั่ง HOME กลุ่ม Styles
+                </h6>
+                <img src="/img/lesson2/12.png" width="100%" />
+              </modal>
               <br />
 
               <p style="text-indent: 2.5em;">
@@ -290,10 +386,20 @@
                 หรือการจัดรูปแบบเซลล์ เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson2/13.png" width="30%" />
                 <p><br />รูปที่ 11 กลุ่มคำสั่ง HOME กลุ่ม Cell</p>
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 11 กลุ่มคำสั่ง HOME กลุ่ม Cell
+                </h6>
+                <img src="/img/lesson2/13.png" width="100%" />
+              </modal>
               <br />
 
               <p style="text-indent: 2.5em;">
@@ -301,10 +407,20 @@
                 การใช้สูตรอัตโนมัติ การเรียงลำดับข้อมูล การค้นหาข้อมูล เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson2/14.png" width="30%" />
                 <p><br />รูปที่ 12 กลุ่มคำสั่ง HOME กลุ่ม Editing</p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 12 กลุ่มคำสั่ง HOME กลุ่ม Editing
+                </h6>
+                <img src="/img/lesson2/14.png" width="100%" />
+              </modal>
               <br />
 
               <h6 style="text-indent: 5em;">2.3.1.3 กลุ่มคำสั่ง INSERT</h6>
@@ -313,17 +429,37 @@
                 เพื่อจัดรูปแบบข้อมูลให้มีความสมบูรณ์ยิ่งขึ้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson2/15.png" width="100%" />
                 <p><br />รูปที่ 13 กลุ่มคำสั่ง INSERT</p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 13 กลุ่มคำสั่ง INSERT
+                </h6>
+                <img src="/img/lesson2/15.png" width="100%" />
+              </modal>
               <br />
               <p>โดยมีคำสั่งย่อยที่แบ่งเป็นกลุ่มสำคัญ ดังนี้</p>
               <p>• กลุ่ม Table หรือตาราง ใช้ในการแทรกตารางเข้ามาในสมุดงาน</p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson2/16.png" width="30%" />
                 <p><br />รูปที่ 14 กลุ่มคำสั่ง Insert กลุ่ม Table</p>
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 14 กลุ่มคำสั่ง Insert กลุ่ม Table
+                </h6>
+                <img src="/img/lesson2/16.png" width="100%" />
+              </modal>
               <br />
               <p>
                 • กลุ่ม Illustration หรือ การแทรกภาพประกอบ เช่น รูปภาพ (Picture)
@@ -332,36 +468,102 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal14 = true"
+                  >
                     <img src="/img/lesson2/17.png" width="30%" />
                     <p><br />รูปที่ 15 กลุ่มคำสั่ง Insert กลุ่ม Illustration</p>
                   </div>
+                  <modal :show.sync="modals.modal14">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 15 กลุ่มคำสั่ง Insert กลุ่ม Illustration
+                    </h6>
+                    <img src="/img/lesson2/17.png" width="100%" />
+                  </modal>
                 </div>
                 <br />
                 <div class="row">
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal15 = true"
+                  >
                     <img src="/img/lesson2/18.png" width="60%" />
                     <p><br />รูปที่ 16 การแทรกรูปภาพ</p>
                   </div>
+                  <modal :show.sync="modals.modal15">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 16 การแทรกรูปภาพ
+                    </h6>
+                    <img src="/img/lesson2/18.png" width="100%" />
+                  </modal>
 
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal16 = true"
+                  >
                     <img src="/img/lesson2/19.png" width="50%" />
                     <p><br />รูปที่ 17 รูปร่างกราฟฟิก</p>
                   </div>
+                  <modal :show.sync="modals.modal16">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 17 รูปร่างกราฟฟิก
+                    </h6>
+                    <img src="/img/lesson2/19.png" width="100%" />
+                  </modal>
 
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal17 = true"
+                  >
                     <img src="/img/lesson2/20.png" width="70%" />
                     <p><br />รูปที่ 18 แผนผังกราฟิก</p>
                   </div>
+                  <modal :show.sync="modals.modal17">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 18 แผนผังกราฟิก
+                    </h6>
+                    <img src="/img/lesson2/20.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
               <p>• กลุ่ม Chart หรือ แผนภูมิ</p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal18 = true"
+              >
                 <img src="/img/lesson2/21.png" width="30%" />
                 <p><br />รูปที่ 19 แผนภูมิ (Chart)</p>
               </div>
+              <modal :show.sync="modals.modal18">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 19 แผนภูมิ (Chart)
+                </h6>
+                <img src="/img/lesson2/21.png" width="100%" />
+              </modal>
               <br />
               <p>
                 • กลุ่ม Filter ตัวกรองข้อมูล (Filter)
@@ -378,30 +580,78 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal19 = true"
+                  >
                     <img src="/img/lesson2/22.png" width="70%" />
                     <p><br />รูปที่ 20 ตัวอย่างการแทรก Header & Footer</p>
                   </div>
+                  <modal :show.sync="modals.modal19">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 20 ตัวอย่างการแทรก Header & Footer
+                    </h6>
+                    <img src="/img/lesson2/22.png" width="100%" />
+                  </modal>
 
-                  <div class="text-center col-sm" style="font-style:italic">
+                  <div
+                    class="text-center col-sm"
+                    style="font-style:italic"
+                    @click="modals.modal20 = true"
+                  >
                     <img src="/img/lesson2/23.png" width="50%" />
                     <p><br />รูปที่ 21 คำสั่งแทรกกล่องข้อความและข้อความศิลป์</p>
                   </div>
+                  <modal :show.sync="modals.modal20">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 21 คำสั่งแทรกกล่องข้อความและข้อความศิลป์
+                    </h6>
+                    <img src="/img/lesson2/23.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
               <p>• กลุ่ม Symbols</p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal21 = true"
+              >
                 <img src="/img/lesson2/24.png" width="50%" />
                 <p><br />รูปที่ 22 ตัวอย่าง Symbols ของ Font wingding</p>
               </div>
+              <modal :show.sync="modals.modal21">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 22 ตัวอย่าง Symbols ของ Font wingding
+                </h6>
+                <img src="/img/lesson2/24.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal22 = true"
+              >
                 <img src="/img/lesson2/25.png" width="50%" />
                 <p><br />รูปที่ 23 ตัวอย่าง การแทรกสูตรคำนวณ Equation</p>
               </div>
-              
+              <modal :show.sync="modals.modal22">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 23 ตัวอย่าง การแทรกสูตรคำนวณ Equation
+                </h6>
+                <img src="/img/lesson2/25.png" width="100%" />
+              </modal>
+
               <!-- ---------------------------------->
               <br />
               <br />
@@ -411,35 +661,35 @@
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson1_1" title="Lesson1_1 Page">
-                    <div class="btn-wrapper">
-                      <base-button
-                        tag="a"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
-                        outline
-                        type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
-                      >
-                    </div>
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                          icon="fa fa-chevron-left"
+                          >Previous</base-button
+                        >
+                      </div>
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_2" title="Lesson2_2 Page">
@@ -487,11 +737,41 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+        modal21: false,
+        modal22: false,
+      },
+    };
   },
 };
 </script>

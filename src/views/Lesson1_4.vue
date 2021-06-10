@@ -42,15 +42,41 @@
 
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal1 = true"
+                  >
                     <img src="/img/lesson1/p6a.png" width="100%" />
                     <p><br />รูปที่ 6 (a) ปุ่มสร้างเอกสารใหม่</p>
                   </div>
+                  <modal :show.sync="modals.modal1">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 6 (a) ปุ่มสร้างเอกสารใหม่
+                    </h6>
+                    <img src="/img/lesson1/p6a.png" width="100%" />
+                  </modal>
                   <br />
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal2 = true"
+                  >
                     <img src="/img/lesson1/p6b.png" width="60%" />
                     <p><br />รูปที่ 6 (b) การสร้างเอกสารจากเมนู “ไฟล์”</p>
                   </div>
+                  <modal :show.sync="modals.modal2">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 6 (b) การสร้างเอกสารจากเมนู “ไฟล์”
+                    </h6>
+                    <img src="/img/lesson1/p6b.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
@@ -77,32 +103,80 @@
 
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal3 = true"
+                  >
                     <img src="/img/lesson1/p7a.png" width="80%" />
                     <p><br />รูปที่ 7 (a) ตัวเลือกในเมนู “ไฟล์”</p>
                   </div>
+                  <modal :show.sync="modals.modal3">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 7 (a) ตัวเลือกในเมนู “ไฟล์”
+                    </h6>
+                    <img src="/img/lesson1/p7a.png" width="100%" />
+                  </modal>
                   <br />
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal4 = true"
+                  >
                     <img src="/img/lesson1/p7b.png" width="80%" />
                     <p><br />รูปที่ 7 (b) ตัวเลือกในเมนู “แก้ไข”</p>
                   </div>
+                  <modal :show.sync="modals.modal4">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 7 (b) ตัวเลือกในเมนู “แก้ไข”
+                    </h6>
+                    <img src="/img/lesson1/p7b.png" width="100%" />
+                  </modal>
                   <br />
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal5 = true"
+                  >
                     <img src="/img/lesson1/p7c.png" width="60%" />
                     <p><br />7(c) ตัวเลือกในเมนู “แทรก”</p>
                   </div>
+                  <modal :show.sync="modals.modal5">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      7(c) ตัวเลือกในเมนู “แทรก”
+                    </h6>
+                    <img src="/img/lesson1/p7c.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
               <br />
 
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson1/p8.png" width="100%" />
                 <p>
                   <br />รูปที่ 8
                   การใช้งานเครื่องมือลัดพร้อมทั้งผลลัพธ์จากการใช้งาน
                 </p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 8 การใช้งานเครื่องมือลัดพร้อมทั้งผลลัพธ์จากการใช้งาน
+                </h6>
+                <img src="/img/lesson1/p8.png" width="100%" />
+              </modal>
               <br />
 
               <p class="font-weight-bold rem2">
@@ -147,26 +221,65 @@
 
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal7 = true"
+                  >
                     <img src="/img/lesson1/9a.png" width="100%" />
                     <p><br />รูปที่ 9 (a) การตั้งค่าการแชร์ไฟล์กับผู้ใช้อื่น</p>
                   </div>
+
+                  <modal :show.sync="modals.modal7">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 9 (a) การตั้งค่าการแชร์ไฟล์กับผู้ใช้อื่น
+                    </h6>
+                    <img src="/img/lesson1/9a.png" width="100%" />
+                  </modal>
                   <br />
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal8 = true"
+                  >
                     <img src="/img/lesson1/p9b.png" width="60%" />
                     <p><br />รูปที่ 9 (b) การตั้งค่าขั้นสูงของการแชร์ไฟล์</p>
                   </div>
+
+                  <modal :show.sync="modals.modal8">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 9 (b) การตั้งค่าขั้นสูงของการแชร์ไฟล์
+                    </h6>
+                    <img src="/img/lesson1/p9b.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
 
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson1/p10.png" width="60%" />
                 <p>
                   <br />รูปที่ 10
                   สิทธิที่สามารถกำหนดให้แก่ผู้ใช้อื่นที่จะสามารถเข้าถึงไฟล์ที่แชร์ได้
                 </p>
               </div>
+
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 10
+                  สิทธิที่สามารถกำหนดให้แก่ผู้ใช้อื่นที่จะสามารถเข้าถึงไฟล์ที่แชร์ได้
+                </h6>
+                <img src="/img/lesson1/p10.png" width="100%" />
+              </modal>
               <br />
               <p class="font-weight-bold rem2">
                 5) การควบคุมเวอร์ชัน (Version control)
@@ -196,24 +309,52 @@
               <br /><br />
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal10 = true"
+                  >
                     <img src="/img/lesson1/p11a.png" width="90%" />
                     <p><br />รูปที่ 11 (a) เครื่องมือพิมพ์ด้วยเสียง</p>
                   </div>
+                  <modal :show.sync="modals.modal10">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 11 (a) เครื่องมือพิมพ์ด้วยเสียง
+                    </h6>
+                    <img src="/img/lesson1/p11a.png" width="100%" />
+                  </modal>
+
                   <br />
-                  <div class="text-center font-italic col-sm">
+
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal11 = true"
+                  >
                     <img src="/img/lesson1/p11b.png" width="90%" />
                     <p><br />รูปที่ 11 (b) ทดสอบการพิมพ์ด้วยเสียง</p>
                   </div>
+                  <modal :show.sync="modals.modal11">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 11 (b) ทดสอบการพิมพ์ด้วยเสียง
+                    </h6>
+                    <img src="/img/lesson1/p11b.png" width="90%" />
+                  </modal>
                 </div>
               </div>
               <br />
               <p class="font-weight-bold rem2">
                 7) สามารถเรียนรู้เพิ่มเติมได้ที่
                 https://www.google.com/docs/about/
-              </p>   
-              <br><br>
-                <h4>4. กูเกิลฟอร์ม (Google Form)</h4>
+              </p>
+              <br /><br />
+              <h4>4. กูเกิลฟอร์ม (Google Form)</h4>
               <h5 class="rem2">
                 4.1. ภาพรวม องค์ประกอบและเครื่องมือต่างๆ ของกูเกิลฟอร์ม
               </h5>
@@ -226,10 +367,20 @@
                 เนื่องจากจะทำให้ต้นทุนการสำรวจลดลงเป็นอย่างมากเมื่อเทียบกับแบบสอบถามที่อยู่ในรูปแบบของกระดาษ
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson1/p12.png" width="80%" />
                 <p><br />รูปที่ 12 ภาพรวมและองค์ประกอบของกูเกิลฟอร์ม</p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 12 ภาพรวมและองค์ประกอบของกูเกิลฟอร์ม
+                </h6>
+                <img src="/img/lesson1/p12.png" width="100%" />
+              </modal>
+
               <br />
               <p class="rem2">
                 จากรูปที่ 12 แสดงให้เห็นถึงหน้าตาภาพรวมและเครื่องมือต่างๆ
@@ -311,15 +462,42 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal13 = true"
+                  >
                     <img src="/img/lesson1/p13a.png" width="120%" />
                     <p><br />รูปที่ 13 (a) ปุ่มเลือกประเภทของคำถาม</p>
                   </div>
+                  <modal :show.sync="modals.modal13">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 13 (a) ปุ่มเลือกประเภทของคำถาม
+                    </h6>
+                    <img src="/img/lesson1/p13a.png" width="100%" />
+                  </modal>
+
                   <br />
-                  <div class="text-center font-italic col-sm">
+                  <div
+                    class="text-center font-italic col-sm"
+                    @click="modals.modal14 = true"
+                  >
                     <img src="/img/lesson1/p13b.png" width="50%" />
                     <p><br />รูปที่ 13 (b) ตัวเลือกประเภทของคำถาม</p>
                   </div>
+                  <modal :show.sync="modals.modal14">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 13 (b) ตัวเลือกประเภทของคำถาม
+                    </h6>
+                    <img src="/img/lesson1/p13b.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <p class="rem5 text-justify">
@@ -332,10 +510,19 @@
                 “การตั้งค่า” ที่อยู่ในส่วน C ตามรูปที่ 12
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal15 = true"
+              >
                 <img src="/img/lesson1/p14.png" width="60%" />
                 <p><br />รูปที่ 14 ตัวเลือกการตั้งค่าฟอร์ม</p>
               </div>
+              <modal :show.sync="modals.modal15">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 14 ตัวเลือกการตั้งค่าฟอร์ม
+                </h6>
+                <img src="/img/lesson1/p14.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5">
                 4) การบันทึก
@@ -352,10 +539,19 @@
                 หากส่งผ่านอีเมลมีความจำเป็นที่จะต้องกรอกอีเมลของผู้รับลงไปด้วยเป็นต้น
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal16 = true"
+              >
                 <img src="/img/lesson1/p15.png" width="60%" />
                 <p><br />รูปที่ 15 ตัวเลือกการส่งฟอร์ม</p>
               </div>
+              <modal :show.sync="modals.modal16">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 15 ตัวเลือกการส่งฟอร์ม
+                </h6>
+                <img src="/img/lesson1/p15.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5 text-justify">
                 เครื่องมือจัดการเอกสารของกูเกิลมีประโยชน์ในหลายมิติ
@@ -368,7 +564,7 @@
                 และช่วยอำนวยความสะดวกแก่การทำงานเป็นอย่างยิ่ง
               </p>
               <!-- -------------------------------- -->
-              <br><br><br><br>
+              <br /><br /><br /><br />
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
@@ -388,36 +584,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                      <router-link to="/lesson2_1" title="Lesson2_1 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Continue
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson2_1" title="Lesson2_1 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Continue
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -446,9 +642,35 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+      },
+    };
+  },
 };
 </script>
 

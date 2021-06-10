@@ -234,7 +234,9 @@
                 graphs)
               </p>
               <br />
-              <h5 class="rem2">3.4.1 การใช้ธีมที่เหมาะสม (use suitable theme)</h5>
+              <h5 class="rem2">
+                3.4.1 การใช้ธีมที่เหมาะสม (use suitable theme)
+              </h5>
               <p class="rem5 text-justify">
                 การทำสไลด์นำเสนอให้มีประสิทธิภาพนั้น
                 ควรให้มีความเรียบง่ายมากที่สุดและรูปแบบการนำเสนอควรดูสบายตา
@@ -272,13 +274,23 @@
                 ย้ายรูปภาพ/ใส่รูปภาพใหม่ได้ตามต้องการ
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson3/1.png" width="80%" />
                 <p>
                   <br />ภาพที่ 1 – Theme สำเร็จรูปที่มีอยู่ในโปรแกรม Microsoft
                   PowerPoint
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 1 – Theme สำเร็จรูปที่มีอยู่ในโปรแกรม Microsoft
+                  PowerPoint
+                </h6>
+                <img src="/img/lesson3/1.png" width="100%" />
+              </modal>
               <br />
               <h6 class="rem2">3.4.1.2 การสร้าง Theme ใหม่</h6>
               <p class="rem5 text-justify">
@@ -291,10 +303,19 @@
                 Apply to All
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson3/2.png" width="80%" />
                 <p><br />ภาพที่ 2 – ขั้นตอนการสร้าง Theme ใหม่</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 2 – ขั้นตอนการสร้าง Theme ใหม่
+                </h6>
+                <img src="/img/lesson3/2.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5">
                 เมื่อสร้างเสร็จแล้วเราสามารถ Save ไว้เป็น Theme
@@ -303,10 +324,19 @@
                 แล้วตั้งชื่อ Theme เพื่อไว้ใช้งานต่อไป
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson3/3.png" width="80%" />
                 <p><br />ภาพที่ 3 – การบันทึก Theme ใหม่สำหรับการนำไปใช้งาน</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 3 – การบันทึก Theme ใหม่สำหรับการนำไปใช้งาน
+                </h6>
+                <img src="/img/lesson3/3.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5 font-italic font-weight-bold">
                 *** ข้อควรระวัง การสร้างธีมไม่ควรใช้สีมากจนเกินไป ควรใช้ไม่เกิน
@@ -340,20 +370,38 @@
               </p>
               <p class="rem5">2) คลิกที่แถบ View -------> Slide Master</p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson3/4.png" width="80%" />
                 <p><br />ภาพที่ 4 – การเปิดใช้งาน Slide Master</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 4 – การเปิดใช้งาน Slide Master
+                </h6>
+                <img src="/img/lesson3/4.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 จากนั้นแถบ Slide Master จะแสดงสไลด์ต้นแบบหลายสไลด์ที่มี layout
                 แบบต่างๆ ขึ้นมาทางด้านขวามือให้ผู้ใช้งานสามารถปรับแก้ได้
                 ตามต้องการ
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson3/5.png" width="80%" />
                 <p><br />ภาพที่ 5 ลักษณะของ Slide Master และ สไลด์ต้นแบบ</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 5 ลักษณะของ Slide Master และ สไลด์ต้นแบบ
+                </h6>
+                <img src="/img/lesson3/5.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5 text-justify">
                 3) การปรับแก้ layout ของสไลด์ต้นแบบใน Slide Master
@@ -367,21 +415,41 @@
                 ให้เหมือนกันทุกสไลด์ไว้บนสไลด์ต้นแบบ ดังภาพที่ 7
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson3/6.png" width="80%" />
                 <p>
                   <br />ภาพที่ 6
                   ตัวอย่างการใส่โลโก้และข้อความไว้บนสไลด์ต้นแบบอันบนสุดเพื่อให้ปรากฏบนทุกสไลด์
                 </p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 6
+                  ตัวอย่างการใส่โลโก้และข้อความไว้บนสไลด์ต้นแบบอันบนสุดเพื่อให้ปรากฏบนทุกสไลด์
+                </h6>
+                <img src="/img/lesson3/6.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson3/7.png" width="80%" />
                 <p>
                   <br />ภาพที่ 7 ตัวอย่างการจัดวาง layout
                   การกำหนดฟอนต์ที่ต้องการไว้บนสไลด์ต้นแบบ
                 </p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 7 ตัวอย่างการจัดวาง layout
+                  การกำหนดฟอนต์ที่ต้องการไว้บนสไลด์ต้นแบบ
+                </h6>
+                <img src="/img/lesson3/7.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5">
                 4) หลังจากที่ทำการแก้ไขสไลด์ตามที่ต้องการเรียบร้อยแล้ว
@@ -395,21 +463,41 @@
                 และจะปรากฏชุดสไลด์ต้นแบบที่อยู่ใน Slide Master
                 มาให้เลือกใช้ตามต้องการ (ดังภาพที่ 9)
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson3/8.png" width="80%" />
                 <p>
                   <br />ภาพที่ 8 การเรียกใช้สไลด์ต้นแบบที่ได้ทำ layout ไว้ใน
                   Slide Master
                 </p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 8 การเรียกใช้สไลด์ต้นแบบที่ได้ทำ layout ไว้ใน Slide
+                  Master
+                </h6>
+                <img src="/img/lesson3/8.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson3/9.png" width="80%" />
                 <p>
                   <br />ภาพที่ 9 สไลด์ต้นแบบที่มี layout แบบต่างๆ ที่อยู่ใน
                   Slide Master
                 </p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 9 สไลด์ต้นแบบที่มี layout แบบต่างๆ ที่อยู่ใน Slide
+                  Master
+                </h6>
+                <img src="/img/lesson3/9.png" width="100%" />
+              </modal>
               <!-- ---------------------------------->
               <br />
               <br />
@@ -419,35 +507,35 @@
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson2_1" title="Lesson2_1 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                          icon="fa fa-chevron-left"
+                          >Previous</base-button
+                        >
+                      </div>
+                    </router-link>
+                  </div>
+                  <div class="col text-center">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
                       >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
                     </div>
-                    <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                    </router-link>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson3_2" title="Lesson3_2 Page">
@@ -494,11 +582,28 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+      },
+    };
   },
 };
 </script>

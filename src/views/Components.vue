@@ -4,12 +4,14 @@
         <apage></apage>
         
         
+        
 
     </div>
 </template>
 <script>
 import Hero from "./components/Hero";
 import Apage from "./components/Apage";
+
 
 
 export default {

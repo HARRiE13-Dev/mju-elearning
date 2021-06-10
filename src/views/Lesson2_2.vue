@@ -34,10 +34,20 @@
                 (Print Test) เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson2/26.png" width="100%" />
                 <p><br />รูปที่ 24 กลุ่มคำสั่ง PAGE LAYOUT</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 24 กลุ่มคำสั่ง PAGE LAYOUT
+                </h6>
+                <img src="/img/lesson2/26.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">2.3.1.5 กลุ่มคำสั่ง FORMULAS</h6>
               <p style="text-indent: 7.5em;">
@@ -47,10 +57,20 @@
                 (Calculation) เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson2/27.png" width="100%" />
                 <p><br />รูปที่ 25 กลุ่มคำสั่ง FORMULAS</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 25 กลุ่มคำสั่ง FORMULAS
+                </h6>
+                <img src="/img/lesson2/27.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">2.3.1.6 กลุ่มคำสั่ง DATA</h6>
               <p style="text-indent: 7.5em;">
@@ -60,23 +80,65 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="col-sm text-center" style="font-style:italic">
+                  <div
+                    class="col-sm text-center"
+                    style="font-style:italic"
+                    @click="modals.modal3 = true"
+                  >
                     <img src="/img/lesson2/28.png" width="100%" />
                     <p><br />รูปที่ 26 กลุ่มคำสั่ง DATA</p>
                   </div>
+                  <modal :show.sync="modals.modal3">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 26 กลุ่มคำสั่ง DATA
+                    </h6>
+                    <img src="/img/lesson2/28.png" width="100%" />
+                  </modal>
                 </div>
                 <br />
                 <div class="row">
-                  <div class="col-sm text-center" style="font-style:italic">
+                  <div
+                    class="col-sm text-center"
+                    style="font-style:italic"
+                    @click="modals.modal4 = true"
+                  >
                     <img src="/img/lesson2/29.png" width="50%" />
                     <p>
                       <br />รูปที่ 27 กลุ่มคำสั่ง DATA กลุ่ม Get External Data
                     </p>
                   </div>
-                  <div class="col-sm text-center" style="font-style:italic">
+                  <modal :show.sync="modals.modal4">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 27 กลุ่มคำสั่ง DATA กลุ่ม Get External Data
+                    </h6>
+                    <img src="/img/lesson2/29.png" width="50%" />
+                  </modal>
+                  <div
+                    class="col-sm text-center"
+                    style="font-style:italic"
+                    @click="modals.modal5 = true"
+                  >
                     <img src="/img/lesson2/30.png" width="50%" />
                     <p><br />รูปที่ 28 กลุ่มคำสั่ง DATA กลุ่ม Sort & Filter</p>
                   </div>
+                  <modal :show.sync="modals.modal5">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      รูปที่ 28 กลุ่มคำสั่ง DATA กลุ่ม Sort & Filter
+                    </h6>
+                    <img src="/img/lesson2/30.png" width="50%" />
+                  </modal>
                 </div>
               </div>
 
@@ -88,10 +150,20 @@
                 การใส่ข้อคิดเห็น (Comment) เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson2/31.png" width="100%" />
                 <p><br />รูปที่ 29 กลุ่มคำสั่ง REVIEW</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 29 กลุ่มคำสั่ง REVIEW
+                </h6>
+                <img src="/img/lesson2/31.png" width="100%" />
+              </modal>
               <br />
               <h6 style="text-indent: 5em;">2.3.1.8 กลุ่มคำสั่ง VIEW</h6>
               <p style="text-indent: 7.5em;">
@@ -102,11 +174,21 @@
                 (Gridline) การปรับขนาดหน้าจอ (Zoom) เป็นต้น
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson2/32.png" width="100%" />
                 <p><br />รูปที่ 30 กลุ่มคำสั่ง VIEW</p>
               </div>
-              <br><br>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 30 กลุ่มคำสั่ง VIEW
+                </h6>
+                <img src="/img/lesson2/32.png" width="100%" />
+              </modal>
+              <br /><br />
 
               <h5>2.3.2 แถบสูตร (Formulas Bar)</h5>
               <p style="text-indent: 2.5em;">
@@ -120,10 +202,20 @@
                 2.3.2.2) สูตรสำเร็จ (function) เพื่อคำนวณ หรือวิเคราะห์ผลข้อมูล
               </p>
               <br />
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson2/p31.png" width="60%" />
                 <p><br />รูปที่ 31 แถบสูตร (Formulas Bar)</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 31 แถบสูตร (Formulas Bar)
+                </h6>
+                <img src="/img/lesson2/p31.png" width="100%" />
+              </modal>
               <br />
               <h5>2.3.3 สมุดงาน (Workbook) และแผ่นงาน (Sheet)</h5>
               <p style="text-indent: 2.5em;">
@@ -174,13 +266,23 @@
                 - เซลล์ที่เป็น Active Cell จะมีเส้นกรอบสีเข้มล้อมรอบ ดังรูปที่
                 32
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal18 = true"
+              >
                 <img src="/img/lesson2/p32.png" width="40%" />
                 <p>
                   <br />รูปที่ 32 สมุดงาน (Workbook) ที่มี Active Cell ตำแหน่ง
                   A1
                 </p>
               </div>
+              <modal :show.sync="modals.modal18">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 32 สมุดงาน (Workbook) ที่มี Active Cell ตำแหน่ง
+                </h6>
+                <img src="/img/lesson2/p32.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 2.5em;">
                 2.3.3.4 สมุดงาน (Workbook) คือ ไฟล์งานหลักของโปรแกรม Excel
@@ -202,10 +304,20 @@
                 - ชื่อแผ่นงาน (Sheet)
                 สามารถเปลี่ยนได้โดยดับเบิลคลิกและแก้ไขเป็นชื่อแผ่นงานใหม่
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson2/p33.png" width="80%" />
                 <p><br />รูปที่ 33 ตัวอย่างการเปลี่ยนชื่อแผ่นงาน (Sheet)</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 33 ตัวอย่างการเปลี่ยนชื่อแผ่นงาน (Sheet)
+                </h6>
+                <img src="/img/lesson2/p33.png" width="100%" />
+              </modal>
               <br />
               <h4>2.4 การทำงานของเซลล์ (Cell)</h4>
               <p style="text-indent: 2.5em;">
@@ -226,19 +338,39 @@
               <p style="text-indent: 5em;">
                 2.4.1.1 เลือกเซลล์โดยใช้เมาส์คลิกเลือกตำแหน่งเซลล์ที่ต้องการ
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson2/p34.png" width="40%" />
                 <p><br />รูปที่ 34 ตัวอย่างการคลิกเมาส์เลือกเซลล์ B3</p>
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 34 ตัวอย่างการคลิกเมาส์เลือกเซลล์ B3
+                </h6>
+                <img src="/img/lesson2/p34.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 5em;">
                 2.4.1.2 เลือกเซลล์โดยใช้ปุ่มลูกศรจากคีย์บอร์ดเพื่อเลื่อน Cell
                 Pointer ไปยังเซลล์ที่ต้องการ
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson2/p35.png" width="40%" />
                 <p><br />รูปที่ 35 ปุ่มลูกศรบนคีย์บอร์ด</p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 35 ปุ่มลูกศรบนคีย์บอร์ด
+                </h6>
+                <img src="/img/lesson2/p35.png" width="100%" />
+              </modal>
               <br />
               <p style="text-indent: 5em;">
                 2.4.1.3 เลือกเซลล์โดยใช้คำสั่ง Go To (หรือ ปุ่ม F5)
@@ -249,13 +381,23 @@
                 2.4.1.2 เลือกเซลล์โดยใช้ปุ่มลูกศรจากคีย์บอร์ดเพื่อเลื่อน Cell
                 Pointer ไปยังเซลล์ที่ต้องการ
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson2/p36.png" width="40%" />
                 <p>
                   <br />รูปที่ 36 การเลือกเซลล์โดยการใช้คำสั่ง Go To หรือกดปุ่ม
                   F5
                 </p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 36 การเลือกเซลล์โดยการใช้คำสั่ง Go To หรือกดปุ่ม
+                </h6>
+                <img src="/img/lesson2/p36.png" width="100%" />
+              </modal>
               <br />
               <h4>2.5 การป้อนข้อมูลบนสมุดงาน</h4>
               <p style="text-indent: 2.5em;">
@@ -270,10 +412,20 @@
               <p style="text-indent: 5em;">
                 2.5.1.2 พิมพ์ข้อความ หรือตัวอักษร หรือตัวเลข และกดปุ่ม Enter
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson2/p37.png" width="40%" />
                 <p><br />รูปที่ 37 การป้อนข้อมูลบนเซลล์</p>
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 37 การป้อนข้อมูลบนเซลล์
+                </h6>
+                <img src="/img/lesson2/p37.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">
                 2.5.2 การจัดตำแหน่งของข้อมูลในเซลล์
@@ -282,10 +434,20 @@
                 การจัดตำแหน่งของข้อความบนเซลล์ สามารถใช้แถบเครื่องมือ ดังรูปที่
                 38
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal14 = true"
+              >
                 <img src="/img/lesson2/p38.png" width="40%" />
                 <p><br />รูปที่ 38 แถบเครื่องมือจัดตำแหน่งข้อมูลบนเซลล์</p>
               </div>
+              <modal :show.sync="modals.modal14">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 38 แถบเครื่องมือจัดตำแหน่งข้อมูลบนเซลล์
+                </h6>
+                <img src="/img/lesson2/p38.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">5.3 การแก้ไขข้อมูลบนเซลล์</h5>
               <p style="text-indent: 5em;">
@@ -295,7 +457,8 @@
                 2.5.3.2 กดเมาส์ double click หรือ กดปุ่ม F2
               </p>
               <p style="text-indent: 5em;">
-                2.5.3.3 พิมพ์ข้อความใหม่ และกด Enter หรือเลื่อนเมาส์ไปยังเซลล์อื่น
+                2.5.3.3 พิมพ์ข้อความใหม่ และกด Enter
+                หรือเลื่อนเมาส์ไปยังเซลล์อื่น
               </p>
               <h5 style="text-indent: 2.5em;">
                 2.5.4 การป้อนข้อมูลที่ซ้ำกัน (AutoComplete)
@@ -315,10 +478,20 @@
                 2.5.4.2 หากต้องการพิมพ์คำอื่นแทน เช่น วิชา
                 ให้พิมพ์คำใหม่ที่ต้องการ และกด Enter
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal15 = true"
+              >
                 <img src="/img/lesson2/p39.png" width="40%" />
                 <p><br />รูปที่ 39 ตัวอย่างการป้อนข้อมูล แบบ AutoComplete</p>
               </div>
+              <modal :show.sync="modals.modal15">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 39 ตัวอย่างการป้อนข้อมูล แบบ AutoComplete
+                </h6>
+                <img src="/img/lesson2/p39.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">
                 2.5.5 การป้อนข้อมูล Auto fill Options
@@ -330,12 +503,22 @@
                 จากนั้นใช้คำสั่ง Auto fill Options ตัวอย่างข้อมูลเช่น ลำดับเลข
                 เดือน เป็นต้น
               </p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal16 = true"
+              >
                 <img src="/img/lesson2/p40.png" width="40%" />
                 <p>
                   <br />รูปที่ 40 การป้อนข้อมูลโดยใช้คำสั่ง Auto fill Options
                 </p>
               </div>
+              <modal :show.sync="modals.modal16">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 40 การป้อนข้อมูลโดยใช้คำสั่ง Auto fill Options
+                </h6>
+                <img src="/img/lesson2/p40.png" width="100%" />
+              </modal>
               <br />
               <h5 style="text-indent: 2.5em;">
                 2.5.6 ประเภทข้อมูลที่ป้อนลงโปรแกรม Excel
@@ -349,13 +532,24 @@
               <p style="text-indent: 7.5em;">5.5.3 ข้อมูลสูตร (Formulas)</p>
               <p style="text-indent: 7.5em;">5.5.4 ข้อมูลชนิดวันที่ (Date)</p>
               <p style="text-indent: 7.5em;">5.5.5 ข้อมูลชนิดเวลา (Time)</p>
-              <div class="text-center" style="font-style:italic">
+              <div
+                class="text-center"
+                style="font-style:italic"
+                @click="modals.modal17 = true"
+              >
                 <img src="/img/lesson2/p41.png" width="60%" />
                 <p>
                   <br />รูปที่ 41 ตัวอย่างข้อมูลที่ป้อนในสมุดงาน ชนิดข้อความ
                   ตัวเลข วันที่ และเวลา
                 </p>
               </div>
+              <modal :show.sync="modals.modal17">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 41 ตัวอย่างข้อมูลที่ป้อนในสมุดงาน ชนิดข้อความ ตัวเลข
+                  วันที่ และเวลา
+                </h6>
+                <img src="/img/lesson2/p41.png" width="100%" />
+              </modal>
               <!-- -------------------------------- -->
               <br />
               <br />
@@ -380,20 +574,20 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson2_3" title="Lesson2_3 Page">
@@ -438,9 +632,39 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+      },
+    };
+  },
 };
 </script>
 
