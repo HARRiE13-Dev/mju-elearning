@@ -322,12 +322,12 @@
               <br />
               <div
                 class="text-center font-italic"
-                @click="modals.modal1 = true"
+                @click="modals.modal5 = true"
               >
                 <img src="/img/lesson1/p5.png" width="40%" />
                 <p><br />รูปที่ 5 โหมดการแก้ไข</p>
               </div>
-              <modal :show.sync="modals.modal1">
+              <modal :show.sync="modals.modal5">
                 <h6 slot="header" class="modal-title" id="modal-title-default">
                   รูปที่ 5 โหมดการแก้ไข
                 </h6>

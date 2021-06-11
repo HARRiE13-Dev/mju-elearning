@@ -33,9 +33,18 @@
                 การสอบถามปัญหาในงานกับเพื่อนร่วมงานหรือผู้รู้ การนำเสนอผลงานที่
                 ต้องการฟีดแบค เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson6/5.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Facebook
+                </h6>
+                <img src="/img/lesson6/5.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -49,9 +58,18 @@
                 ยามกะดึกที่เฝ้าโกดังรายงานความสงบเรียบร้อยทุก ๆ 20 นาที
                 คนขับรถส่งสินค้าไปถึงท่าเรือได้ทันเวลา เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson6/6.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Twitter
+                </h6>
+                <img src="/img/lesson6/6.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -63,9 +81,18 @@
                 เพราะเขาเป็นคนเขียน wiki ของที่ทำงาน
                 เหมือนเป็นคัมภีร์ประจำออฟฟิศนั่นหมายความว่าความมั่นคงในงานของพนักงานก็สูงขึ้นด้วย
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson6/7.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Wiki
+                </h6>
+                <img src="/img/lesson6/7.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -80,9 +107,18 @@
                 อัดวิดีโอส่งผ่านยูทูปมา ก็จะลดต้นทุนได้ทั้งสองฝ่าย
                 ทั้งผู้สัมภาษณ์ และผู้ถูกสัมภาษณ์ เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson6/8.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Youtube
+                </h6>
+                <img src="/img/lesson6/8.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -96,9 +132,18 @@
                 ก็สามารถบันทึกข้อมูลการตรวจเยี่ยมในพื้นที่ต่าง ๆ
                 ไว้ให้สำนักงานใหญ่ควบคุมดูแลหรือมอนิเตอร์ดูได้ เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson6/9.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Foursquare
+                </h6>
+                <img src="/img/lesson6/9.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -110,9 +155,18 @@
                 หรือนำมาใช้เป็นภาพประกอบในการแจ้งเรื่องร้องเรียน
                 หรือข้อเสนอแนะไคเซ็น เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson6/10.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Instagram
+                </h6>
+                <img src="/img/lesson6/10.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -124,9 +178,18 @@
                 เป็นการบันทึกข้อมูลที่เป็นหลักฐานอ้างอิงที่ดีไว้สำหรับประเมินผลการปฏิบัติงาน
                 เช่น หัวหน้าที่ได้อ่านไดอารี่การ
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson6/11.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Blog
+                </h6>
+                <img src="/img/lesson6/11.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -136,9 +199,18 @@
                 หรือตั้งกระทู้สำหรับระดมสมอง ประชันไอเดีย รับฟังข้อเสนอแนะ
                 เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson6/12.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Webboard
+                </h6>
+                <img src="/img/lesson6/12.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -148,9 +220,18 @@
                 แล้วเซฟเป็นไฟล์ที่อัพเดทล่าสุดเป็นไฟล์เดียว ทีมงานสามารถอัพโหลด
                 ดาวโหลด ไฟล์งานไว้ในโฟลเดอร์กลางที่ทุกคนต้อง
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson6/13.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Google Docs
+                </h6>
+                <img src="/img/lesson6/13.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -160,9 +241,18 @@
                 ก็สามารถดาวโหลดไฟล์ที่เก็บไว้ในดร็อปบ็อกซ์มาใช้งานได้อย่างทันท่วงที
                 เป็นที่ฝากไฟล์ซึ่งสามารถแชร์กล่องเก็บข้อมูลให้ผู้อื่นใช้ร่วมกันได้ง่าย
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson6/14.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Drop Box
+                </h6>
+                <img src="/img/lesson6/14.png" width="100%" />
+              </modal>
               <br /><br />
 
               <p class="rem2">
@@ -172,9 +262,18 @@
                 ทั้งผู้สัมภาษณ์และผู้ถูกสัมภาษณ์ต้องมีอุปกรณ์และเวลาที่ตรงกัน
                 จำลองสถานการณ์และสิ่งแวดล้อมให้เหมือนเจอตัวจริงกันเป็นๆ
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson6/15.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Skype
+                </h6>
+                <img src="/img/lesson6/15.png" width="100%" />
+              </modal>
               <br /><br /><br />
 
               <h5>
@@ -183,51 +282,132 @@
               <p class="rem2">
                 Google Group – เว็บไซต์ในรูปแบบ Social Networking
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson6/16.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Google Group
+                </h6>
+                <img src="/img/lesson6/16.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">Wikipedia – เว็บไซต์ในรูปแบบข้อมูลอ้างอิง</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson6/17.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Wikipedia
+                </h6>
+                <img src="/img/lesson6/17.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">MySpace – เว็บไซต์ในรูปแบบ Social Networking</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal14 = true"
+              >
                 <img src="/img/lesson6/18.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal14">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  MySpace
+                </h6>
+                <img src="/img/lesson6/18.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">MouthShut – เว็บไซต์ในรูปแบบ Product Reviews</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal15 = true"
+              >
                 <img src="/img/lesson6/19.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal15">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  MouthShut
+                </h6>
+                <img src="/img/lesson6/19.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">Yelp – เว็บไซต์ในรูปแบบ Product Reviews</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal16 = true"
+              >
                 <img src="/img/lesson6/20.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal16">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Yelp
+                </h6>
+                <img src="/img/lesson6/20.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">Youmeo – เว็บที่รวม Social Network</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal17 = true"
+              >
                 <img src="/img/lesson6/21.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal17">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Youmeo
+                </h6>
+                <img src="/img/lesson6/21.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">Last.fm – เว็บเพลงส่วนตัว Personal Music</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal18 = true"
+              >
                 <img src="/img/lesson6/22.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal18">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Last.fm
+                </h6>
+                <img src="/img/lesson6/22.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">
                 YouTube – เว็บไซต์ Social Networking และ แชร์วิดีโอ
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal19 = true"
+              >
                 <img src="/img/lesson6/23.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal19">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  YouTube
+                </h6>
+                <img src="/img/lesson6/23.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="rem2">Flickr – เว็บแชร์รูปภาพ</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal20 = true"
+              >
                 <img src="/img/lesson6/24.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal20">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Flickr
+                </h6>
+                <img src="/img/lesson6/24.png" width="100%" />
+              </modal>
               <br /><br />
 
               <h4>ข้อดี - ข้อเสีย Social Media</h4>
@@ -380,36 +560,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                      <router-link to="/lesson6_3" title="Lesson6_3 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson6_3" title="Lesson6_3 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -426,7 +606,8 @@
           <h5 class="title">
             <span class="d-block mb-1">Author | Dr. Ukrit Marang</span>
             <small class="h6 text-black"
-              >Lecturer in The Business Information System at Maejo University</small
+              >Lecturer in The Business Information System at Maejo
+              University</small
             >
           </h5>
         </div>
@@ -437,9 +618,38 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+      },
+    };
+  },
 };
 </script>
 

@@ -112,15 +112,41 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="text-center font-italic col">
+                  <div
+                    class="text-center font-italic col"
+                    @click="modals.modal1 = true"
+                  >
                     <img src="/img/lesson5/1.png" width="90%" />
                     <p><br />Website : yahoo.com</p>
                   </div>
+                  <modal :show.sync="modals.modal1">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      Website : yahoo.com
+                    </h6>
+                    <img src="/img/lesson5/1.png" width="100%" />
+                  </modal>
                   <br />
-                  <div class="text-center font-italic col">
+                  <div
+                    class="text-center font-italic col"
+                    @click="modals.modal2 = true"
+                  >
                     <img src="/img/lesson5/2.png" width="100%" />
                     <p><br />Website : sanook.com</p>
                   </div>
+                  <modal :show.sync="modals.modal2">
+                    <h6
+                      slot="header"
+                      class="modal-title"
+                      id="modal-title-default"
+                    >
+                      Website : sanook.com
+                    </h6>
+                    <img src="/img/lesson5/2.png" width="100%" />
+                  </modal>
                 </div>
               </div>
               <br />
@@ -201,20 +227,47 @@
               </p>
               <br />
 
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson5/g.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson5/b.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson5/y.jpg" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y.jpg" width="100%" />
+              </modal>
 
               <br />
               <p class="rem2">
@@ -233,20 +286,47 @@
               </p>
               <br />
 
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson5/g2.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g2.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson5/b2.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b2.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson5/y2.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y2.png" width="100%" />
+              </modal>
 
               <br />
               <p class="rem2">
@@ -268,20 +348,47 @@
                 ซึ่งจะได้ผลลัพธ์ตรงกันข้ามกับเครื่องหมาย –
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson5/g3.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g3.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson5/b3.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b3.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson5/y3.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y3.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 เมื่อต้องการค้นหาโดยการพิมพ์ว่า “การตลาด -ดิจิทัล”
@@ -302,20 +409,47 @@
                 ก็จะใช้เครื่องหมาย * แทนคำที่เราไม่ทราบได้
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson5/g4.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g4.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson5/b4.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b4.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal14 = true"
+              >
                 <img src="/img/lesson5/y4.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal14">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y4.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 เมื่อค้นหาโดยการพิมพ์ว่า “* man” ซึ่ง * จะถูกแทนที่ด้วยคำอื่น ๆ
@@ -336,20 +470,47 @@
               <br />
               <p class="font-weight-bold">กรณีที่ 1 OR operator</p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal15 = true"
+              >
                 <img src="/img/lesson5/g5.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal15">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g5.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal16 = true"
+              >
                 <img src="/img/lesson5/b5.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal16">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b5.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal17 = true"
+              >
                 <img src="/img/lesson5/y5.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal17">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y5.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 ในกรณีแบบที่ 1 OR operator เมื่อค้นหาโดยการพิมพ์ว่า “selling OR
@@ -366,35 +527,35 @@
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson4_1" title="Lesson4_1 Page">
-                    <div class="btn-wrapper">
-                      <base-button
-                        tag="a"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
-                        outline
-                        type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
-                      >
-                    </div>
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                          icon="fa fa-chevron-left"
+                          >Previous</base-button
+                        >
+                      </div>
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson5_2" title="Lesson5_2 Page">
@@ -428,7 +589,8 @@
           <h5 class="title">
             <span class="d-block mb-1">Author | Dr.Sayan Unankard</span>
             <small class="h6 text-black"
-              >Lecturer in the Information Technology Division at Maejo University</small
+              >Lecturer in the Information Technology Division at Maejo
+              University</small
             >
           </h5>
         </div>
@@ -439,6 +601,7 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 export default {
@@ -446,6 +609,33 @@ export default {
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+      },
+    };
   },
 };
 </script>

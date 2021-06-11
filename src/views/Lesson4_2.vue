@@ -24,10 +24,11 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              
+
               <h3>
                 4.3.ทักษะที่เด็กและเยาวชนยุคใหม่ควรเรียนรู้ในการเป็นพลเมืองยุคดิจิทัล
-              </h3><br>
+              </h3>
+              <br />
               <p class="rem2 text-justify">
                 เมื่อชีวิตของกลุ่มคนรุ่นใหม่ต้องเข้าไปเกี่ยวข้องกับเทคโนโลยีดิจิทัล
                 การเข้าใจและนำหลักการสื่อสารดิจิทัลมาเพื่อปกป้องตนเองจากความเสี่ยงบนโลกออนไลน์
@@ -41,13 +42,23 @@
                 (โสภิดา, 2561) ดังภาพด้านล่าง
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson4/3.jpg" width="100%" />
                 <p>
                   <br />ภาพที่ 3
                   ทักษะที่เด็กและเยาวชนยุคใหม่ควรเรียนรู้ในการเป็นพลเมืองในยุคดิจิทัล
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 3
+                  ทักษะที่เด็กและเยาวชนยุคใหม่ควรเรียนรู้ในการเป็นพลเมืองในยุคดิจิทัล
+                </h6>
+                <img src="/img/lesson4/3.jpg" width="100%" />
+              </modal>
               <br />
               <h4 class="rem2">
                 4.3.1 การสร้างอัตลักษณ์พลเมืองดิจิทัล (Digital Citizen Identity)
@@ -60,10 +71,19 @@
                 ดังภาพด้านล่าง
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson4/4.png" width="80%" />
                 <p><br />ภาพที่ 4 ภาพการสร้างอัตลักษณ์บิดเบือน</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 4 ภาพการสร้างอัตลักษณ์บิดเบือน
+                </h6>
+                <img src="/img/lesson4/4.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5 text-justify">
                 ในความเป็นจริงนั้นสิ่งที่เราควรจะเข้าใจคือ
@@ -94,7 +114,8 @@
                 ผู้ใช้สื่อก็ควรรู้เท่าทัน
                 ใช้เหตุและผลมาประกอบการพิจารณามากกว่าอารมณ์ความรู้สึก
                 การตรวจสอบข้อมูลจากหลากหลายก่อนที่จะหลงเชื่อแล้วต้องตกเป็นเหยื่อ
-              </p><br>
+              </p>
+              <br />
               <h4 class="rem2">
                 4.3.2 การจัดสรรเวลาหน้าจอ (Screen time management)
               </h4>
@@ -138,7 +159,8 @@
               </p>
               <br />
               <h4 class="rem2">
-                4.3.3 การรับมือกับการรังแกบนโลกไซเบอร์ (Cyberbullying Management)
+                4.3.3 การรับมือกับการรังแกบนโลกไซเบอร์ (Cyberbullying
+                Management)
               </h4>
               <p class="rem5 text-justify">
                 ความสามารถในการรับรู้และรับมือกับการคุกคามบนโลกออนไลน์ได้อย่างชาญฉลาดและมีสติถือเป็นเรื่องสำคัญมาก
@@ -266,7 +288,8 @@
                 หรือสภาพครอบครัวที่ไม่สร้างพฤติกรรมเชิงบวก
                 และพฤติกรรมเหล่านี้ไม่ใช้พฤติกรรมที่น่าชื่นชมหรือควรแก่การยอมรับ
                 ดังนั้น ความรับผิดชอบด้วยการรู้คิดและมีจิตสำนึกที่ดี
-                ความเห็นอกเห็นใจต่อผู้อื่นจึงเป็นพื้นฐานสำคัญในการลดปัญหารการรังแกและประทุษวาจาบนโลกออนไลน์ได้อีกทางหนึ่ง ...(ต่อ)...
+                ความเห็นอกเห็นใจต่อผู้อื่นจึงเป็นพื้นฐานสำคัญในการลดปัญหารการรังแกและประทุษวาจาบนโลกออนไลน์ได้อีกทางหนึ่ง
+                ...(ต่อ)...
               </p>
               <p class="rem7 text-justify">
                 • การรักษาความปลอดภัยของตนเอง (Cybersecurity management)
@@ -377,36 +400,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                    <router-link to="/lesson4_3" title="Lesson4_3 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson4_3" title="Lesson4_3 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -434,9 +457,20 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+      },
+    };
+  },
 };
 </script>
 

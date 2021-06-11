@@ -24,7 +24,7 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-              
+
               <h5 class="rem2">3.4.2 การใส่เนื้อหาให้เหมาะสมบนแต่ละสไลด์</h5>
               <p class="rem5">
                 เนื้อหาเป็นหัวใจสำคัญของการนำเสนอ
@@ -59,13 +59,23 @@
                 เป็นลำดับขั้นที่เข้าใจง่ายแทน
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson3/10.png" width="80%" />
                 <p>
                   <br />ภาพที่ 10 – ตัวอย่างการใส่เนื้อหา
                   และการใช้ขนาดของตัวอักษรที่เหมาะสมใน PowerPoint สไลด์
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 10 – ตัวอย่างการใส่เนื้อหา
+                  และการใช้ขนาดของตัวอักษรที่เหมาะสมใน PowerPoint สไลด์
+                </h6>
+                <img src="/img/lesson3/10.png" width="100%" />
+              </modal>
               <br />
               <h5 class="rem2">
                 3.4.3 การเลือกใช้ฟอนต์ให้เหมาะสม (choose appropriate fonts)
@@ -113,10 +123,19 @@
                 ไปที่ Menu Bar คลิกที่ File > Options แล้วคลิก Save เลือก Embed
                 fonts in the file เพื่อฝัง Font ที่ใช้ในไฟล์ แล้วคลิก OK
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson3/11.png" width="80%" />
                 <p><br />ภาพที่ 11 – การฝังฟอนต์ใหม่ไว้ในไฟล์นำเสนอ</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 11 – การฝังฟอนต์ใหม่ไว้ในไฟล์นำเสนอ
+                </h6>
+                <img src="/img/lesson3/11.png" width="100%" />
+              </modal>
               <br />
               <h5 class="rem2">
                 3.4.4 แผนภูมิหรือกราฟที่ใช้ประกอบการนำเสนอต้องต้องมีความถูกต้อง
@@ -153,13 +172,23 @@
                 Destination Theme & Link Data หรือ Keep Source Formatting & Link
                 Data ดังภาพที่ 12
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson3/12.png" width="80%" />
                 <p>
                   <br />ภาพที่ 12 – การเพิ่มกราฟจาก Microsoft Excel
                   แบบเชื่อมโยงไปยังข้อมูลในไฟล์ Excel
                 </p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 12 – การเพิ่มกราฟจาก Microsoft Excel
+                  แบบเชื่อมโยงไปยังข้อมูลในไฟล์ Excel
+                </h6>
+                <img src="/img/lesson3/12.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 ถ้าจำนวนตัวเลขไม่มาก ผู้ใช้งานสามารถเรียกใช้โปรแกรม Microsoft
@@ -172,13 +201,22 @@
                 ซึ่งผู้ใช้งานสามารถปรับเปลี่ยนประเภทของกราฟ สี
                 และฟอนต์ได้ตามต้องการ
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson3/13.png" width="80%" />
                 <p>
                   <br />ภาพที่ 13 – การสร้างกราฟโดยการเรียกใช้โปรแกรม Microsoft
                   Graph
                 </p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 13 – การสร้างกราฟโดยการเรียกใช้โปรแกรม Microsoft Graph
+                </h6>
+                <img src="/img/lesson3/13.png" width="100%" />
+              </modal>
               <h5 class="rem2">
                 3.4.5 การใช้ภาพหรือกราฟิกที่มีคุณภาพประกอบการนำเสนอ (use
                 high-quality photos and graphics)
@@ -247,26 +285,55 @@
                 ดังแสดงในภาพ
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson3/14.png" width="80%" />
                 <p>
                   <br />ภาพที่ 14 ภาพที่ปรากฏบนหน้าจอ จากการใช้คำสั่ง Insert
                   -----> Images Graph
                 </p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 14 ภาพที่ปรากฏบนหน้าจอ จากการใช้คำสั่ง Insert ----->
+                  Images Graph
+                </h6>
+                <img src="/img/lesson3/14.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson3/15.png" width="80%" />
                 <p>
                   <br />ภาพที่ 15 การนำเข้าภาพจากอินเทอร์เน็ต โดยใช้ keyword
                   ในการค้นหาภาพ
                 </p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 15 การนำเข้าภาพจากอินเทอร์เน็ต โดยใช้ keyword
+                  ในการค้นหาภาพ
+                </h6>
+                <img src="/img/lesson3/15.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson3/16.png" width="80%" />
                 <p><br />ภาพที่ 16 การนำเข้าภาพจาก Screen shot</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 16 การนำเข้าภาพจาก Screen shot
+                </h6>
+                <img src="/img/lesson3/16.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 หากไม่ได้ตกแต่งภาพมาก่อนนำมาจัดทำ presentation
@@ -276,29 +343,59 @@
                 PowerPoint ดังแสดงในภาพที่ 17, 18 และ 19
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson3/17.png" width="80%" />
                 <p>
                   <br />ภาพที่ 17 การ double click
                   ที่รูปภาพเพื่อให้แถบเมนูของการแก้ไขรูปภาพปรากฏขึ้นมา
                 </p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 17 การ double click
+                  ที่รูปภาพเพื่อให้แถบเมนูของการแก้ไขรูปภาพปรากฏขึ้นมา
+                </h6>
+                <img src="/img/lesson3/17.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson3/18.png" width="80%" />
                 <p>
                   <br />ภาพที่ 18 การคลิกที่แถบ Corrections
                   เพื่อเลือกรูปที่ปรับแก้ความคมชัด/นุ่มนวล และความเข้ม/สว่าง
                 </p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 18 การคลิกที่แถบ Corrections
+                  เพื่อเลือกรูปที่ปรับแก้ความคมชัด/นุ่มนวล และความเข้ม/สว่าง
+                </h6>
+                <img src="/img/lesson3/18.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson3/19.png" width="80%" />
                 <p>
                   <br />ภาพที่ 19 – การ crop ภาพเป็นรูปต่างๆ โดยคลิกที่ Crop
                   -----> Crop to Shape
                 </p>
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 19 – การ crop ภาพเป็นรูปต่างๆ โดยคลิกที่ Crop ----->
+                  Crop to Shape
+                </h6>
+                <img src="/img/lesson3/19.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 การใส่รูปภาพหลาย รูป และการตกแต่ภาพในโปรแกรม PowerPoint
@@ -316,7 +413,10 @@
                 ที่ต้องการ และสามารถระบุว่าจะลบกรอบที่ตัดออกไปด้วยหรือไม่
                 โดยสามารถเลือกบีบอัดและลบส่วนที่ตัดออกเฉพาะภาพนั้นหรือทำทุกภาพพร้อมกัน
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal11 = true"
+              >
                 <img src="/img/lesson3/20.png" width="60%" />
                 <p>
                   <br />ภาพที่ 20 – การบันทึกไฟล์ Presentation
@@ -324,6 +424,14 @@
                   ไฟล์แบบบีบอัด
                 </p>
               </div>
+              <modal :show.sync="modals.modal11">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 20 – การบันทึกไฟล์ Presentation
+                  แบบบีบอัดภาพเพื่อลดขนาดไฟล์การลดขนาดไฟล์ด้วย save
+                  ไฟล์แบบบีบอัด
+                </h6>
+                <img src="/img/lesson3/20.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 ">
                 - ไปที่ File ----> save as ตั้งชื่อภาพแล้วคลิกที่ Tools ----->
@@ -332,13 +440,23 @@
                 การนำเสนอผ่านเว็บไซต์และจอภาพทั่วไป
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal12 = true"
+              >
                 <img src="/img/lesson3/21.png" width="60%" />
                 <p>
                   <br />ภาพที่ 21 – การบันทึกไฟล์presentation
                   แบบบีบอัดภาพเพื่อลดขนาดไฟล์
                 </p>
               </div>
+              <modal :show.sync="modals.modal12">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 21 – การบันทึกไฟล์presentation
+                  แบบบีบอัดภาพเพื่อลดขนาดไฟล์
+                </h6>
+                <img src="/img/lesson3/21.png" width="100%" />
+              </modal>
               <br />
               <h5 class="rem2">3.4.6 การใส่วิดีโอเข้าไปในการนำเสนอ</h5>
               <p class="rem2 ">
@@ -354,10 +472,19 @@
                 โดยใส่ URL ของวิดีโอลงไป
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal13 = true"
+              >
                 <img src="/img/lesson3/22.png" width="60%" />
                 <p><br />ภาพที่ 22 – การใส่วิดีโอเข้าไปในสไลด์ presentation</p>
               </div>
+              <modal :show.sync="modals.modal13">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 22 – การใส่วิดีโอเข้าไปในสไลด์ presentation
+                </h6>
+                <img src="/img/lesson3/22.png" width="100%" />
+              </modal>
               <!-- -------------------------------- -->
               <br />
               <br />
@@ -382,36 +509,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                    <router-link to="/lesson3_3" title="Lesson3_3 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson3_3" title="Lesson3_3 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -439,9 +566,38 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+        modal11: false,
+        modal12: false,
+        modal13: false,
+        modal14: false,
+        modal15: false,
+        modal16: false,
+        modal17: false,
+        modal18: false,
+        modal19: false,
+        modal20: false,
+      },
+    };
+  },
 };
 </script>
 

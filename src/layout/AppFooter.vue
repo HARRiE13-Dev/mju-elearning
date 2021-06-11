@@ -5,7 +5,7 @@
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">MJU e-Learning</h3>
-                    <h4 class="mb-0 font-weight-light">Contact Services : 088-888888</h4>
+                    <h4 class="mb-0 font-weight-light">Contact Services : 053 - 873296 </h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <a target="_blank" rel="noopener" href="https://it.mju.ac.th/"

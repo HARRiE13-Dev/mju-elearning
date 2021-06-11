@@ -26,20 +26,47 @@
               <!-- -------------------------------- -->
               <p class="font-weight-bold">กรณีที่ 2 AND operator</p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson5/g6.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g6.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson5/b6.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b6.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson5/y6.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y6.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 ในกรณีแบบที่ 2 AND operator เมื่อค้นหาโดยการพิมพ์ว่า “selling
@@ -55,20 +82,47 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson5/g7.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g7.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson5/b7.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b7.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson5/y7.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y7.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 เมื่อค้นหาโดยการเจาะจงเว็บไซต์ โดยการพิมพ์ว่า
@@ -85,20 +139,47 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson5/g9.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Google</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Google
+                </h6>
+                <img src="/img/lesson5/g9.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson5/b8.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Bing</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Bing
+                </h6>
+                <img src="/img/lesson5/b8.png" width="100%" />
+              </modal>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal9 = true"
+              >
                 <img src="/img/lesson5/y9.png" width="60%" />
                 <p><br />รูป จากเว็บไซต์ Yahoo</p>
               </div>
+              <modal :show.sync="modals.modal9">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป จากเว็บไซต์ Yahoo
+                </h6>
+                <img src="/img/lesson5/y9.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 เมื่อค้นหาจากเว็บไซต์ที่เกี่ยวข้อง โดยการพิมพ์ว่า
@@ -137,7 +218,8 @@
                 ซึ่งสามารถแสดงผลในอันดับต้น ๆ ของการค้นหา
                 เช่นกันโดยบริษัทเหล่านี้มีวัตถุประสงค์เพื่อประชาสัมพันธ์บริษัท
                 หรือขายสินค้าโดยเฉพาะ
-              </p><br>
+              </p>
+              <br />
 
               <h4>การอ้างอิงข้อมูลจากอินเทอร์เน็ต</h4>
               <p class="rem2 font-weight-bold">รูปแบบการอ้างอิงข้อมูล</p>
@@ -197,9 +279,18 @@
                 Referencing Style
               </p>
               <p class="rem2">รูปแบบการอ้างอิงสำหรับเว็บไซต์</p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal10 = true"
+              >
                 <img src="/img/lesson5/ref.png" width="90%" />
               </div>
+              <modal :show.sync="modals.modal10">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปแบบการอ้างอิงสำหรับเว็บไซต์
+                </h6>
+                <img src="/img/lesson5/ref.png" width="100%" />
+              </modal>
               <br /><br />
               <p class="font-weight-bold rem2">
                 • กรณีอ้างอิงข้อมูลจากหน้าเว็บเพจ
@@ -330,7 +421,7 @@
                 February 2, 2020 from http://www.itsci.mju.ac.th/sayan/apa.html
               </p>
               <br />
-              <hr>
+              <hr />
 
               <h5>ความน่าเชื่อถือของข้อมูล</h5>
               <p class="rem2">
@@ -400,7 +491,7 @@
               <p class="rem7">
                 .org = nonprofit สำหรับหน่วยงานที่ไม่แสวงผลกำไร มูลนิธิต่าง ๆ
               </p>
-              <br>
+              <br />
 
               <p class="rem5">
                 • เทคนิคที่ 5 เจาะลึกข้อมูล
@@ -464,36 +555,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                    <router-link to="/lesson6_1" title="Lesson6_1 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Continue
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson6_1" title="Lesson6_1 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Continue
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -510,7 +601,8 @@
           <h5 class="title">
             <span class="d-block mb-1">Author | Dr.Sayan Unankard</span>
             <small class="h6 text-black"
-              >Lecturer in the Information Technology Division at Maejo University</small
+              >Lecturer in the Information Technology Division at Maejo
+              University</small
             >
           </h5>
         </div>
@@ -521,9 +613,28 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+        modal9: false,
+        modal10: false,
+      },
+    };
+  },
 };
 </script>
 

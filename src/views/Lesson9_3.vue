@@ -188,13 +188,23 @@
                 (Gigabyte) ในหลักเพียงวินาทีเท่านั้น
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson9/11.png" width="60%" />
                 <p>
                   <br />รูปที่ 11. กราฟแสดงรายได้ชองวิศวกรรม
                   ที่ทำงานเกี่ยวข้องกับ Machine Learning
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 11. กราฟแสดงรายได้ชองวิศวกรรม ที่ทำงานเกี่ยวข้องกับ
+                  Machine Learning
+                </h6>
+                <img src="/img/lesson9/11.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 ทำไม Machine Learning ถึงสำคัญ? Machine Learning
@@ -232,10 +242,19 @@
                 Business Domain Expert ดังรูป
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson9/12.png" width="50%" />
                 <p><br />รูปที่ 12. Venn Diagram ของ Data Science</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 12. Venn Diagram ของ Data Science
+                </h6>
+                <img src="/img/lesson9/12.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 1. Computing Science (วิทยาการคำนวณ) วิทยาการคำนวณ (Computing
@@ -297,12 +316,21 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson9/13.png" width="50%" />
                 <p>
                   <br />รูปที่ 13. รูปภาพ Venn Diagram ของ Skill Data Scientist
                 </p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 13. รูปภาพ Venn Diagram ของ Skill Data Scientist
+                </h6>
+                <img src="/img/lesson9/13.png" width="100%" />
+              </modal>
               <br />
               <h4>วิทยาการข้อมูลที่ใช้ร่วมกัน</h4>
               <p class="rem2">
@@ -312,10 +340,19 @@
                 และพยายามทำนายแบบจำลองที่รวมเข้าด้วยกัน
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson9/14.png" width="50%" />
                 <p><br />รูปที่ 14. Venn Diagram ของ Machine learning Zone</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 14. Venn Diagram ของ Machine learning Zone
+                </h6>
+                <img src="/img/lesson9/14.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 Traditional Research คือการวิจัยแบบดั้งเดิม
@@ -323,10 +360,19 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson9/15.png" width="50%" />
                 <p><br />รูปที่ 15. Venn Diagram ของ Traditional Research</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 15. Venn Diagram ของ Traditional Research
+                </h6>
+                <img src="/img/lesson9/15.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 Drew Conway เรียกว่าโซนอันตราย
@@ -334,10 +380,19 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson9/16.png" width="50%" />
                 <p><br />รูปที่ 16. Venn Diagram ของ Drew Conway</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปที่ 16. Venn Diagram ของ Drew Conway
+                </h6>
+                <img src="/img/lesson9/16.png" width="100%" />
+              </modal>
 
               <!-- -------------------------------- -->
               <br />
@@ -421,9 +476,24 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+      },
+    };
+  },
 };
 </script>
 

@@ -86,10 +86,19 @@
                 ผู้ใช้งานแต่ละคนสามารถโต้ตอบกันได้ผ่านหน้าเว็บ
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson6/1.png" width="60%" />
                 <p><br />รูปภาพประกอบ</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปภาพประกอบ
+                </h6>
+                <img src="/img/lesson6/1.png" width="100%" />
+              </modal>
               <br />
 
               <p class="rem2 text-justify">
@@ -137,9 +146,18 @@
                 การสอบถามปัญหาในงานกับเพื่อนร่วมงานหรือผู้รู้
                 การนำเสนอผลงานที่ต้องการฟีดแบค เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson6/2.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Facebook
+                </h6>
+                <img src="/img/lesson6/2.png" width="100%" />
+              </modal>
               <br />
 
               <h5 class="rem2">Twitter</h5>
@@ -154,9 +172,18 @@
                 ยามกะดึกที่เฝ้าโกดังรายงานความสงบเรียบร้อยทุก ๆ 20 นาีที
                 คนขับรถส่งสินค้าไปถึงท่าเรือได้ทันเวลา เป็นต้น
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson6/3.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Twitter
+                </h6>
+                <img src="/img/lesson6/3.png" width="100%" />
+              </modal>
               <br />
 
               <h5 class="rem2">Skype</h5>
@@ -167,9 +194,18 @@
                 ทั้งผู้สัมภาษณ์และผู้ถูกสัมภาษณ์ต้องมีอุปกรณ์และเวลาที่ตรงกัน
                 จำลองสถานการณ์และสิ่งแวดล้อมให้เหมือนเจอตัวจริงกันเป็น ๆ
               </p>
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson6/4.png" width="20%" />
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Skype
+                </h6>
+                <img src="/img/lesson6/4.png" width="100%" />
+              </modal>
               <br />
 
               <p class="rem5">
@@ -337,36 +373,36 @@
               <div class="container">
                 <div class="row">
                   <div class="col-auto mr-auto">
-                      <router-link to="/lesson5_1" title="Lesson5_1 Page">
-                    <div class="btn-wrapper">
-                      <base-button
-                        tag="a"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
-                        outline
-                        type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
-                      >
-                    </div>
+                    <router-link to="/lesson5_1" title="Lesson5_1 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                          icon="fa fa-chevron-left"
+                          >Previous</base-button
+                        >
+                      </div>
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson6_2" title="Lesson6_2 Page">
@@ -400,7 +436,8 @@
           <h5 class="title">
             <span class="d-block mb-1">Author | Dr. Ukrit Marang</span>
             <small class="h6 text-black"
-              >Lecturer in The Business Information System at Maejo University</small
+              >Lecturer in The Business Information System at Maejo
+              University</small
             >
           </h5>
         </div>
@@ -413,11 +450,23 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+      },
+    };
   },
 };
 </script>

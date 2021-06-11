@@ -44,12 +44,12 @@
 
                     <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <router-link to="/regulations" title="Lesson1_2 Page">
-                        <span class="nav-link-inner--text fontx text-white">ข้อบังคับ</span>
+                        <router-link to="/regulations" title="regulations Page" class="nav-link-inner--text fontx text-white">
+                        ข้อบังคับ
                         </router-link>
                     </a>
                     
-                    <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" href="https://it.mju.ac.th/" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">ติดต่อ</span>
                     </a>

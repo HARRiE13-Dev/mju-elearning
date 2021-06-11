@@ -399,10 +399,19 @@
               </p>
 
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson8/7.png" width="60%" />
                 <p><br />รูปภาพ แสดงการรักษาความปลอดภัยของระบบเครือข่าย</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูปภาพ แสดงการรักษาความปลอดภัยของระบบเครือข่าย
+                </h6>
+                <img src="/img/lesson8/7.png" width="100%" />
+              </modal>
               <br />
 
               <!-- -------------------------------- -->
@@ -487,9 +496,20 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
+
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+      },
+    };
+  },
 };
 </script>
 

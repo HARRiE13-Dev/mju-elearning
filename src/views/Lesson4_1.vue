@@ -58,7 +58,8 @@
               <!-- -------------------------------- -->
               <h2 class="display-3 text-center">
                 4. การพัฒนาความเป็นพลเมืองที่มีคุณภาพในยุคดิจิทัล
-              </h2><br>
+              </h2>
+              <br />
               <p class="rem2 text-justify">
                 หากพูดถึงสื่อดิจิทัล สิ่งที่หลายคนนึกถึง คือ
                 การสื่อสารระหว่างผู้คนบนโลกออนไลน์
@@ -199,13 +200,23 @@
                 ที่ทำให้การเกิดการกระจายของเนื้อหาดิจิทัลนั้น (Digital Content)
                 ออกไปอย่างกว้างขวาง ดังภาพด้านล่าง
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson4/1.jpg" width="60%" />
                 <p>
                   <br />ภาพที่ 1 – Theme สำเร็จรูปที่มีอยู่ในโปรแกรม Microsoft
                   PowerPoint
                 </p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 1 – Theme สำเร็จรูปที่มีอยู่ในโปรแกรม Microsoft
+                  PowerPoint
+                </h6>
+                <img src="/img/lesson4/1.jpg" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 นอกจากนี้ ผู้ใช้สื่อยังสามารถการออกแบบสื่อด้วยตนเอง
@@ -492,10 +503,19 @@
                 แสดงในแผนภูมิด้านล่าง
               </p>
               <br />
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson4/2.png" width="80%" />
                 <p><br />ภาพที่ 2 แบบจำลอง Lifestyle Media</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 2 แบบจำลอง Lifestyle Media
+                </h6>
+                <img src="/img/lesson4/2.png" width="100%" />
+              </modal>
 
               <!-- ---------------------------------->
               <br />
@@ -506,35 +526,35 @@
                 <div class="row">
                   <div class="col-auto mr-auto">
                     <router-link to="/lesson3_1" title="Lesson3_1 Page">
-                    <div class="btn-wrapper">
-                      <base-button
-                        tag="a"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
-                        outline
-                        type="info"
-                        icon="fa fa-chevron-left"
-                        >Previous</base-button
-                      >
-                    </div>
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                          icon="fa fa-chevron-left"
+                          >Previous</base-button
+                        >
+                      </div>
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson4_2" title="Lesson4_2 Page">
@@ -581,11 +601,21 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+      },
+    };
   },
 };
 </script>

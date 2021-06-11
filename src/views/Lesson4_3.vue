@@ -105,10 +105,19 @@
               <p class="rem2 font-weight-bold">
                 ท่านจะทำอย่างไรในการวิเคราะห์ว่าข่าวสารที่ได้รับจริงหรือปลอม
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson4/5.png" width="60%" />
                 <p><br />ภาพที่ 5 how to spot fake news</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 5 how to spot fake news
+                </h6>
+                <img src="/img/lesson4/5.png" width="100%" />
+              </modal>
               <br />
 
               <p class="rem2 text-justify">
@@ -184,12 +193,21 @@
                 และทัศนคติเป็นอย่างไรเพื่อประกอบการเรียกหรือไม่เรียกสัมภาษณ์
                 และการตัดสินใจรับหรือไม่รับเข้าทำงาน
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson4/6.png" width="80%" />
                 <p>
                   <br />ภาพที่ 6 Digital footprint มีผลอย่างไรกับชีวิตของเรา
                 </p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 6 Digital footprint มีผลอย่างไรกับชีวิตของเรา
+                </h6>
+                <img src="/img/lesson4/6.png" width="100%" />
+              </modal>
               <br />
               <p class="rem5 text-justify">
                 จากภาพด้านบนได้อธิบายว่าการที่เราทำอะไรไว้บนโลกออนไลน์อาจจะโดยไม่ได้ยั้งคิดจะทิ้งร่องรอยต่างๆ
@@ -202,10 +220,19 @@
                 หรือสถาบันการศึกษาที่เราศึกษาอยู่
                 รวมถึงญาติมิตรที่มีความเกี่ยวข้องกับเราอีกด้วย
               </p>
-              <div class="text-center font-italic">
+              <div
+                class="text-center font-italic"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson4/7.png" width="40%" />
                 <p><br />ภาพที่ 7 คำอธิบายร่องรอยดิจิทัล</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  ภาพที่ 7 คำอธิบายร่องรอยดิจิทัล
+                </h6>
+                <img src="/img/lesson4/7.png" width="100%" />
+              </modal>
               <br />
 
               <p class="rem5 text-justify">
@@ -401,36 +428,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                      <router-link to="/lesson5_1" title="Lesson5_1 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Continue
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson5_1" title="Lesson5_1 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Continue
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -458,9 +485,21 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+      },
+    };
+  },
 };
 </script>
 

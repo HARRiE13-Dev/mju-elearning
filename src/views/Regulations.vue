@@ -54,7 +54,17 @@
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
-               
+               <h2>ประกาศแจ้งแนวทางการสอบและอบรม ICT</h2>
+               <br>
+               <p class="lead rem2">เนื่องจากสถานการณ์แพร่ระบาด COVID-19 ระลอกใหม่ ทางศูนย์สอบอิเล็กทรอนิกส์ (E-Testing) จัดสอบและอบรม ในรูปแบบ Online เท่านั้น จึงแจ้งประกาศ งดใช้ห้องปฏิบัติการ จนกว่าสถานการณ์จะปกติ โดยจะจัดการสอบในรูปแบบออนไลน์ ดังนี้</p>
+                <p class="lead rem2">1. สอบผ่าน ZOOM (ยกเว้นค่าสมัคร)</p>
+                <p class="lead rem2">2. อบรมผ่าน MS-TEAMS (ยกเว้นค่าสมัคร)</p>
+                <br><br>
+                <h4 class="text-center">สามารถติดตามกำหนดการสอบและอบรมออนไลน์ ได้ที่</h4>
+                 <a slot="title" href="https://www.mju.ac.th/etesting/ICTONLINE2.html" class="nav-link lead text-center btn btn-info text-white" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text fontx">www.mju.ac.th/etesting/ICTONLINE2</span>
+                    </a>
               <!-- ---------------------------------->
               <br />
               <br />
@@ -62,26 +72,8 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="col-auto mr-auto">
-                   
-                  </div>
-                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
+                  
+                  <div class="col text-center">
                     <router-link to="/" title="Home Page">
                       <div class="btn-wrapper">
                         <base-button
@@ -100,7 +92,7 @@
                   </div>
                 </div>
               </div>
-              <div class="text-center mt-5">Page 1/2</div>
+              
             </div>
           </div>
         </div>

@@ -128,9 +128,18 @@
                 Social Network ที่เราสามารถศึกษาได้จากคำแนะนำบนเว็บไซต์เหล่านั้น
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson6/25.png" width="60%" />
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  การหลบหลีกภัย Social Network
+                </h6>
+                <img src="/img/lesson6/25.png" width="100%" />
+              </modal>
               <br /><br />
 
               <h4>แนวทางการใช้โซเชียลมีเดียที่เหมาะสม</h4>
@@ -474,36 +483,36 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
-                  </div>
-                  <div class="col-auto">
-                      <router-link to="/lesson6_4" title="Lesson6_4 Page">
                     <div class="btn-wrapper">
                       <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
                         tag="a"
-                        target="_blank"
                         rel="noopener noreferrer"
-                        class="mb-3 mb-sm-0"
+                        class="btn  back-to-top"
                         outline
                         type="info"
                       >
-                        Next
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
                       </base-button>
                     </div>
+                  </div>
+                  <div class="col-auto">
+                    <router-link to="/lesson6_4" title="Lesson6_4 Page">
+                      <div class="btn-wrapper">
+                        <base-button
+                          tag="a"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="mb-3 mb-sm-0"
+                          outline
+                          type="info"
+                        >
+                          Next
+                          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </base-button>
+                      </div>
                     </router-link>
                   </div>
                 </div>
@@ -518,9 +527,12 @@
       <div class="col-lg-center">
         <div class="pt-4 text-center">
           <h5 class="title">
-            <span class="d-block mb-1">Author | Dr. Piyawan Siriprasertsil</span>
+            <span class="d-block mb-1"
+              >Author | Dr. Piyawan Siriprasertsil</span
+            >
             <small class="h6 text-black"
-              >Lecturer in The Business Administration at Maejo University</small
+              >Lecturer in The Business Administration at Maejo
+              University</small
             >
           </h5>
         </div>
@@ -531,9 +543,20 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
+
 export default {
   name: "home",
-  components: {},
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+      },
+    };
+  },
 };
 </script>
 

@@ -421,24 +421,8 @@
               <br />
               <div class="container">
                 <div class="row">
-                  <div class="col-auto mr-auto"></div>
+                 
                   <div class="col text-center">
-                    <div class="btn-wrapper">
-                      <base-button
-                        id="back-to-top"
-                        href="#"
-                        role="button"
-                        tag="a"
-                        rel="noopener noreferrer"
-                        class="btn  back-to-top"
-                        outline
-                        type="info"
-                      >
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                      </base-button>
-                    </div>
-                  </div>
-                  <div class="col-auto">
                     <router-link to="/" title="Home Page">
                       <div class="btn-wrapper">
                         <base-button

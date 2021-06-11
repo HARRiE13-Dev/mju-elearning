@@ -94,10 +94,19 @@
                 จึงสามารถเขียนข้อมูลได้อย่างรวดเร็วและใช้กับการบันทึกเอกสารและใช้ทำงานที่ต้องมีการเปลี่ยนแปลงข้อมูลบ่อยได้
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal1 = true"
+              >
                 <img src="/img/lesson7/1.png" width="50%" />
                 <p><br />รูป 1 โครงสร้างของโฟลทติ้งเกตมอสเฟท</p>
               </div>
+              <modal :show.sync="modals.modal1">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 1 โครงสร้างของโฟลทติ้งเกตมอสเฟท
+                </h6>
+                <img src="/img/lesson7/1.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 โครงสร้างส่วนบันทึกข้อมูลของแฟลชนั้นถูกสร้างขึ้นมาจาก
@@ -130,10 +139,19 @@
                 “1” เอาไว้ ก็จะไม่มีกระแสไหลออกมาทาง D
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal2 = true"
+              >
                 <img src="/img/lesson7/2.png" width="50%" />
                 <p><br />รูป 2 การอ่านข้อมูลที่บันทึกอยู่ภายในเอฟจีมอส</p>
               </div>
+              <modal :show.sync="modals.modal2">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 2 การอ่านข้อมูลที่บันทึกอยู่ภายในเอฟจีมอส
+                </h6>
+                <img src="/img/lesson7/2.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 การเขียนข้อมูลลงไปในเอฟจีมอส
@@ -158,10 +176,19 @@
                 จึงไม่เหลือประจุสะสมอยู่ในโฟลทติ้งเกต
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal3 = true"
+              >
                 <img src="/img/lesson7/f1.png" width="50%" />
                 <p><br />Figure 1 การบันทึกและลบข้อมูลในเอฟจีมอส</p>
               </div>
+              <modal :show.sync="modals.modal3">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Figure 1 การบันทึกและลบข้อมูลในเอฟจีมอส
+                </h6>
+                <img src="/img/lesson7/f1.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 ถ้าแม้ว่าประจุที่อยู่ในเอฟจีมอสจะคงอยู่ได้ยาวนานหลายปี
@@ -246,10 +273,19 @@
                 ส่วนควบคุมนี้จะแตกต่างกันไปตามลักษณะการใช้งาน
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal4 = true"
+              >
                 <img src="/img/lesson7/f2.png" width="50%" />
                 <p><br />Figure 2 การใช้งานหน่วยความจำแฟลช</p>
               </div>
+              <modal :show.sync="modals.modal4">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  Figure 2 การใช้งานหน่วยความจำแฟลช
+                </h6>
+                <img src="/img/lesson7/f2.png" width="100%" />
+              </modal>
               <br />
               <br />
               <h4>ยูเอสบีแฟลชไดรฟ์ (USB Flash Drive)</h4>
@@ -270,10 +306,19 @@
                 เนื่องจากการอ่านข้อมูลแบบนี้จะทำได้ช้า
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal5 = true"
+              >
                 <img src="/img/lesson7/3.png" width="50%" />
                 <p><br />รูป 3 ตัวอย่างยูเอสบีแฟลชไดรฟ</p>
               </div>
+              <modal :show.sync="modals.modal5">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 3 ตัวอย่างยูเอสบีแฟลชไดรฟ
+                </h6>
+                <img src="/img/lesson7/3.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2 text-justify">
                 การใช้งานสามารถเชื่อมต่อกับพอร์ทยูเอสบีได้โดยตรง
@@ -288,10 +333,19 @@
                 แต่ความเร็วในการอ่านและเขียนข้อมูลจะลดลง
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal6 = true"
+              >
                 <img src="/img/lesson7/4.png" width="50%" />
                 <p><br />รูป 4 ยูเอสบีรุ่น 3.0 และยูเอสบีรุ่น 2.0</p>
               </div>
+              <modal :show.sync="modals.modal6">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 4 ยูเอสบีรุ่น 3.0 และยูเอสบีรุ่น 2.0
+                </h6>
+                <img src="/img/lesson7/4.png" width="100%" />
+              </modal>
               <br />
               <p class="rem2">
                 สมาร์ทโฟนที่รองรับยูเอสบีโอทีจี
@@ -301,10 +355,19 @@
                 ให้เป็นยูเอสบีแบบชนิดเอ (type A)
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal7 = true"
+              >
                 <img src="/img/lesson7/5.png" width="50%" />
                 <p><br />รูป 5 อุปกรณ์เสริมยูเอสบีโอทีจีอะแดปเตอร์</p>
               </div>
+              <modal :show.sync="modals.modal7">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 5 อุปกรณ์เสริมยูเอสบีโอทีจีอะแดปเตอร์
+                </h6>
+                <img src="/img/lesson7/5.png" width="100%" />
+              </modal>
               <p class="rem2 text-justify">
                 เนื่องจากแฟลชไดรฟ์ถูกออกแบบมาสำหรับการเข้าถึงข้อมูลแบบเชิงลำดับดังนั้นในการอ่านหรือเขียนแฟ้มข้อมูล
                 ดังนั้นจึงไม่ควรอ่านหรือเขียนแฟ้มข้อมูลพร้อม ๆกัน
@@ -337,10 +400,19 @@
                 หากมีผู้หยิบไปต่อเข้ากับเครื่องคอมพิวเตอร์ก็จะทำให้เครื่องคอมพิวเตอร์เสียหายทันที
               </p>
               <br />
-              <div class="text-center font-italic col">
+              <div
+                class="text-center font-italic col"
+                @click="modals.modal8 = true"
+              >
                 <img src="/img/lesson7/6.png" width="50%" />
                 <p><br />รูป 6 ตัวอย่าง USB Killer</p>
               </div>
+              <modal :show.sync="modals.modal8">
+                <h6 slot="header" class="modal-title" id="modal-title-default">
+                  รูป 6 ตัวอย่าง USB Killer
+                </h6>
+                <img src="/img/lesson7/6.png" width="100%" />
+              </modal>
               <!-- ---------------------------------->
               <br />
               <br />
@@ -365,20 +437,20 @@
                     </router-link>
                   </div>
                   <div class="col text-center">
-                         <div class="btn-wrapper">
-                          <base-button
-                          id="back-to-top"
-                          href="#"
-                          role="button"
-                          tag="a"
-                          rel="noopener noreferrer"
-                          class="btn  back-to-top"
-                          
-                          outline type="info"
-                        >
-                          <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                        </base-button>
-                      </div>
+                    <div class="btn-wrapper">
+                      <base-button
+                        id="back-to-top"
+                        href="#"
+                        role="button"
+                        tag="a"
+                        rel="noopener noreferrer"
+                        class="btn  back-to-top"
+                        outline
+                        type="info"
+                      >
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                      </base-button>
+                    </div>
                   </div>
                   <div class="col-auto">
                     <router-link to="/lesson7_2" title="Lesson7_2 Page">
@@ -411,8 +483,10 @@
         <div class="pt-4 text-center">
           <h5 class="title">
             <span class="d-block mb-1">Author | Dr. Paween Khoenkaw</span>
-            <small class="h6 text-black">Lecturer in the Computer Science Division at Maejo
-              University</small>
+            <small class="h6 text-black"
+              >Lecturer in the Computer Science Division at Maejo
+              University</small
+            >
           </h5>
         </div>
       </div>
@@ -424,11 +498,27 @@
 <script>
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+import Modal from "@/components/Modal.vue";
 export default {
   name: "home",
   components: {
     BCarousel,
     BCarouselSlide,
+    Modal,
+  },
+  data() {
+    return {
+      modals: {
+        modal1: false,
+        modal2: false,
+        modal3: false,
+        modal4: false,
+        modal5: false,
+        modal6: false,
+        modal7: false,
+        modal8: false,
+      },
+    };
   },
 };
 </script>
