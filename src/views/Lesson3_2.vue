@@ -34,7 +34,7 @@
               </p>
               <p class="rem5">
                 1) การเตรียมเนื้อหา ต้องมีการย่อยข้อมูลที่จะนำเสนอ
-                โดยสรุปข้อมูลที่สำคัญไว้เป็นหัวข้อใหญ่และหัวข้อรองลงไป
+                โดยสรุปข้อมูลที่สำคัญไว้เป็นหัวข้อใหญ่และหัวข้อรอง
               </p>
               <p class="rem5">
                 2) ควรใส่เนื้อหาหนึ่งประเด็นต่อหนึ่งสไลด์
@@ -274,7 +274,7 @@
                 มีขนาดใหญ่ขึ้น ดังนั้น ควรลงภาพอย่างเดียว
                 โดยไม่ต้องแก้ไขแต่งเติมบน PowerPoint หากไม่จำเป็น
               </p>
-              <p class="rem2">
+              <p class="rem2 text-justify">
                 การนำภาพมาใส่ในสไลด์ ทำได้โดยใช้คำสั่ง ดังนี้ ไปที่แถบ Insert
                 -----> Images คลิกที่ Pictures จากนั้นจะมีกล่องข้อความ Insert
                 Picture Form
@@ -503,7 +503,7 @@
                           outline
                           type="info"
                           icon="fa fa-chevron-left"
-                          >Previous</base-button
+                          >ย้อนกลับ</base-button
                         >
                       </div>
                     </router-link>
@@ -535,7 +535,7 @@
                           outline
                           type="info"
                         >
-                          Next
+                          ถัดไป
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>

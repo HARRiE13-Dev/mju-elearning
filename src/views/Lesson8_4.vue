@@ -432,7 +432,7 @@
                           outline
                           type="info"
                           icon="fa fa-chevron-left"
-                          >Previous</base-button
+                          >ย้อนกลับ</base-button
                         >
                       </div>
                     </router-link>
@@ -464,7 +464,7 @@
                           outline
                           type="info"
                         >
-                          Continue
+                          บทเรียนที่ 9
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>

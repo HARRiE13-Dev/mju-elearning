@@ -578,7 +578,7 @@
                           outline
                           type="info"
                           icon="fa fa-chevron-left"
-                          >Previous</base-button
+                          >ย้อนกลับ</base-button
                         >
                       </div>
                     </router-link>

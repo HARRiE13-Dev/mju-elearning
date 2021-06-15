@@ -39,11 +39,13 @@
             </div>
           </div>
         </div>
-        <br /><br /><br /><br /><br /><br />
+        <br />
+        <br />
+     
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container  pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <h2 class="display-3 text-center">
@@ -364,7 +366,7 @@
 
               <div class="container">
                 <div class="row">
-                  <!-- Previous buttom -->
+                  <!-- ย้อนกลับ buttom -->
                   <div class="col-auto mr-auto"></div>
                   <div class="col text-center">
                     <div class="btn-wrapper">
@@ -394,7 +396,7 @@
                           outline
                           type="info"
                         >
-                          Next
+                          ถัดไป
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>

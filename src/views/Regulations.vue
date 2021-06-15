@@ -43,14 +43,11 @@
         </div>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->

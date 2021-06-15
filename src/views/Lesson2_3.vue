@@ -617,7 +617,7 @@
                           outline
                           type="info"
                           icon="fa fa-chevron-left"
-                          >Previous</base-button
+                          >ย้อนกลับ</base-button
                         >
                       </div>
                     </router-link>
@@ -649,7 +649,7 @@
                           outline
                           type="info"
                         >
-                          Next
+                          ถัดไป
                           <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </base-button>
                       </div>
