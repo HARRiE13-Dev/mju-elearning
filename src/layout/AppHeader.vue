@@ -41,7 +41,10 @@
                     
                 </base-dropdown>
               
-
+                    <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text fontx">ศูนย์สอบวันมาตรฐาน ICT </span>
+                    </a>
                     <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <router-link to="/regulations" title="regulations Page" class="nav-link-inner--text fontx text-white">
@@ -53,10 +56,7 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">ติดต่อ</span>
                     </a>
-                       <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text fontx">ศูนย์สอบวันมาตรฐาน ICT </span>
-                    </a>
+                       
                     
             </ul>
             

@@ -445,11 +445,11 @@
                 @click="modals.modal16 = true"
               >
                 <img src="/img/lesson2/81.png" width="60%" />
-                <p><br />รูปที่ 80 การจัดรูปแบบเส้นขอบตาราง</p>
+                <p><br />รูปที่ 81 การแทรกรูปภาพ</p>
               </div>
               <modal :show.sync="modals.modal16">
                 <h6 slot="header" class="modal-title" id="modal-title-default">
-                  รูปที่ 80 การจัดรูปแบบเส้นขอบตาราง
+                  รูปที่ 81 การแทรกรูปภาพ
                 </h6>
                 <img src="/img/lesson2/81.png" width="100%" />
               </modal>
