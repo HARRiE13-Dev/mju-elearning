@@ -20,7 +20,7 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
@@ -278,31 +278,31 @@
                 <img src="/img/lesson2/108.png" width="100%" />
               </modal>
               <br />
-              <h4>12. การเรียงข้อมูล</h4>
-              <p tyle="text-indent: 2.5em;">
+              <h4>2.12 การเรียงข้อมูล</h4>
+              <p style="text-indent: 2.5em;">
                 การเรียงข้อมูลเพื่อให้ง่ายต่อการนำไปใช้งานสามารถทำได้โดยใช้คำสั่ง
                 Sort ขั้นตอนการใช้คำสั่งดังนี้
               </p>
-              <p tyle="text-indent: 2.5em;">
+              <p style="text-indent: 2.5em;">
                 1) คลิกเลือกกลุ่มเซลล์ที่ต้องการจัดเรียงข้อมูล B4 ถึง H7
                 ดังรูปที่ 109
               </p>
-              <p tyle="text-indent: 2.5em;">
+              <p style="text-indent: 2.5em;">
                 2) คลิกเลือกคำสั่ง Sort จากแถบเครื่องมือ ดังรูปที่ 110
               </p>
-              <p tyle="text-indent: 2.5em;">
+              <p style="text-indent: 2.5em;">
                 3) จะปรากฏกล่องโต้ตอบการเรียงข้อมูล
                 เพื่อให้เลือกเงื่อนไขการจัดเรียง ดังรูปที่ 111
               </p>
-              <p tyle="text-indent: 5em;">
+              <p style="text-indent: 5em;">
                 - เลือกเงื่อนไข (Sort By) โดยจะปรากฏชื่อคอลัมน์ให้เลือก เช่น
                 เงินเดือน
               </p>
-              <p tyle="text-indent: 5em;">
+              <p style="text-indent: 5em;">
                 - เลือก Order เลือกค่าที่ต้องการใช้เป็นคีย์ในการเลือก เช่น
                 น้อยไปหามาก
               </p>
-              <p tyle="text-indent: 2.5em;">4) กดปุ่ม OK</p>
+              <p style="text-indent: 2.5em;">4) กดปุ่ม OK</p><br>
               <div
                 class="text-center"
                 style="font-style:italic"
@@ -540,6 +540,7 @@
                 </h6>
                 <img src="/img/lesson2/119.png" width="100%" />
               </modal>
+              <hr>
               <!-- -------------------------------- -->
               <br />
               <br />

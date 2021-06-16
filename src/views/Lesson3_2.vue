@@ -20,7 +20,7 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
@@ -119,10 +119,10 @@
                 ควรทำการฝัง (Embed) Font นั้นไว้ในไฟล์ที่จะใช้นำเสนอ
                 เพื่อป้องกันไม่มีปัญหาเรื่องฟอนต์ โดยใช้คำสั่ง ดังนี้
               </p>
-              <p class="rem5">
-                ไปที่ Menu Bar คลิกที่ File > Options แล้วคลิก Save เลือก Embed
+              <div >
+                - ไปที่ Menu Bar คลิกที่<b> File > Options</b> แล้วคลิก Save เลือก Embed
                 fonts in the file เพื่อฝัง Font ที่ใช้ในไฟล์ แล้วคลิก OK
-              </p>
+              </div>
               <div
                 class="text-center font-italic"
                 @click="modals.modal2 = true"
@@ -194,13 +194,14 @@
                 ถ้าจำนวนตัวเลขไม่มาก ผู้ใช้งานสามารถเรียกใช้โปรแกรม Microsoft
                 Graph ในขณะที่อยู่ในโปรแกรม PowerPoint โดยใช้คำสั่ง ดังนี้
               </p>
-              <p class="rem2">
-                Insert ---> Chart แล้วเลือกรูปแบบของกราฟที่ต้องการ
+              <div class="rem2">
+                <b>Insert -> Chart </b>แล้วเลือกรูปแบบของกราฟที่ต้องการ
                 จากนั้นให้ผู้ใช้กรอกข้อมูลต่างๆ ลงในตาราง เช่น ชื่อแถว
                 ชื่อคอลัมน์ และตัวเลข ลงในตารางข้อมูล ดังภาพที่ 13
                 ซึ่งผู้ใช้งานสามารถปรับเปลี่ยนประเภทของกราฟ สี
                 และฟอนต์ได้ตามต้องการ
-              </p>
+              </div>
+              <br>
               <div
                 class="text-center font-italic"
                 @click="modals.modal4 = true"
@@ -217,18 +218,19 @@
                 </h6>
                 <img src="/img/lesson3/13.png" width="100%" />
               </modal>
+              <br>
               <h5 class="rem2">
                 3.4.5 การใช้ภาพหรือกราฟิกที่มีคุณภาพประกอบการนำเสนอ (use
                 high-quality photos and graphics)
               </h5>
-              <p class="rem2 text-justify">
+              <div class="rem2 text-justify">
                 การนำเสนอด้วยภาพหรือมีภาพประกอบคำบรรยายจะช่วยดึงดูดใจและสร้างแรงบันดาลใจแก่ผู้ฟัง
-                ทำให้เข้าใจในสิ่งที่ต้องการนำเสนอได้ดีขึ้น ดังคำสุภาษิตที่ว่า "A
-                picture is worth a thousand words" หรือ
+                ทำให้เข้าใจในสิ่งที่ต้องการนำเสนอได้ดีขึ้น ดังคำสุภาษิตที่ว่า <b>"A
+                picture is worth a thousand Words"</b> หรือ
                 ภาพหนึ่งภาพแทนคำพูดนับพันคำ นอกจากนี้
                 รูปภาพยังช่วยให้ผู้ฟังสามารถจดจำเรื่องราวหรือเนื้อหาที่เรานำเสนอได้
                 การใช้ภาพใน PowerPoint เพื่อการนำเสนอที่ดี มีข้อแนะนำ ดังนี้
-              </p>
+              </div>
               <p class="rem2">
                 1) ในหนึ่งสไลด์ไม่ควรใส่ภาพหลายภาพ ควรใส่ภาพที่มีคุณภาพสูงเพียง
                 1 ภาพก็เพียงพอ
@@ -274,16 +276,16 @@
                 มีขนาดใหญ่ขึ้น ดังนั้น ควรลงภาพอย่างเดียว
                 โดยไม่ต้องแก้ไขแต่งเติมบน PowerPoint หากไม่จำเป็น
               </p>
-              <p class="rem2 text-justify">
-                การนำภาพมาใส่ในสไลด์ ทำได้โดยใช้คำสั่ง ดังนี้ ไปที่แถบ Insert
-                -----> Images คลิกที่ Pictures จากนั้นจะมีกล่องข้อความ Insert
+              <div class="rem2 text-justify">
+                การนำภาพมาใส่ในสไลด์ ทำได้โดยใช้คำสั่ง ดังนี้ ไปที่แถบ <b>Insert
+                -> Images</b> คลิกที่ Pictures จากนั้นจะมีกล่องข้อความ Insert
                 Picture Form
                 ถ้าจะนำเข้าไฟล์ภาพจากเครื่องคอมพิวเตอร์ที่กำลังใช้งานอยู่
                 ให้คลิกที่ This Device หากจะนำเข้าจากอินเทอร์เน็ต ให้คลิกที่
                 Online Pictures
                 นอกจากนี้ยังสามารถจับภาพหน้าจอของโปรแกรมอื่นที่กำลังเปิดใช้งานอยู่บนคอมพิวเตอร์เครื่องนั้นมาให้เลือกใส่ในสไลด์ได้
                 ดังแสดงในภาพ
-              </p>
+              </div>
               <br />
               <div
                 class="text-center font-italic"
@@ -292,7 +294,7 @@
                 <img src="/img/lesson3/14.png" width="80%" />
                 <p>
                   <br />ภาพที่ 14 ภาพที่ปรากฏบนหน้าจอ จากการใช้คำสั่ง Insert
-                  -----> Images Graph
+                  -> Images Graph
                 </p>
               </div>
               <modal :show.sync="modals.modal5">
@@ -386,7 +388,7 @@
                 <img src="/img/lesson3/19.png" width="80%" />
                 <p>
                   <br />ภาพที่ 19 – การ crop ภาพเป็นรูปต่างๆ โดยคลิกที่ Crop
-                  -----> Crop to Shape
+                  -> Crop to Shape
                 </p>
               </div>
               <modal :show.sync="modals.modal10">
@@ -413,6 +415,7 @@
                 ที่ต้องการ และสามารถระบุว่าจะลบกรอบที่ตัดออกไปด้วยหรือไม่
                 โดยสามารถเลือกบีบอัดและลบส่วนที่ตัดออกเฉพาะภาพนั้นหรือทำทุกภาพพร้อมกัน
               </p>
+              <br>
               <div
                 class="text-center font-italic"
                 @click="modals.modal11 = true"
@@ -433,12 +436,12 @@
                 <img src="/img/lesson3/20.png" width="100%" />
               </modal>
               <br />
-              <p class="rem2 ">
-                - ไปที่ File ----> save as ตั้งชื่อภาพแล้วคลิกที่ Tools ----->
-                Compress Pictures จะมีกล่อง Compression options ขึ้นมาให้ติกที่
+              <div class="rem2 ">
+                - ไปที่ File -> save as ตั้งชื่อภาพแล้วคลิกที่ <b>Tools ->
+                Compress Pictures </b>จะมีกล่อง Compression options ขึ้นมาให้ติกที่
                 web (150 ppi) ซึ่งเป็นขนาดที่เหมาะสำหรับ
                 การนำเสนอผ่านเว็บไซต์และจอภาพทั่วไป
-              </p>
+              </div>
               <br />
               <div
                 class="text-center font-italic"
@@ -465,12 +468,12 @@
                 เพิ่มการนำเสนอด้วยวิดีโอเข้ามาในสไลด์ที่กำลังนำเสนอ
                 การนำเข้าวิดีโอมีวิธีการทำ ดังนี้
               </p>
-              <p class="rem2 ">
-                - ไปที่ Insert --------> Media จะปรากฏกล่องประเภทของ Media
+              <div class="rem2 ">
+                - ไปที่<b> Insert -> Media</b> จะปรากฏกล่องประเภทของ Media
                 ขึ้นมาให้เลือก จากนั้นให้ติกที่ Video
                 แล้วเลือกไฟล์วิดีโอที่เตรียมไว้ หรือจากอินเทอร์เน็ต เช่น Youtube
                 โดยใส่ URL ของวิดีโอลงไป
-              </p>
+              </div>
               <br />
               <div
                 class="text-center font-italic"

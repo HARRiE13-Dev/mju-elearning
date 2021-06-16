@@ -20,7 +20,7 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
@@ -221,7 +221,7 @@
                 โปรแกรม Excel กำหนดพื้นที่กรอกข้อมูลเรียกว่า สมุดงาน (Workbook)
                 ซึ่งแบ่งพื้นที่เป็นส่วน ดังนี้
               </p>
-              <p style="text-indent: 2.5em;">2.3.3.1 คอลัมน์ (Column)</p>
+              <p class="font-weight-bold" style="text-indent: 2.5em;">2.3.3.1 คอลัมน์ (Column)</p>
               <p style="text-indent: 5em;">
                 - เป็นการแบ่งพื้นที่ทำงานในแนวตั้ง
               </p>
@@ -229,13 +229,13 @@
               <p style="text-indent: 5em;">
                 - มีชื่อคอลัมน์ ตั้งแต่ A, B, C, D, …, XFD
               </p>
-              <p style="text-indent: 2.5em;">2.3.3.2 แถว (Row)</p>
+              <p class="font-weight-bold" style="text-indent: 2.5em;">2.3.3.2 แถว (Row)</p>
               <p style="text-indent: 5em;">- เป็นการแบ่งพื้นที่ทำงานในแนวนอน</p>
               <p style="text-indent: 5em;">- จำนวน 1,048,576 แถว</p>
               <p style="text-indent: 5em;">
                 - มีชื่อแถว ตั้งแต่แถวที่ 1, 2, 3, 4, ..., 1048576
               </p>
-              <p style="text-indent: 2.5em;">3.3.2 แถว (Row)</p>
+              <p class="font-weight-bold" style="text-indent: 2.5em;">2.3.3.3 เซลล์ (Cell) </p>
               <p style="text-indent: 5em;">- จุดตัดกันระหว่าง Column และ Row</p>
               <p style="text-indent: 5em;">
                 - เป็นช่องตารางสี่เหลี่ยม ที่ใช้ในการกรอกข้อมูล
@@ -255,7 +255,7 @@
                 B108 หมายถึง คอลัมน์ B แถวที่ 108
               </p>
               <p style="text-indent: 7.5em;">G10 หมายถึง คอลัมน์ G แถวที่ 10</p>
-              <p style="text-indent: 2.5em;">
+              <p class="font-weight-bold" style="text-indent: 2.5em;">
                 2.3.3.4 ตัวชี้เซลล์ (Cell Pointer)
               </p>
               <p style="text-indent: 5em;">
@@ -283,13 +283,18 @@
                 <img src="/img/lesson2/p32.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 2.5em;">
-                2.3.3.4 สมุดงาน (Workbook) คือ ไฟล์งานหลักของโปรแกรม Excel
+              <p class="font-weight-bold" style="text-indent: 2.5em;">
+                2.3.3.5 สมุดงาน (Workbook) 
+              </p><p  style="text-indent: 2.5em;">
+                คือ ไฟล์งานหลักของโปรแกรม Excel
                 สามารถบันทึกเป็นไฟล์งานเพื่อนำมาเพิ่มเติมหรือแก้ไขข้อมูลครั้งต่อไป
               </p>
 
+              <p class="font-weight-bold" style="text-indent: 2.5em;">
+                2.3.3.6 แผ่นงาน (Sheet) 
+              </p>
               <p style="text-indent: 2.5em;">
-                2.3.3.5 แผ่นงาน (Sheet) คือ
+                คือ
                 แผ่นงานที่เป็นหน้ากระดาษแต่ละหน้าของสมุดงาน
                 เป็นพื้นที่สำหรับการทำงานที่สามารถกรอกข้อมูล โดย
               </p>

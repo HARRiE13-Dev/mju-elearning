@@ -313,6 +313,7 @@
                 subplot(1,3,3),subimage (test 5),axis on , title (‘Darkness
                 image’);
               </p>
+              <hr>
 
               <!-- -------------------------------- -->
               <br />

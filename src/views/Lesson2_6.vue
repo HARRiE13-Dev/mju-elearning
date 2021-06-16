@@ -20,35 +20,35 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
               <p style="text-indent: 2.5em; font-weight: bold; ">
                 คำนวณโดยการป้อนสูตรแบบตำแหน่งเซลล์
               </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ D4
               </p>
               <p style="text-indent: 7.5em;">
                 - พิมพ์สูตร =C4*10/100 หรือ C4*10%
               </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 2</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 2</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ D5
               </p>
               <p style="text-indent: 7.5em;">
                 - พิมพ์สูตร =C5*10/100 หรือ =C5*10%
               </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 3</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 3</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ D6
               </p>
               <p style="text-indent: 7.5em;">
                 - พิมพ์สูตร =C6*10/100 หรือ =C6*10%
               </p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 4</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 4</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ D6
               </p>
@@ -187,22 +187,22 @@
                 - พนักงานทุกคนทำงานล่วงเวลาเดือนละ 10 วัน
               </p>
               <p style="text-indent: 7.5em;">- ค่าแรงวันละ 300 บาท</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ E4
               </p>
               <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 2</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 2</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ E5
               </p>
               <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 3</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 3</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ E
               </p>
               <p style="text-indent: 7.5em;">- พิมพ์สูตร =10*300</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 4</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 4</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ E5
               </p>
@@ -211,7 +211,7 @@
               <p style="text-indent: 2.5em; font-weight: bold; ">
                 การคำนวณโดยใช้วิธีการคัดลอกสูตร (ควรใช้วิธีนี้)
               </p>
-              <p style="text-indent: 2.5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 2.5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ E4
               </p>
@@ -251,7 +251,7 @@
                 ร้อยละ 5 ของเงินเดือน (ไม่รวมค่าครองชีพ และค่าล่วงเวลา)
               </p>
               <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ F4
               </p>
@@ -293,7 +293,7 @@
                 ร้อยละ 3 ของเงินเดือน
               </p>
               <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ G4
               </p>
@@ -341,7 +341,7 @@
                 • รายจ่าย คิดจาก ประกันสังคม + ภาษีเงินได้
               </p>
               <p style="text-indent: 5em;">การคำนวณโดยใช้วิธีการคัดลอกสูตร</p>
-              <p style="text-indent: 5em;">พนักงานลำดับ 1</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">พนักงานลำดับ 1</p>
               <p style="text-indent: 7.5em;">
                 - เลื่อน Cell Pointer ไปที่เซลล์ H4
               </p>

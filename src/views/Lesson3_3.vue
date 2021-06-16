@@ -20,7 +20,7 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
@@ -415,11 +415,11 @@
                 </div>
               </div>
               <br />
-              <p class="rem2">
+              <div class="rem2">
                 หากยังไม่ชอบรูปแบบของอินโฟกราฟิกที่ได้ ผู้ใช้สามารถเปลี่ยน
-                Layout ได้อย่างง่ายดาย โดยไปที่ Drawing Tools ------> Layout
+                Layout ได้อย่างง่ายดาย โดยไปที่ <b>Drawing Tools -> Layout</b>
                 จากนั้นเลือก Layout ที่เห็นว่าเหมาะสมและตรงตามความต้องการ
-              </p>
+              </div>
               <br />
               <div class="container">
                 <div class="row">
@@ -482,6 +482,7 @@
                 และมั่นฝึกฝนการใช้งานอยู่เสมอ
                 เพื่อจะสามารถสร้างงานนำเสนอให้มีความน่าสนใจและมีประสิทธิภาพมากยิ่งขึ้น
               </p>
+              <hr>
               <!-- -------------------------------- -->
               <br />
               <br />

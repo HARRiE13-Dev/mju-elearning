@@ -20,13 +20,13 @@
       </section>
 
       <section class="section section-shaped my-0 overflow-hidden">
-        <div class="container pt-lg pb-80">
+        <div class="container pb-80">
           <div class="row justify-content-center">
             <div class="fontx col-lg-10">
               <!-- -------------------------------- -->
 
               <h5 style="text-indent: 2.5em;">2.8.5 การลบข้อมูล (Delete)</h5>
-              <p style="text-indent: 5em;">
+              <p class="font-weight-bold" style="text-indent: 5em;">
                 1) การลบข้อมูลใน Cell หรือ กลุ่ม Cell
               </p>
               <p style="text-indent: 6em;">
@@ -71,7 +71,7 @@
                 <img src="/img/lesson2/65.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">2) การลบข้อมูลทั้ง Row หรือ แถว</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">2) การลบข้อมูลทั้ง Row หรือ แถว</p>
               <p style="text-indent: 6em;">
                 2.1) คลิกเลือก Row หรือแถว ที่ต้องการลบข้อมูล
               </p>
@@ -97,7 +97,7 @@
                 <img src="/img/lesson2/66.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">
+              <p class="font-weight-bold" style="text-indent: 5em;">
                 3) การลบข้อมูลทั้ง Column หรือ คอลัมน์
               </p>
               <p style="text-indent: 6em;">
@@ -125,7 +125,7 @@
                 <img src="/img/lesson2/67.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">4) การลบข้อมูลแผ่นงาน (Sheet)</p>
+              <p class="font-weight-bold" style="text-indent: 5em;">4) การลบข้อมูลแผ่นงาน (Sheet)</p>
               <p style="text-indent: 6em;">4.1) คลิกเลือกแผ่นงานที่ต้องการลบ</p>
               <p style="text-indent: 6em;">
                 4.2) คลิกเมาส์ขวาในชื่อแผ่นงานที่เลือก เลือกคำสั่ง Delete
@@ -149,7 +149,7 @@
                 <img src="/img/lesson2/68.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">
+              <p class="font-weight-bold" style="text-indent: 5em;">
                 5) การลบข้อมูลในสมุดงาน (Workbook)
               </p>
               <p style="text-indent: 6em;">
@@ -341,11 +341,11 @@
               <p style="text-indent: 2.5em;">
                 จากรูปที่ 76 ประกอบด้วยแถบคำสั่งย่อย ได้แก่
               </p>
-              <p style="text-indent: 5em;">
-                • ตัวเลข เป็นเครื่องมือในการจัดรูปแบบเซลล์ของข้อมูลที่เป็นตัวเลข
+              <div style="text-indent: 5em;">
+               <b> • ตัวเลข </b>เป็นเครื่องมือในการจัดรูปแบบเซลล์ของข้อมูลที่เป็นตัวเลข
                 โดยผู้ใช้งานสามารถเลือกรูปแบบที่ต้องการ ได้เช่น ทั่วไป ตัวเลข
                 สกุลเงิน บัญชี วันที่ เวลา เป็นต้น
-              </p>
+              </div>
               <div
                 class="text-center"
                 style="font-style:italic"
@@ -361,10 +361,10 @@
                 <img src="/img/lesson2/77.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">
-                • การจัดแนว เป็นกลุ่มคำสั่งจัดแนวข้อความ ได้แก่ แนวนอน แนวตั้ง
+              <div style="text-indent: 5em;">
+              <b>  • การจัดแนว </b>เป็นกลุ่มคำสั่งจัดแนวข้อความ ได้แก่ แนวนอน แนวตั้ง
                 การตัดข้อความ ย่อให้พอดี การผสานเซลล์ เป็นต้น
-              </p>
+              </div>
               <div
                 class="text-center"
                 style="font-style:italic"
@@ -380,11 +380,11 @@
                 <img src="/img/lesson2/78.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">
-                • ฟอนต์ เป็นกลุ่มคำสั่งจัดการฟอนต์ (รูปแบบ) ตัวอักษร
+              <div style="text-indent: 5em;">
+               <b> • ฟอนต์ </b>เป็นกลุ่มคำสั่งจัดการฟอนต์ (รูปแบบ) ตัวอักษร
                 สไตล์ตัวอักษร ขนาด การขีดเส้น สีตัวอักษร
                 โดยจะปรากฏตัวอย่างของคำสั่งที่เลือกให้ผู้ใช้งาน
-              </p>
+              </div>
               <div
                 class="text-center"
                 style="font-style:italic"
@@ -400,9 +400,9 @@
                 <img src="/img/lesson2/79.png" width="100%" />
               </modal>
               <br />
-              <p style="text-indent: 5em;">
-                • เส้นขอบ เป็นกลุ่มคำสั่งจัดรูปแบบเส้นขอบ
-              </p>
+              <div style="text-indent: 5em;">
+              <b>  • เส้นขอบ </b>เป็นกลุ่มคำสั่งจัดรูปแบบเส้นขอบ
+              </div>
               <div
                 class="text-center"
                 style="font-style:italic"

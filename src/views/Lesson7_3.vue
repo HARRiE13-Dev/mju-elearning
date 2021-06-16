@@ -156,7 +156,7 @@
                 </h6>
                 <img src="/img/lesson7/20.png" width="100%" />
               </modal>
-              <br /><br />
+              <br />
 
               <h4>เครื่องพิมพ์แบบกระแทก ( Impact printers)</h4>
               <p class="rem2 text-justify">

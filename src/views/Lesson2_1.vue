@@ -62,25 +62,25 @@
                 2.1 ความรู้เบื้องต้นเกี่ยวกับโปรแกรม Excel
                 <br />
               </h4>
-              <p style="text-indent: 2.5em;">
+              <div style="text-indent: 2.5em;">
                 โปรแกรมไมโครซอฟท์ เอ็กเซล (Microsoft Excel)
                 เป็นโปรแกรมที่อยู่ในชุดโปรแกรม ไมโครซอฟท์ออฟฟิศ (Microsoft
                 Office) ที่ประกอบด้วยชุดโปรแกรมที่มีความสามารถใช้งานที่แตกต่าง
                 ดังนี้
                 <br />
-                <br />1. Microsoft Word โปรแกรมที่ใช้สำหรับงานด้านเอกสาร
-                <br />2. Microsoft Excel โปรแกรมสำหรับงานด้านการคำนวณ
-                วิเคราะห์ข้อมูล <br />3. Microsoft Powerpoint
-                โปรแกรมสำหรับงานด้านการนำเสนอ หรือ Presentation <br />4.
-                Microsoft Access โปรแกรมสำหรับงานฐานข้อมูล <br />5. Microsoft
-                Outlook โปรแกรมสำหรับการจัดการอีเมล์ นัดประชุม วางแผนการทำงาน
-                <br />6. Microsoft Visio โปรแกรมสำหรับการทำ flowchart หรือ
-                Diagram <br />7. Microsoft Project
+                <br /><b>1. Microsoft Word</b> โปรแกรมที่ใช้สำหรับงานด้านเอกสาร
+                <br /><b>2. Microsoft Excel </b>โปรแกรมสำหรับงานด้านการคำนวณ
+                วิเคราะห์ข้อมูล <br /><b>3. Microsoft Powerpoint</b>
+                โปรแกรมสำหรับงานด้านการนำเสนอ หรือ Presentation <br /><b>4.
+                Microsoft Access </b>โปรแกรมสำหรับงานฐานข้อมูล <br /><b>5. Microsoft
+                Outlook </b>โปรแกรมสำหรับการจัดการอีเมล์ นัดประชุม วางแผนการทำงาน
+                <br /><b>6. Microsoft Visio</b> โปรแกรมสำหรับการทำ flowchart หรือ
+                Diagram <br /><b>7. Microsoft Project</b>
                 โปรแกรมสำหรับการวางแผนงานในรูปแบบโครงการ วางแผน
                 <br />ลำดับงานและทรัพยากร
                 <br />
                 <br />
-              </p>
+              </div>
               <div class="container">
                 <div class="row text-center">
                   <div class="col-sm">
