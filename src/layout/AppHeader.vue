@@ -18,13 +18,13 @@
 
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-ui-04 d-lg-none"></i>
+                        <i class="d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">หน้าหลัก</span>
                     </a>
                 
                 <base-dropdown tag="li" class="fontx nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                        <i class="d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">บทเรียน</span>
                     </a>
                     <router-link to="/lesson1_1" class="dropdown-item">1. Documentation </router-link>
@@ -42,18 +42,19 @@
                 </base-dropdown>
               
                     <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                        <i class="d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">ศูนย์สอบวันมาตรฐาน ICT </span>
                     </a>
-                    <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                    <a slot="title" href="" class="nav-link fontx" data-toggle="dropdown" role="button">
+                        <i class="ni d-lg-none fontx">&nbsp;ข้อบังคับ</i>
                         <router-link to="/regulations" title="regulations Page" class="nav-link-inner--text fontx text-white">
                         ข้อบังคับ
                         </router-link>
+                        
                     </a>
                     
                     <a slot="title" href="https://it.mju.ac.th/" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-collection d-lg-none"></i>
+                        <i class="d-lg-none"></i>
                         <span class="nav-link-inner--text fontx">ติดต่อ</span>
                     </a>
                        
@@ -72,7 +73,7 @@
                     <a class="nav-link nav-link-icon" href="https://it.mju.ac.th/"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
                         <i class="fa fa-globe"></i>
-                        <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                        <span class="nav-link-inner--text d-lg-none">Webstie</span>
                     </a>
                 </li>
                 

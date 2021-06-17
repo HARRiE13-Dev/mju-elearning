@@ -4,6 +4,8 @@ import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
 
+import Test from "./views/Test.vue";
+
 import Lesson1_1 from "./views/Lesson1_1.vue";
 import Lesson1_2 from "./views/Lesson1_2.vue";
 import Lesson1_3 from "./views/Lesson1_3.vue";
@@ -68,6 +70,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Components,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/test",
+      name: "test",
+      components: {
+        header: AppHeader,
+        default: Test,
         footer: AppFooter
       }
     },

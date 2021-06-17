@@ -17,11 +17,12 @@
             <p class="lead text-white mt-1 mb-5"></p>
 
             <div class="btn-wrapper fontx">
-                <router-link to="/lesson1_1" title="Lesson1_1 Page">
+                
               <base-button
                 tag="a"
-                href="#"
-                target="_blank"
+                id="section1"
+                href="#section2"
+                
                 rel="noopener noreferrer"
                 class="mb-3 mb-sm-0"
                 outline type="white"
@@ -29,16 +30,18 @@
               >
                 บทเรียน
               </base-button>
-              </router-link>
+              
+
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <base-button
                 tag="a"
                 href="https://www.mju.ac.th/etesting/RegisterICTCOVID.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="mb-3 mb-sm-0"
+                class="mb-3 mb-sm-0 text-blue"
                 type="white"
                 icon="fa fa-sign-in"
+
               >
                 สมัครสอบ
               </base-button>

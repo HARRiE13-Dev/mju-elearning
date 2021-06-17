@@ -41,6 +41,10 @@
 
 .text-white { color: $white !important; }
 .text-black { color: $black !important; }
+.text-blue {
+  color: #1B4CAF
+}
+
 
 @each $color, $value in $theme-colors {
   @include text-emphasis-variant(".text-#{$color}", $value);
@@ -51,6 +55,7 @@
 
 .text-black-50 { color: rgba($black, .5) !important; }
 .text-white-50 { color: rgba($white, .5) !important; }
+
 
 // Misc
 

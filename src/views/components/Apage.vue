@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="section2">
       <footer class="footer has-cards">
         
         <div class="container container-lg">           
@@ -134,8 +134,6 @@
                 </div>  
             </div>
         </div>
-
-        
 
     </footer>
   </div>
