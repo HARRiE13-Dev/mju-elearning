@@ -125,7 +125,7 @@
                         <router-link to="/lesson9_1" title="Lesson9_1">
                             <img v-lazy="'img/couse/iot.jpg'" class="card-img">
                             <card class="border-0">
-                                    <h3 class="text-primary text-uppercase">9. Technology Trend...</h3>
+                                    <h3 class="text-primary text-uppercase">9. Technology Trend</h3>
                                     <p class="description mt-3">Internet of Things (IOT) คือ การที่อุปกรณ์อิเล็กทรอนิกส์ต่าง ๆ  
                                         สามารถเชื่อมโยงหรือส่งข้อมูลถึงกันได้ด้วยอินเทอร์เน็ต โดยไม่ต้องป้อนข้อมูล   ...</p>
                                 </card>

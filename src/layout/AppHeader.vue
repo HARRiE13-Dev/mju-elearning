@@ -19,13 +19,13 @@
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <a slot="title" href="" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fontx">หน้าหลัก</span>
+                        <span class="nav-link-inner--text fonty">หน้าหลัก</span>
                     </a>
                 
-                <base-dropdown tag="li" class="fontx nav-item">
+                <base-dropdown tag="li" class="fonty nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fontx">บทเรียน</span>
+                        <span class="nav-link-inner--text fonty">บทเรียน</span>
                     </a>
                     <router-link to="/lesson1_1" class="dropdown-item">1. Documentation </router-link>
                     <router-link to="/lesson2_1" class="dropdown-item">2. Microsoft Excel</router-link>
@@ -43,11 +43,11 @@
               
                     <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fontx">ศูนย์สอบวันมาตรฐาน ICT </span>
+                        <span class="nav-link-inner--text fonty">ศูนย์สอบวันมาตรฐาน ICT </span>
                     </a>
-                    <a slot="title" href="" class="nav-link fontx" data-toggle="dropdown" role="button">
-                        <i class="ni d-lg-none fontx">&nbsp;ข้อบังคับ</i>
-                        <router-link to="/regulations" title="regulations Page" class="nav-link-inner--text fontx text-white">
+                    <a slot="title" href="" class="nav-link fonty" data-toggle="dropdown" role="button">
+                        <i class="ni d-lg-none fonty">&nbsp;ข้อบังคับ</i>
+                        <router-link to="/regulations" title="regulations Page" class="nav-link-inner--text fonty text-white">
                         ข้อบังคับ
                         </router-link>
                         
@@ -55,7 +55,7 @@
                     
                     <a slot="title" href="https://it.mju.ac.th/" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fontx">ติดต่อ</span>
+                        <span class="nav-link-inner--text fonty">ติดต่อ</span>
                     </a>
                        
                     

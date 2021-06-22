@@ -1,6 +1,7 @@
 // General styles
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 #btn-back-to-top {
 	position: fixed;
@@ -33,9 +34,11 @@ p {
   text-indent: 7.5em;
 }
 .fontx {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.fonty {
   font-family: "Kanit", sans-serif;
 }
-
 .lead {
   font-size: $lead-font-size;
   font-weight: $lead-font-weight;

@@ -16,7 +16,7 @@
             />
             <p class="lead text-white mt-1 mb-5"></p>
 
-            <div class="btn-wrapper fontx">
+            <div class="btn-wrapper fonty">
                 
               <base-button
                 tag="a"
