@@ -10,7 +10,7 @@
             <hr>
             <div class="row fontx">
                 <!-- 1 Doc -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson1_1" title="lesson1_2">
                             <img v-lazy="'img/couse/doc.jpg'" class="card-img">
@@ -22,8 +22,9 @@
                         </router-link>
                     </div>
                 </div>
+               
                 <!-- 2 MS Excel -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson2_1" title="Lesson2_1">
                             <img v-lazy="'img/couse/excel.jpg'" class="card-img">
@@ -36,7 +37,7 @@
                     </div>
                 </div>
                 <!-- 3 Presentation -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson3_1" title="Lesson3_1">
                             <img v-lazy="'img/couse/pre.jpg'" class="card-img">
@@ -49,10 +50,10 @@
                     </div>
                 </div>
             </div>
-            <br><br>
+            
             <div class="row fontx">
                 <!-- 4 Disruption -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson4_1" title="Lesson4_1">
                             <img v-lazy="'img/couse/digi.jpg'" class="card-img">
@@ -65,7 +66,7 @@
                     </div>
                 </div>
                  <!--5 serach -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson5_1" title="Lesson5_1">
                             <img v-lazy="'img/couse/search.jpg'" class="card-img">
@@ -78,7 +79,7 @@
                     </div>
                 </div>
                 <!--6 Social -->   
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson6_1" title="Lesson6_1">
                             <img v-lazy="'img/couse/social.jpg'" class="card-img">
@@ -91,10 +92,10 @@
                     </div>
                 </div>   
             </div>
-            <br><br>
+            
             <div class="row fontx">
                 <!-- 7 Storage -->
-                 <div class="col-md-4">
+                 <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson7_1" title="Lesson7_1">
                             <img v-lazy="'img/couse/storage.jpg'" class="card-img">
@@ -107,7 +108,7 @@
                     </div>
                 </div> 
                 <!-- 8 Security -->
-                <div class="col-md-4">
+                <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson8_1" title="Lesson8_1">
                             <img v-lazy="'img/couse/Security.jpg'" class="card-img">
@@ -120,7 +121,7 @@
                     </div>
                 </div> 
                 <!-- 9 Techno --> 
-                 <div class="col-md-4">
+                 <div class="col-md-4 pt-sm">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/lesson9_1" title="Lesson9_1">
                             <img v-lazy="'img/couse/iot.jpg'" class="card-img">
