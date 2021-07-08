@@ -43,7 +43,7 @@
               
                     <a slot="title" href="https://www.mju.ac.th/etesting/" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fonty">ศูนย์สอบวันมาตรฐาน ICT </span>
+                        <span class="nav-link-inner--text fonty">ศูนย์สอบวัดมาตรฐาน ICT </span>
                     </a>
                     <a slot="title" href="" class="nav-link fonty" data-toggle="dropdown" role="button">
                         <i class="ni d-lg-none fonty">&nbsp;ข้อบังคับ</i>
@@ -52,12 +52,14 @@
                         </router-link>
                         
                     </a>
-                    
-                    <a slot="title" href="https://it.mju.ac.th/" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="d-lg-none"></i>
-                        <span class="nav-link-inner--text fonty">ติดต่อ</span>
+                    <a slot="title" href="" class="nav-link fonty" data-toggle="dropdown" role="button">
+                        <i class="ni d-lg-none fonty">&nbsp;ติดต่อ</i>
+                        <router-link to="/contact" title="contact Page" class="nav-link-inner--text fonty text-white">
+                        ติดต่อ
+                        </router-link>
+                        
                     </a>
-                       
+                    
                     
             </ul>
             

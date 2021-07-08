@@ -18,7 +18,7 @@
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://goo.gl/maps/3xBCou84RfPmrjqb8"
+                    <a target="_blank" rel="noopener" href="https://goo.gl/maps/ihQzuxCaM68RwSnU6"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Location">
                         <i class="fa fa-map-marker"></i>
@@ -31,7 +31,7 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="" target="_blank" rel="noopener">Copyright | </a><a href="http://csmju.jowave.com/" target="_blank" rel="noopener">Computer Science at Maejo University</a>
+                        Copyright |<a href="http://csmju.jowave.com/" target="_blank" rel="noopener">Computer Science at Maejo University</a>
                     </div>
                 </div>
                 <div class="col-md-6">

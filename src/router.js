@@ -55,9 +55,13 @@ import Lesson9_6 from "./views/Lesson9_6.vue";
 import Lesson9_7 from "./views/Lesson9_7.vue";
 import Lesson9_8 from "./views/Lesson9_8.vue";
 
+import Contact from "./views/Contact.vue";
+
 import Regulations from "./views/Regulations.vue";
 
 import Lesson_ref from "./views/Lesson_ref.vue";
+
+
 
 Vue.use(Router);
 
@@ -421,6 +425,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Lesson9_8,
+        footer: AppFooter
+      }  
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      components: {
+        header: AppHeader,
+        default: Contact,
         footer: AppFooter
       }  
     },
